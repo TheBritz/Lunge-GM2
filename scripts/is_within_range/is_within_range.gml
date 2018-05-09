@@ -4,8 +4,8 @@
 /// @param  max
 
 var val = argument0;
-var minimum = argument0;
-var maximum = argument1;
+var minimum = argument1;
+var maximum = argument2;
 
 if(minimum > maximum)
 {

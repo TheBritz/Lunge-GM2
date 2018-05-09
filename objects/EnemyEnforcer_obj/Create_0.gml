@@ -19,6 +19,10 @@ m_combatantImageSpeedGroundAttack = 12/room_speed;
 m_combatantState = CombatantStates.Ground;
 m_movementGroundMaxSpeed = 5;
 m_movementAirFallMaxSpeedHor = 4.5;
+m_movementGroundJumpSpeed = 7.5;
+
+m_combatSprintAttackRange = array(m_aiEngageDistance + 5, m_aiEngageDistance + 30);
+m_combatSprintAttackLikelihood = 100;
 
 //Set knockback
 Combatant_SetAttackKnockback_scr

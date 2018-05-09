@@ -38,6 +38,7 @@ for (i=0; i < argument_count; i+=2)
   if(total + weight > rand)
   {
     selected = option[i];
+    return selected;
   }
   else
   {
