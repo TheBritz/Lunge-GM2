@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "2b3ae2e1-8832-4c53-b8e8-0b4dc25f892a",
+            "Value": {
+                "id": "330f855f-b986-4f8c-9a67-c6df5e2ab1e8",
+                "resourcePath": "scripts\\jump_get_frames_to_reach_peak\\jump_get_frames_to_reach_peak.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2bcf21be-c139-4f03-9006-27419119011d",
             "Value": {
                 "id": "8e6e158a-51f1-4f9f-b9b0-66dfafb345f5",
@@ -1199,6 +1207,14 @@
             }
         },
         {
+            "Key": "623a8054-e27d-4075-9147-df6f5d0da1b5",
+            "Value": {
+                "id": "37c2b158-c889-4a7f-98da-31c07063945b",
+                "resourcePath": "scripts\\jump_get_max_reachable_dist\\jump_get_max_reachable_dist.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "62414c9e-8fd0-4d71-917d-588f3d67bc98",
             "Value": {
                 "id": "8a6a5214-220c-4cac-bd84-5ab15cb5aff2",
@@ -1388,6 +1404,14 @@
                 "id": "a505c442-9e54-4cca-8ce6-0509198108aa",
                 "resourcePath": "fonts\\console_fnt\\console_fnt.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "778f3cb6-bb3e-47da-8142-365a5406202a",
+            "Value": {
+                "id": "8af8fa7a-20c0-4013-acb9-dbafb503758e",
+                "resourcePath": "scripts\\StandableSurface_IsOtherSurfaceReachable_scr\\StandableSurface_IsOtherSurfaceReachable_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3092,6 +3116,7 @@
         "4b3ce3b7-5a4b-4bc3-bf54-799813b31099",
         "0499c20c-707b-4e38-8e02-a286133e6383",
         "ccd253dd-f1fa-427c-ba9a-f95e7c7e58c4",
+        "778f3cb6-bb3e-47da-8142-365a5406202a",
         "9ea110bc-92a1-45d0-8ae6-c9fd3efc0547",
         "6b48fd65-f7ec-4b42-8b8b-4c1e346ef0a4",
         "924fe2ab-fbbd-4ed4-827a-f5c9fc9790ca",
@@ -3102,6 +3127,8 @@
         "4455d495-c946-4ca2-8b1a-9570f56e2adb",
         "20e36951-2144-4b96-a383-e49d378a3992",
         "7dfa75c9-a486-4a8d-92a3-9b1aba193de7",
+        "2b3ae2e1-8832-4c53-b8e8-0b4dc25f892a",
+        "623a8054-e27d-4075-9147-df6f5d0da1b5",
         "c6e0a0ae-d8ba-45ec-b8f1-dc99fca8e592",
         "35dfa0b5-8b09-45c2-a920-901c9e845a15",
         "59016f6c-2b84-4043-a91e-f1f94490e708",

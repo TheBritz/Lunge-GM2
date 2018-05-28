@@ -40,6 +40,5 @@ while(m_initIndex < instanceNumber)
   }
 }
 
-
 //Destroy self
 instance_destroy();
