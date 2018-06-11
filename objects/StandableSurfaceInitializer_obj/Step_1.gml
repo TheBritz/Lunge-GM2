@@ -9,11 +9,6 @@ while(m_initIndex < instanceNumber)
   var standable = instance_find(StandableSurface_obj, m_initIndex++);
   with(standable)
   {
-    if(id == 100064)
-    {
-      var brk = "break";
-    }
-    
     with(StandableSurface_obj)
     { 
       if(id != standable)
@@ -37,6 +32,17 @@ while(m_initIndex < instanceNumber)
         } 
       }
     }
+  }
+}
+
+if(m_neighborInitComplete)
+{
+  m_initIndex = 0;
+  //Calculate platform paths
+  while(m_initIndex < instanceNumber)
+  {
+    var standable = instance_find(StandableSurface_obj, m_initIndex++);
+    
   }
 }
 

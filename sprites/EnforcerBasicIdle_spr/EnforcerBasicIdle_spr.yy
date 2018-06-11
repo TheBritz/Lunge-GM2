@@ -7,8 +7,8 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 36,
-    "bbox_left": 2,
-    "bbox_right": 15,
+    "bbox_left": 7,
+    "bbox_right": 20,
     "bbox_top": 1,
     "bboxmode": 0,
     "colkind": 1,
@@ -34,6 +34,20 @@
                     "mvc": "1.0",
                     "FrameId": "3411db88-5d32-422e-a8ef-96a082fae099",
                     "LayerId": "1c3e77d8-a11c-4ef3-b50d-643d5fe12026"
+                },
+                {
+                    "id": "fced4803-727b-4693-9c37-c6215ee276ad",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "3411db88-5d32-422e-a8ef-96a082fae099",
+                    "LayerId": "16d0ca13-4e74-4680-91e9-434d4a9faea4"
+                },
+                {
+                    "id": "ea4a9f3a-02e9-485e-bce9-8542f4c7ef50",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "3411db88-5d32-422e-a8ef-96a082fae099",
+                    "LayerId": "32bc67c5-579d-45bc-8ccc-76adae52e8b9"
                 }
             ]
         }
@@ -43,13 +57,35 @@
     "height": 38,
     "layers": [
         {
+            "id": "32bc67c5-579d-45bc-8ccc-76adae52e8b9",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "2d758ce5-ac17-476f-ad0c-034385eb1aab",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Arms - Idle",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "16d0ca13-4e74-4680-91e9-434d4a9faea4",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "2d758ce5-ac17-476f-ad0c-034385eb1aab",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Arms - Combat",
+            "opacity": 100,
+            "visible": false
+        },
+        {
             "id": "1c3e77d8-a11c-4ef3-b50d-643d5fe12026",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "2d758ce5-ac17-476f-ad0c-034385eb1aab",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "Body",
             "opacity": 100,
             "visible": true
         }
@@ -64,7 +100,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 18,
-    "xorig": 9,
+    "width": 29,
+    "xorig": 14,
     "yorig": 19
 }

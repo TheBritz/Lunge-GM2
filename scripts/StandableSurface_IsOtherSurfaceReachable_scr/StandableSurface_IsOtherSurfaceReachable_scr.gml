@@ -11,5 +11,6 @@ var height = standableDestination.bbox_top - standableStart.bbox_top;
 
 with(combatant)
 {
-  var jump_get_max_reachable_dist(height, m_movementGroundJumpSpeed, )
+  var maxDist =  jump_get_max_reachable_dist
+    (height, m_movementGroundJumpSpeed, global.Gravity, m_movementGroundMaxSpeed);
 }

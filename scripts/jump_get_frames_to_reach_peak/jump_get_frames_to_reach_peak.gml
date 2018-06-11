@@ -6,4 +6,4 @@ var jumpSpeed = argument0;
 var grav = argument1;
 
 var frames = floor(jumpSpeed / grav);
-return frames; 
+return abs(frames); 

@@ -1535,6 +1535,14 @@
             }
         },
         {
+            "Key": "83d24d61-93ef-49e9-9285-245dda992d97",
+            "Value": {
+                "id": "8c167f36-9a9c-41c1-ba7f-1da1ed7a5aa5",
+                "resourcePath": "sprites\\PlayerRun_spr1\\PlayerRun_spr1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84a1f93b-721a-4b12-b6c6-808c8fe03071",
             "Value": {
                 "id": "6e67d21d-0c72-4f71-b0b3-04e26e62b373",
@@ -1683,6 +1691,14 @@
             "Value": {
                 "id": "9c6cf561-02a2-4fc3-a09d-c42f826f3b43",
                 "resourcePath": "scripts\\Combatant_GetAttackKnockback_scr\\Combatant_GetAttackKnockback_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "913d420f-bdea-475b-8c23-1bb739881414",
+            "Value": {
+                "id": "8cf97e2b-f715-4134-ac6f-332e5c27064d",
+                "resourcePath": "scripts\\jump_get_max_height\\jump_get_max_height.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3127,8 +3143,7 @@
         "4455d495-c946-4ca2-8b1a-9570f56e2adb",
         "20e36951-2144-4b96-a383-e49d378a3992",
         "7dfa75c9-a486-4a8d-92a3-9b1aba193de7",
-        "2b3ae2e1-8832-4c53-b8e8-0b4dc25f892a",
-        "623a8054-e27d-4075-9147-df6f5d0da1b5",
+        "913d420f-bdea-475b-8c23-1bb739881414",
         "c6e0a0ae-d8ba-45ec-b8f1-dc99fca8e592",
         "35dfa0b5-8b09-45c2-a920-901c9e845a15",
         "59016f6c-2b84-4043-a91e-f1f94490e708",
@@ -3137,7 +3152,9 @@
         "b7ab7c8f-2ea0-4abf-9e16-de43c6ade475",
         "94bba16e-65d6-4fab-b1ef-1f5ab060652b",
         "132e5727-e37b-4341-baa1-4dced185bdaf",
-        "da796c20-1fa5-480e-9349-fd63ecee4feb"
+        "da796c20-1fa5-480e-9349-fd63ecee4feb",
+        "2b3ae2e1-8832-4c53-b8e8-0b4dc25f892a",
+        "623a8054-e27d-4075-9147-df6f5d0da1b5"
     ],
     "tutorial": ""
 }
