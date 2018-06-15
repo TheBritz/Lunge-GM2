@@ -29,32 +29,32 @@
             },
             "images": [
                 {
-                    "id": "20c11fdf-18a0-4959-ab18-e5017e5a48f2",
+                    "id": "086cf96e-ef8f-461e-bf92-2970a72c32de",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "27bfbb76-4292-4806-a8e3-7b3ac03362cf",
-                    "LayerId": "39a5be11-c5aa-4637-a506-544d30818239"
+                    "LayerId": "04c80a14-496f-4049-8550-fb3968caf130"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 4,
+    "height": 3,
     "layers": [
         {
-            "id": "39a5be11-c5aa-4637-a506-544d30818239",
+            "id": "04c80a14-496f-4049-8550-fb3968caf130",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "badd3015-bcb8-4767-8f17-298ea91a2db1",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "Spear",
             "opacity": 100,
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 9,
     "originLocked": false,
     "playbackSpeed": 1,
     "playbackSpeedType": 1,
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 48,
-    "xorig": 17,
-    "yorig": 2
+    "width": 51,
+    "xorig": 19,
+    "yorig": 1
 }

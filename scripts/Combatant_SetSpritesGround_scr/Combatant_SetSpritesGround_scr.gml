@@ -4,5 +4,5 @@ if(m_velocityH != 0 && !is_undefined(m_combatantSpriteRun))
 }
 else if(!is_undefined(m_combatantSpriteIdle))
 {
-  sprite_set_properties(m_combatantSpriteIdle, undefined, m_combatantImageSpeedIdle);
+  //sprite_set_properties(m_combatantSpriteIdle, undefined, m_combatantImageSpeedIdle);
 }

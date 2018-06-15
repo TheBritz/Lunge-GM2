@@ -29,6 +29,7 @@ m_aiStateFrames = 0;
 
 m_aiBehaviors[? EnemyAIStates.Idling] = EnemyAIBase_BehaviorIdling_scr;
 m_aiBehaviors[? EnemyAIStates.PursuingAntagonist] = EnemyAIBase_BehaviorPursuing_scr;
+m_aiBehaviors[? EnemyAIStates.EngagingAntagonist] = EnemyAIBase_BehaviorEngaging_scr;
 
 //Triggers - these are eval scripts that run and when a set of conditions are
 //satisfied, add one or more ai behaviors to the AI Behavior list

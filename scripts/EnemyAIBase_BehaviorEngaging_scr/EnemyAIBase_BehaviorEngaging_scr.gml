@@ -10,8 +10,10 @@ if(!is_undefined(extScript))
 
 if(instance_exists(m_aiTarget))
 {
+  sprite_index = m_combatantSpriteEngage;
+  
   var dist = point_distance(m_aiTarget.x, m_aiTarget.y, x, y);
-
+  
   if(dist > m_aiDisengageDistance)
   {
     m_aiState = EnemyAIStates.PursuingAntagonist;
