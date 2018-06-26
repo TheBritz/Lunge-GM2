@@ -95,18 +95,14 @@ m_audioJump = PlayerJump_snd;
 //m_audioGroundAttack = array();
 //Register run step sounds with specific frames of the run animation
 Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr, 
-  1, PlayerBase_PlayRunStepSound_scr, id);
+  11, PlayerBase_PlayRunStepSound_scr, id);
 Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr, 
   5, PlayerBase_PlayRunStepSound_scr, id);  
   
 Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr, 
   1, PlayerBase_ThrowMovmentDust_scr, id);
 Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr, 
-  3, PlayerBase_ThrowMovmentDust_scr, id);
-  Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr, 
-  5, PlayerBase_ThrowMovmentDust_scr, id);
-Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr, 
-  7, PlayerBase_ThrowMovmentDust_scr, id);  
+  7, PlayerBase_ThrowMovmentDust_scr, id);
   
   
 //Register hitboxes with 

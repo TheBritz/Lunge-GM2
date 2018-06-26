@@ -83,8 +83,22 @@ if(instance_exists(m_spear))
     yAdjust = lengthdir_y(m_spearLungeAdjust, m_spear.image_angle);
   }
   
-  m_spear.x = x + xAdjust;
-  m_spear.y = y + yAdjust;
+  var xx = 0;
+  var yy = 0;
+  var spriteName = sprite_get_name(sprite_index);
+  var posMap = SpritePositionDataGetData_scr(sprite_index, "weapon", image_index);
+  if(!is_undefined(posMap))
+  {
+    xx = posMap[?"x"]*m_facing - sprite_xoffset;
+    yy = posMap[?"y"]*sign(image_yscale) - sprite_yoffset;
+  }
+  else
+  {
+    var test = "test";
+  }
+  
+  m_spear.x = x + xx + xAdjust ;
+  m_spear.y = y + yy + yAdjust ;
   m_spear.depth = depth - 1;
   PlayerSpear_PositionSkeweredEnemies_scr(m_spear);
   
