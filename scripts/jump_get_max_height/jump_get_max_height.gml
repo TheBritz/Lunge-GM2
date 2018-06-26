@@ -1,6 +1,4 @@
-/// @description jump_get_max_height
-/// @param jumpSpeed
-/// @param gravity
+/// @description jump_get_max_height(jumpSpeed, gravity)
 
 var jumpSpeed = argument0;
 var grav = argument1;

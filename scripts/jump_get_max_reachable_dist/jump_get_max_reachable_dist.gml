@@ -4,7 +4,7 @@ var grav = argument2;
 var horSpeed = argument3;
 
 //Get jump height
-var jumpHeight = jump_get_max_height(jumpSpeed, grav);
+var jumpHeight;
 
 if(jumpHeight < heightToReach)
 {
