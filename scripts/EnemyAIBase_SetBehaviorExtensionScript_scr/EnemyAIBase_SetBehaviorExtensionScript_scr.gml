@@ -1,12 +1,13 @@
 /// @description EnemyAIBase_SetIdlingExtensionScript_scr(enemyAIBase, behaviorState [EnemyAIStates enum], extScript)
 /// @param enemyAIBase
-/// @param  behaviorState [EnemyAIStates enum]
-/// @param  extScript
+/// @param behaviorState [enum:EnemyAIStates]
+/// @param extScript
 
 var enemy = argument0;
 var behaviorState = argument1;
 var extScript = argument2;
 
-enemy.m_behaviorExtensions[? behaviorState] = extScript;
+var behaviorExtentions = EnemyAIBase_GetExtensionMap_scr(enemy);
+behaviorExtentions[? behaviorState] = extScript;
 
 

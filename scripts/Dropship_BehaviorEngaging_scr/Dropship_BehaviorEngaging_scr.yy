@@ -1,8 +1,8 @@
 {
-    "id": "34ad5fb1-2d64-4e9c-94f3-6d1c73e8f84c",
+    "id": "5dbe84aa-b42e-4bb3-8b5f-5843420854ff",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EnemyAI_BehaviorTemplate_scr",
+    "name": "Dropship_BehaviorEngaging_scr",
     "IsCompatibility": false,
     "IsDnD": false
 }

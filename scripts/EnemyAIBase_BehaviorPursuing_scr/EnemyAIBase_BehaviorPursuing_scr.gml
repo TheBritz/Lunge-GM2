@@ -10,7 +10,7 @@ if(!is_undefined(extScript))
 
 //Move towards combatant
 var horDist = m_aiTarget.x - x;
-if(is_within_range(abs(horDist), m_combatSprintAttackRange[0], m_combatSprintAttackRange[1]))
+if(is_array(m_combatSprintAttackRange) && is_within_range(abs(horDist), m_combatSprintAttackRange[0], m_combatSprintAttackRange[1]))
 {
   if(roll_chance(m_combatSprintAttackLikelihood))
   {

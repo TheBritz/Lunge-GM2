@@ -82,5 +82,7 @@ m_aiSightCone = array(70, -70);
 //Whether or not this enemy can be skewered on the player's spear
 m_skewerable = true;
 
+m_combatSprintAttackRange = undefined;
+
 
 

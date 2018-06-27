@@ -1,6 +1,6 @@
 /// @description EnemyAIBase_GetExtensionScript_scr(enemyAIBase, behaviorState [EnemyAIStates enum])
 /// @param enemyAIBase
-/// @param  behaviorState [EnemyAIStates enum]
+/// @param behaviorState[enum:EnemyAIStates]
 
 var enemy = argument0;
 var behaviorState = argument1;

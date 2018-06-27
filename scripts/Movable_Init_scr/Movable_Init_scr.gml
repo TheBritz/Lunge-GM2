@@ -6,6 +6,7 @@ m_velocityV = 0;
 m_subH = 0;
 m_subV = 0;
 
+m_solidObservant = true;
 m_collideH = 0;
 m_collideV = 0;
 m_impactVelH = 0;

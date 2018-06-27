@@ -1,5 +1,5 @@
 /// @description Combatant_ApplyGravity_scr(gravity [optional])
-/// @param gravity [optional]
+/// @param gravity[optional]
 
 if(!m_movementSuppressGravity)
 {

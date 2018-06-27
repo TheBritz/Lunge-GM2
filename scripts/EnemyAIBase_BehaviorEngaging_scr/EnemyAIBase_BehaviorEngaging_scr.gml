@@ -10,7 +10,10 @@ if(!is_undefined(extScript))
 
 if(instance_exists(m_aiTarget))
 {
-  sprite_index = m_combatantSpriteEngage;
+  if(!is_undefined(m_combatantSpriteEngage))
+  {
+    sprite_index = m_combatantSpriteEngage;
+  }
   
   var dist = point_distance(m_aiTarget.x, m_aiTarget.y, x, y);
   
