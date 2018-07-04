@@ -10,23 +10,27 @@ if(instance_exists(standableSurface))
   for(var i = 0; i < ds_list_size(impediments); i++)
   {
     var impediment = impediments[|i];
+    var dist;    
     if(m_facing == -1)
     {
-      var dist = bbox_left - impediment.bbox_right;
-      if(dist >= 0 && dist < 32)
-      {
-        Combatant_Jump_scr();
-        break;
-      }
+      dist = bbox_left - impediment.bbox_right;
     }
     else if(m_facing == 1)
     {
-      var dist = impediment.bbox_left - bbox_right;
-      if(dist >= 0 && dist < 32)
+      dist = impediment.bbox_left - bbox_right;
+    } 
+      var jumpSpeedMod = 1;
+    if(dist >= 0 && dist < 32)
+    {
+      var clearanceHeight = bbox_bottom - impediment.bbox_top;
+      var shortHopHeight = jump_get_max_height(m_movementGroundJumpSpeed * 
+        m_movementGroundShortHopSpeedMod, Combatant_GetEffectiveGravity_scr(id));
+      if(shortHopHeight > clearanceHeight)
       {
-        Combatant_Jump_scr();
-        break;
+        jumpSpeedMod = m_movementGroundShortHopSpeedMod;
       }
-    }
+      Combatant_Jump_scr(jumpSpeedMod);
+      break;
+    }    
   }
 }

@@ -16,7 +16,7 @@ if(!m_movementGroundActivelyMoving)
 if(m_combatantState == CombatantStates.Ground)
 {
   if(!m_movementGroundActivelyMoving && 
-          Movable_GetHSpeed_scr(id) == 0)
+     Movable_GetHSpeed_scr(id) == 0)
   {
     var motionInfo = Combatant_GetSpriteInfo_scr(sprite_index, SpriteInfoType.Movement);
     if(string_lower(motionInfo) != "stationary")

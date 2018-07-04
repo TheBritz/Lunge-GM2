@@ -1,8 +1,9 @@
+#region Inherited Events
 /// @description Inherited Events
 event_inherited();
+#endregion
 
-///Position Spear
-
+#region Position Spear
 if(instance_exists(m_spear))
 {
   var spearAngle = undefined;
@@ -55,16 +56,14 @@ if(instance_exists(m_spear))
   {
     if(is_undefined(m_spear.m_imbedPointX))
     {
-      if(m_spearCanLunge)
+      if(abs(Movable_GetHSpeed_scr(id)) < (m_movementGroundMaxSpeed * 
+        m_combatantDashAttackSpeedThreshold) && m_spearCanLunge)
       {
-        m_spearLungeAdjust = m_spearLungeDist;
-        m_lungeAngle = m_spear.image_angle;
-        m_spearCanLunge = false;
+        sprite_index = m_combatantSpriteGroundAttack;
+        image_speed = m_combatantImageSpeedGroundAttack;
         m_spearIsLunging = true;
-        m_spear.m_isLunging = true;
-        alarm[PlayerBaseAlarms.ResetIsLunging] = m_spearLungeTime;
-        alarm[PlayerBaseAlarms.ResetCanLunge] = m_spearLungeDelay;
-        PlayerSpear_Attack_scr(m_spear);
+        alarm[PlayerBaseAlarms.ResetIsLunging] = round(sprite_get_number(sprite_index) / image_speed);
+        m_combatantState = CombatantStates.GroundAttack;
       }
     }
     else
@@ -77,11 +76,11 @@ if(instance_exists(m_spear))
   
   var xAdjust = 0;
   var yAdjust = 0;
-  if(m_spearLungeAdjust != 0)
-  {
-    xAdjust = lengthdir_x(m_spearLungeAdjust, m_spear.image_angle);
-    yAdjust = lengthdir_y(m_spearLungeAdjust, m_spear.image_angle);
-  }
+  //if(m_spearLungeAdjust != 0)
+  //{
+  //  xAdjust = lengthdir_x(m_spearLungeAdjust, m_spear.image_angle);
+  //  yAdjust = lengthdir_y(m_spearLungeAdjust, m_spear.image_angle);
+  //}
   
   var xx = 0;
   var yy = 0;
@@ -161,5 +160,19 @@ if(instance_exists(m_spear))
     m_velocityH = 0;
     m_velocityV = 0;
   }
+  
+  if(!m_spearIsLunging && !m_movementGroundActivelyMoving)
+  {
+    var spearFacing = angle_get_horizontal_direction(m_spear.image_angle);
+    if(m_facing != spearFacing && spearFacing != 0)
+    {
+      sprite_index = Player_Ground_Stationary_Idling_LookingBack_spr;
+    }
+    else
+    {
+      sprite_index = Player_spr;
+    }
+  }
 }
+#endregion
 

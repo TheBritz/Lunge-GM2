@@ -38,9 +38,15 @@ else
   speedMaxMod = hState;
 }
 
+var spdH = Movable_GetHSpeed_scr(id);
+if(abs(spdH) > m_movementAirFallMaxSpeedHor)
+{
+  var test = "test";
+}
+
 if(accelHor != 0)
 {
-  Movable_ChangeHSpeed_scr(m_movementAirFallMaxSpeedHor * m_facing * abs(speedMaxMod), m_movementAirFallAccelHor);
+  Movable_ChangeHSpeed_scr(m_movementAirFallMaxSpeedHor * m_facing * abs(speedMaxMod), m_movementAirFallAccelHor, 0);
 }
 
 var jumpState = InputManager_GetButtonControlState_scr(ButtonControls.Jump);

@@ -6,8 +6,7 @@
     "children": [
         "84a1f93b-721a-4b12-b6c6-808c8fe03071",
         "233c447d-6c33-46cb-be7e-e4c4ffd262ea",
-        "85501882-96c3-4aa6-a102-f11e41897cd4",
-        "0415c751-57bc-49ce-9701-9e1d61fe714a"
+        "85501882-96c3-4aa6-a102-f11e41897cd4"
     ],
     "filterType": "GMScript",
     "folderName": "Combatant",

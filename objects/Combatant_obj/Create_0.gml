@@ -41,9 +41,13 @@ m_movementGroundMaxSpeed = undefined;
 m_movementGroundAccelHor = undefined;
 m_movementGroundFriction = undefined;
 m_movementGroundJumpSpeed = undefined;
+m_movementGroundShortHopSpeedMod = .75;
 m_movementGroundActivelyMoving = undefined;
 m_movementGroundGravityMod = undefined;
 m_movementJumpLag = room_speed/15;
+
+//Combat
+m_combatantDashAttackSpeedThreshold = 1;
 
 //Air
 m_movementAirFlyMaxSpeed = undefined;

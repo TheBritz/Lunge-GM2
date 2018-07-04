@@ -153,10 +153,26 @@
             }
         },
         {
+            "Key": "0c9a9850-fb2d-4276-834d-fa049229e1b5",
+            "Value": {
+                "id": "5b5af176-d895-4c85-b7a8-765271f48917",
+                "resourcePath": "scripts\\PlayerBase_Ground_Stationary_Attack_scr\\PlayerBase_Ground_Stationary_Attack_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0e3af926-d142-44ad-b5e2-2fe0f7834fc3",
             "Value": {
                 "id": "85a12dfa-febd-410b-824e-b7e8ab590b7c",
                 "resourcePath": "scripts\\SpritePositionDataGetData_scr\\SpritePositionDataGetData_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0e72b85a-8a56-4333-bd53-7ece94100635",
+            "Value": {
+                "id": "0c9b978b-1284-4585-aa95-feb41014a3c7",
+                "resourcePath": "scripts\\EnemyAIBase_GetEngagerList_scr\\EnemyAIBase_GetEngagerList_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -593,6 +609,14 @@
             }
         },
         {
+            "Key": "30bb6b4d-e8f1-4507-b6a5-b1ac4637c35f",
+            "Value": {
+                "id": "06881e7f-a5a6-432d-b025-b2cfc5ac0589",
+                "resourcePath": "scripts\\CommandTemplate\\CommandTemplate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30cdf7c5-6316-49be-b206-54e26cba2acd",
             "Value": {
                 "id": "3441cd93-f699-46e2-b1fd-8296a9dd6a53",
@@ -638,6 +662,14 @@
                 "id": "d573dacc-1298-4819-8068-6f7d19e52a79",
                 "resourcePath": "sprites\\MovementDust_spr\\MovementDust_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "332cc437-dbcd-4cc6-9638-9b3e39e51738",
+            "Value": {
+                "id": "a1094077-ceca-4e03-97b8-a7237660f281",
+                "resourcePath": "scripts\\EnemyAIBase_GetEngagementMap_scr\\EnemyAIBase_GetEngagementMap_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -969,6 +1001,14 @@
             }
         },
         {
+            "Key": "4b0f86ad-5e7b-446b-b6e0-0c6c3a21442b",
+            "Value": {
+                "id": "e94bb323-18d0-4e3a-9654-5a34f8f6e334",
+                "resourcePath": "scripts\\ConsoleEnums\\ConsoleEnums.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4b3ce3b7-5a4b-4bc3-bf54-799813b31099",
             "Value": {
                 "id": "b21a8bef-2e97-4250-b30d-373818595789",
@@ -1045,6 +1085,14 @@
             "Value": {
                 "id": "1027c655-bebf-443c-8ab0-78cf3c3e31c6",
                 "resourcePath": "scripts\\PlayerSpear_SetAngle_scr\\PlayerSpear_SetAngle_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "523956f8-1cc5-44a3-b701-7eaeae568b5c",
+            "Value": {
+                "id": "688b5842-5250-49fc-8442-48b3b8c5e322",
+                "resourcePath": "scripts\\Combatant_GetEffectiveGravity_scr\\Combatant_GetEffectiveGravity_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1182,6 +1230,14 @@
                 "id": "2be4e7f0-1a59-469b-8f53-9687143a8b95",
                 "resourcePath": "views\\59c0876b-d6bb-4ebe-bab7-7ad865e85e3b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a4e9ee7-cf2a-49c4-83f4-21727af67a96",
+            "Value": {
+                "id": "58ec0ccf-21a1-41e8-ae9b-c3dfe5d8b2fa",
+                "resourcePath": "scripts\\EnemyAIBase_EngageAntagonist_scr\\EnemyAIBase_EngageAntagonist_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1406,6 +1462,14 @@
                 "id": "ccb55a18-6c45-4bed-8b58-a9b897040699",
                 "resourcePath": "scripts\\Combatant_CreateAudioEmitter_scr\\Combatant_CreateAudioEmitter_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6a35fc69-4b4c-4cd0-bcc5-a623ed7d5d3d",
+            "Value": {
+                "id": "b4b66a24-0450-4584-89f1-86e9ebe4d2a0",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Idling_LookingBack_spr\\Player_Ground_Stationary_Idling_LookingBack_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1673,6 +1737,14 @@
             }
         },
         {
+            "Key": "83731cd5-6b2b-49fb-81d5-0063f9d7fcea",
+            "Value": {
+                "id": "bd6235cf-4c96-4a3b-b2b6-e77c37887fe0",
+                "resourcePath": "notes\\note2.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "83bf0f1d-c5a9-4320-83d5-db3c0443f00e",
             "Value": {
                 "id": "25b1670f-95fd-4eab-9933-d1fa00c2cedf",
@@ -1749,6 +1821,14 @@
             "Value": {
                 "id": "1fb45268-3403-4694-8373-ffbe448cc098",
                 "resourcePath": "scripts\\Movable_GetVSpeed_scr\\Movable_GetVSpeed_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "87edea7e-fdeb-435e-b565-29f052c33007",
+            "Value": {
+                "id": "88ae8939-c5d8-4563-92f4-61c99154413d",
+                "resourcePath": "scripts\\angle_get_horizontal_direction\\angle_get_horizontal_direction.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1830,6 +1910,14 @@
                 "id": "84b82091-a5e7-4094-af5d-56eb0b341df5",
                 "resourcePath": "views\\8d3a4469-6120-4eb9-9571-2c96138558bb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d900b3f-51a8-4845-a45f-35893e1f7500",
+            "Value": {
+                "id": "644b29dc-5c3e-418b-8501-3ae25920c7f5",
+                "resourcePath": "scripts\\EnemyAIBase_GetEngagementPosition_scr\\EnemyAIBase_GetEngagementPosition_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2277,6 +2365,14 @@
             "Value": {
                 "id": "6bfa8e0f-1c9f-491b-990b-c28db0419dcb",
                 "resourcePath": "scripts\\InputManager_InitDefaultKbdControls_scr\\InputManager_InitDefaultKbdControls_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b2097706-fd47-42c7-9b15-ff7a7229148d",
+            "Value": {
+                "id": "ea455e01-df01-432e-aeb2-3b86ccb89781",
+                "resourcePath": "scripts\\ConsoleInitExt_scr\\ConsoleInitExt_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2993,6 +3089,14 @@
             }
         },
         {
+            "Key": "e897f4e9-75fe-4cff-9bbc-0a4c09bf4a12",
+            "Value": {
+                "id": "eea30d58-b6a4-42b7-9626-0e3498563e2e",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_spr\\Player_Ground_Stationary_Attacking_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e8bf8734-49e3-4b40-a127-65991d6d0c35",
             "Value": {
                 "id": "a40391c7-2e24-4231-a03b-5cd67e5a8f37",
@@ -3234,6 +3338,8 @@
         }
     ],
     "script_order": [
+        "4b0f86ad-5e7b-446b-b6e0-0c6c3a21442b",
+        "b2097706-fd47-42c7-9b15-ff7a7229148d",
         "18c1a94c-28b0-4ffa-946d-2ffa2bb020dc",
         "5bd6ade6-f881-43a7-aa95-21d14ff7eb53",
         "0f87179a-bd4f-482c-a076-475afd32ccaa",
@@ -3267,6 +3373,7 @@
         "7e6bc2bd-f014-4841-8262-36830bca422b",
         "8c7a3fc9-2651-42e3-a3fa-cfe6fe9c4b99",
         "8e382a35-ee91-4e2c-aeed-cc484ba4f1fe",
+        "30bb6b4d-e8f1-4507-b6a5-b1ac4637c35f",
         "81d9be23-0833-4c39-b9d0-acb5ebe9d2dc",
         "2c577853-f6bd-4eac-bd60-4b8d56e264d3",
         "93a84b73-6910-4d51-8eb9-017b6b5cab2d",
@@ -3336,6 +3443,7 @@
         "27c2e0b3-3cd7-4696-a4fe-7dbf4e210a6d",
         "a06b0aaf-9765-4c5f-9274-14bb079a0115",
         "0415c751-57bc-49ce-9701-9e1d61fe714a",
+        "523956f8-1cc5-44a3-b701-7eaeae568b5c",
         "ec71fdb6-49e5-47bc-a48f-9fea33c79da7",
         "53877df6-286b-405f-91dc-6dde66a151ed",
         "485972b1-8e2d-445a-932d-b42116a1c31b",
@@ -3352,6 +3460,7 @@
         "1a07cf22-1fed-4e7a-93dd-9be3c6aa81be",
         "42791338-9419-4f79-a30c-ba854efb90cb",
         "88e91741-1913-41b6-8831-6443da0ddf3b",
+        "0c9a9850-fb2d-4276-834d-fa049229e1b5",
         "9ea07c97-82de-468d-8c17-c776a2cb713a",
         "5559f5c3-2730-4e9a-a8a4-768db8f47224",
         "77ea8464-957b-444f-871f-e8ad5851fd0b",
@@ -3370,6 +3479,10 @@
         "7a604837-ade9-47da-9ac8-e7f2e6180939",
         "baf508ed-f1ee-4df4-b2ba-9d3e4a4d7a39",
         "85d3d81d-14dc-40f7-bf0a-0ae833c2e893",
+        "332cc437-dbcd-4cc6-9638-9b3e39e51738",
+        "5a4e9ee7-cf2a-49c4-83f4-21727af67a96",
+        "8d900b3f-51a8-4845-a45f-35893e1f7500",
+        "0e72b85a-8a56-4333-bd53-7ece94100635",
         "34ad5fb1-2d64-4e9c-94f3-6d1c73e8f84c",
         "d9edfab4-7e53-4f1c-afbe-5bcdbc345f5e",
         "350f755c-e982-4a63-bda6-0d79c5be02ed",
@@ -3400,6 +3513,7 @@
         "20e36951-2144-4b96-a383-e49d378a3992",
         "7dfa75c9-a486-4a8d-92a3-9b1aba193de7",
         "913d420f-bdea-475b-8c23-1bb739881414",
+        "87edea7e-fdeb-435e-b565-29f052c33007",
         "c6e0a0ae-d8ba-45ec-b8f1-dc99fca8e592",
         "35dfa0b5-8b09-45c2-a920-901c9e845a15",
         "59016f6c-2b84-4043-a91e-f1f94490e708",

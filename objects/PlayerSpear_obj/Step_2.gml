@@ -4,7 +4,7 @@ if(PlayerSpear_CanStrike_scr(id))
   mask_index = m_skewerHitbox;
   var hitList = instance_place_list(x, y, m_targetType, 3);
   
-  for(var i = 0; i < ds_list_size(hitList) i++)
+  for(var i = 0; i < ds_list_size(hitList); i++)
   {
     var hit = hitList[|i];
     PlayerSpear_SkewerEnemy_scr(id, hit);

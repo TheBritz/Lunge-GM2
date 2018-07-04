@@ -1,7 +1,8 @@
 /// @description Dropship_BehaviorEngaging_scr()
 
+Movable_ChangeHSpeed_scr(0, m_movementGroundAccelHor);
 if(!m_deploying)
-{
+{  
   if(abs(m_velocityH) < 2)
   {
     m_deploying = true;

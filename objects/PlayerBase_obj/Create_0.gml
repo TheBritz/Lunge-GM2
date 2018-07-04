@@ -52,9 +52,9 @@ m_combatantSpriteIdle = Player_spr;
 m_combatantSpriteFall = PlayerFall_spr;
 m_combatantSpriteRun = PlayerRun_spr;
 m_playerSpriteWallCling = PlayerWallCling_spr;
-m_combatantSpriteGroundAttack = PlayerAttackGroundDash_spr;
+m_combatantSpriteGroundAttack = Player_Ground_Stationary_Attacking_spr;
+m_combatantImageSpeedGroundAttack = .5;
 m_combatantSpriteJumpCrouch = PlayerJumpCrouch_spr;
-m_combatantImageSpeedGroundAttack = 18/room_speed;
 m_combatantSpriteDirectionChange = PlayerRunDirectionChange_spr;
 
 m_combatantState = CombatantStates.Ground;
@@ -63,12 +63,15 @@ m_combatantState = CombatantStates.Ground;
 
 m_movementAirFallMaxSpeedHor = 7.5;
 m_movementGroundAccelHor = 1;
+m_movementGroundOverspeedCorrectionHor = .4;
 m_movementAirFallAccelHor = .25;
 m_movementGroundFriction = .5;
 m_movementGroundMaxSpeed = 6;
 m_movementGroundJumpSpeed = 13.5;
 m_movementAirFallMaxSpeedVert = 10;
 m_movementAirFastFallSpeed = m_movementAirFallMaxSpeedVert * 1.3;
+
+m_combatantDashAttackSpeedThreshold = .6;
 
 
 m_playerState = PlayerStates.None;
@@ -103,6 +106,10 @@ Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr,
   1, PlayerBase_ThrowMovmentDust_scr, id);
 Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr, 
   7, PlayerBase_ThrowMovmentDust_scr, id);
+
+//Neutral Ground Attack animation event
+Entity_RegisterAnimationEvent_scr(id, Player_Ground_Stationary_Attacking_spr,
+  1, PlayerBase_Ground_Stationary_Attack_scr, undefined);
   
   
 //Register hitboxes with 

@@ -24,6 +24,8 @@ m_combatantSpriteRun = Dropship_spr;
 m_combatantSpriteEngage = Dropship_spr;
 m_combatantState = CombatantStates.Ground;
 m_movementGroundMaxSpeed = 5;
+m_movementGroundAccelHor = .05;
+m_movementGroundFriction = .05;
 m_movementAirFallMaxSpeedHor = 4.5;
 m_movementSuppressGravity = true;
 

@@ -35,7 +35,7 @@ else
 
 if(accelHor != 0)
 {
-  Movable_ChangeHSpeed_scr(m_movementGroundMaxSpeed * m_facing * abs(speedMaxMod), m_movementGroundAccelHor);
+  Movable_ChangeHSpeed_scr(m_movementGroundMaxSpeed * m_facing * abs(speedMaxMod), m_movementGroundAccelHor, m_movementGroundOverspeedCorrectionHor);
   m_movementGroundActivelyMoving = true;
 }
 else
@@ -75,6 +75,6 @@ if(detonateState == ButtonStates.JustPressed || detonateState == ButtonStates.Pr
 //Attack
 if(InputManager_GetButtonControlState_scr(ButtonControls.Attack) == ButtonStates.JustPressed)
 {
-  //Combatant_StartGroundAttack_scr();
+  
 }
 

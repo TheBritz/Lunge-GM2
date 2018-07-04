@@ -1,4 +1,4 @@
-/// @description EnemyAIBase_BehaviorIdling_scr(extesionScript)
+/// @description EnemyAIBase_BehaviorPursuing_scr(extesionScript)
 /// @param extesionScript
 
 var extScript = argument0;
