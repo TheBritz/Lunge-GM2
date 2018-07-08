@@ -4,7 +4,7 @@
 /// @param  emitterType
 /// @param  isLooping
 /// @param  priority
-/// @param  index [optional]
+/// @param  index[optional]
 var combatant = argument[0];
 var sndID = argument[1];
 var emitterType = argument[2];

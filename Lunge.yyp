@@ -825,6 +825,14 @@
             }
         },
         {
+            "Key": "3da22e91-7118-4232-9995-fb4b5d3c623a",
+            "Value": {
+                "id": "67bc6263-3ddd-4158-8899-74f966ebb68b",
+                "resourcePath": "sprites\\HoverBike_spr\\HoverBike_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3dcb6a59-e4fd-4206-90b5-f532fe018a9b",
             "Value": {
                 "id": "682c190a-6f52-4a1d-afc2-8fb153ca292d",
@@ -2747,6 +2755,9 @@
         {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
+                "configDeltas": [
+                    "Dev"
+                ],
                 "id": "1a75c8ec-4c4e-4ca2-b32d-78327a927f98",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
@@ -2870,6 +2881,14 @@
                 "id": "79ff7b3d-d218-4136-8314-5ebad69665cf",
                 "resourcePath": "scripts\\BuildIntellisenseList_scr\\BuildIntellisenseList_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d868a521-0abf-4cf7-9a1f-586933fe1ec7",
+            "Value": {
+                "id": "3440efc6-8755-44ea-a062-8fb398871606",
+                "resourcePath": "views\\d868a521-0abf-4cf7-9a1f-586933fe1ec7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3110,6 +3129,14 @@
                 "id": "802763a4-8f8c-48d3-902a-dbc71380f357",
                 "resourcePath": "views\\ea4c6f57-d8d7-4628-832a-c4093e37a843.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea98756b-17f8-4bd5-a3e8-cfdc65903cb9",
+            "Value": {
+                "id": "36f011de-b764-4e1b-b447-b945598c31fc",
+                "resourcePath": "sounds\\Stab_snd\\Stab_snd.yy",
+                "resourceType": "GMSound"
             }
         },
         {

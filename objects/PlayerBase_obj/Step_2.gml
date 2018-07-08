@@ -59,6 +59,7 @@ if(instance_exists(m_spear))
       if(abs(Movable_GetHSpeed_scr(id)) < (m_movementGroundMaxSpeed * 
         m_combatantDashAttackSpeedThreshold) && m_spearCanLunge)
       {
+        Combatant_PlaySoundOn_scr(id, Stab_snd, AudioEmitterTypes.Attack, false, 1);
         sprite_index = m_combatantSpriteGroundAttack;
         image_speed = m_combatantImageSpeedGroundAttack;
         m_spearIsLunging = true;

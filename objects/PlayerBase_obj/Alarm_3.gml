@@ -6,3 +6,4 @@ sprite_index = m_combatantSpriteIdle;
 m_combatantState = CombatantStates.Ground;
 alarm[PlayerBaseAlarms.ResetCanLunge] = m_spearLungeDelay;
 
+
