@@ -1,1 +1,1 @@
-GM.SpritePositionData.ToggleDataLayers.exe /p=..\Lunge.yyp PositionData=off /r
+SpritePositionData\GM.SpritePositionData.ToggleDataLayers.exe /p=..\Lunge.yyp PositionData=off /r
