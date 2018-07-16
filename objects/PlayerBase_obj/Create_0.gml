@@ -56,6 +56,7 @@ m_combatantSpriteGroundAttack = Player_Ground_Stationary_Attacking_spr;
 m_combatantImageSpeedGroundAttack = .5;
 m_combatantSpriteJumpCrouch = PlayerJumpCrouch_spr;
 m_combatantSpriteDirectionChange = PlayerRunDirectionChange_spr;
+m_combatantSpriteOverspeed = PlayerRunOverspeed_spr;
 
 m_combatantState = CombatantStates.Ground;
 
@@ -68,7 +69,7 @@ m_movementAirFallAccelHor = .25;
 m_movementGroundFriction = .5;
 m_movementGroundMaxSpeed = 6;
 m_movementGroundJumpSpeed = 13.5;
-m_movementAirFallMaxSpeedVert = 10;
+m_movementAirFallMaxSpeedVert = 12;
 m_movementAirFastFallSpeed = m_movementAirFallMaxSpeedVert * 1.3;
 
 m_combatantDashAttackSpeedThreshold = .6;

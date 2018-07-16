@@ -1601,6 +1601,14 @@
             }
         },
         {
+            "Key": "76f9c40d-0801-408b-9f1f-67d85294e4da",
+            "Value": {
+                "id": "b8de3618-0f5a-435c-bb4d-2bd52dcd73f4",
+                "resourcePath": "sprites\\HoverBikeTurret_spr\\HoverBikeTurret_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "775a105b-a2b4-4f6d-b777-ba85dc54b58e",
             "Value": {
                 "id": "a505c442-9e54-4cca-8ce6-0509198108aa",
@@ -2638,6 +2646,14 @@
                 "id": "f9e6b616-d392-45a2-a179-d31d138fadd8",
                 "resourcePath": "views\\c728ed90-cd3a-4db8-889e-ca7d6d4597c5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c7868e27-2316-44c2-a03a-9e4299393ba0",
+            "Value": {
+                "id": "e921b3aa-aefe-45f4-a9bb-e19d7fb84349",
+                "resourcePath": "sprites\\PlayerRunOverspeed_spr\\PlayerRunOverspeed_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

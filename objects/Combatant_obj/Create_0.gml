@@ -35,6 +35,8 @@ m_combatantSpriteJumpCrouch = undefined;
 m_combatantImageSpeedJumpCrouch = undefined;
 m_combatantSpriteDirectionChange = undefined;
 m_combatantImageSpeedDirectionChange = undefined;
+m_combatantSpriteOverspeed = undefined;
+m_combatantImageSpeedOverspeed = undefined;
 
 //Movement
 m_movementGroundMaxSpeed = undefined;
@@ -45,6 +47,7 @@ m_movementGroundShortHopSpeedMod = .75;
 m_movementGroundActivelyMoving = undefined;
 m_movementGroundGravityMod = undefined;
 m_movementJumpLag = room_speed/15;
+m_movementGroundOverspeedThreshold = 1.5;
 
 //Combat
 m_combatantDashAttackSpeedThreshold = 1;

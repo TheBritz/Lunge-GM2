@@ -101,4 +101,3 @@ if(object_index == EnemyTestTarget_obj)
 }
 
 Combatant_ApplyGravity_scr(grav);
-
