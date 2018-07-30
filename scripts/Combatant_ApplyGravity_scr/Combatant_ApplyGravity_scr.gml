@@ -13,6 +13,7 @@ if(!m_movementSuppressGravity)
   {
     grav = m_movementAirGravity;
   }
+  
   if(!is_undefined(m_movementAirFallMaxSpeedVert))
   {
     terminalVelocity = m_movementAirFallMaxSpeedVert;

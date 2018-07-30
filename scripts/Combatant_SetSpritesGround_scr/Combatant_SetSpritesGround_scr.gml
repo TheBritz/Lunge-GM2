@@ -7,6 +7,9 @@ if(hSpeed != 0)
     if(!is_undefined(m_combatantSpriteOverspeed))
     {
       sprite_set_properties(m_combatantSpriteOverspeed, undefined, m_combatantImageSpeedOverspeed);
+      var overspeedDust = instance_create(x, bbox_bottom + 2, OverspeedDust_obj);
+      overspeedDust.image_xscale = m_facing;
+      overspeedDust.depth = depth -1;
     }
   }
   else if(!is_undefined(m_combatantSpriteRun))

@@ -25,6 +25,9 @@ m_movementGroundJumpSpeed = 7.5;
 m_combatSprintAttackRange = array(m_aiEngageDistance + 5, m_aiEngageDistance + 30);
 m_combatSprintAttackLikelihood = 100;
 
+//Enemy members
+m_enemySpriteLaunched = EnforcerBasic_Launched_Flying_spr;
+
 //Set knockback
 Combatant_SetAttackKnockback_scr
   (EnemyHollowGroundAttack_spr, 5, 5);

@@ -16,10 +16,22 @@ with spear
     for(var i = 0; i < ds_list_size(m_skeweredEnemies); i++)
     {
       enemy = m_skeweredEnemies[| i];
-      enemy.speed = 15; 
-      enemy.direction = image_angle;
-      enemy.gravity = .2;
-      enemy.sprite_index = EnemyHollowLaunched_spr;
+      with(enemy)
+      {
+        var sprite = sprite_index;
+        instance_change(EnemyLaunched_obj, false);
+        event_perform_object(EnemyLaunched_obj, ev_create, 0);
+        sprite_index = sprite;
+        Movable_AddMotion_scr(id, spear.image_angle, 15);
+        if(!is_undefined(m_enemySpriteLaunched))
+        {
+          sprite_index = m_enemySpriteLaunched;
+        }
+        if(image_angle >= 90 && image_angle <= 270)
+        {
+          image_yscale = -1;
+        }
+      }
     } 
     ds_list_clear(m_skeweredEnemies);
     return detonation;

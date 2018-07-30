@@ -14,3 +14,7 @@ m_impactVelV = 0;
 
 //Value to keep movables attached to the ground when moving down slopes
 m_slopeStickFactor = 0;
+
+m_movementSuppressGravity = false;
+m_movementAirGravity = undefined;
+m_movementAirFallMaxSpeedVert = undefined;

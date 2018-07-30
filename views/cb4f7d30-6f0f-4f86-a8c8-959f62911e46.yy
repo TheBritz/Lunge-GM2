@@ -7,7 +7,8 @@
         "604a38fa-a95e-4414-9fbe-5e1e3d288814",
         "d0a3b97a-48f3-4560-9403-c30172ce4a48",
         "28fcee96-74c6-4c7c-a285-7da3d5460f1d",
-        "6911f3f5-15c9-478c-94f8-703a4b2ad158"
+        "6911f3f5-15c9-478c-94f8-703a4b2ad158",
+        "64d086cc-5942-43cb-999a-11e7dc92ef14"
     ],
     "filterType": "GMScript",
     "folderName": "Classes",

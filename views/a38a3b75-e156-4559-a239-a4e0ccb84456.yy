@@ -6,7 +6,8 @@
     "children": [
         "2d758ce5-ac17-476f-ad0c-034385eb1aab",
         "59a8649f-779c-41f5-bd21-c069f2358001",
-        "5700b9be-b3a8-4f9d-83e2-afade0e6aee2"
+        "5700b9be-b3a8-4f9d-83e2-afade0e6aee2",
+        "87ae5051-9069-4846-bc37-0f18c96d05cf"
     ],
     "filterType": "GMSprite",
     "folderName": "Enforcer",

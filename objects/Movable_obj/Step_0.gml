@@ -1,4 +1,5 @@
+///@description Position update with solid collision
+
 event_inherited();
-//Movable_TestControls_scr();
 Movable_HandleMovement_scr();
 
