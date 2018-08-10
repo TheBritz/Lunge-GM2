@@ -27,6 +27,10 @@ m_combatSprintAttackLikelihood = 100;
 
 //Enemy members
 m_enemySpriteLaunched = EnforcerBasic_Launched_Flying_spr;
+m_enemySpriteImpaled = EnforcerBasic_Impaled_spr;
+m_enemySpriteStuckToWall = EnforcerBasic_StuckToWall_spr;
+m_enemySpriteStuckToWallSevered = EnforcerBasic_StuckToWall_Severed_spr;
+m_enemySpriteSeveredLegs = EnforcerBasic_SeveredLegs_spr;
 
 //Set knockback
 Combatant_SetAttackKnockback_scr

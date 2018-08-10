@@ -7,7 +7,7 @@ if(PlayerSpear_CanStrike_scr(id))
   for(var i = 0; i < ds_list_size(hitList); i++)
   {
     var hit = hitList[|i];
-    PlayerSpear_SkewerEnemy_scr(id, hit);
+    PlayerSpear_ImpaleEnemy_scr(id, hit);
   }
 }
 

@@ -7,3 +7,4 @@ InputManager_RegisterButtonControlKbd_scr(ButtonControls.Down, ord("S"));
 InputManager_RegisterButtonControlKbd_scr(ButtonControls.Jump, vk_shift);
 InputManager_RegisterButtonControlKbd_scr(ButtonControls.Block, ord("K"));
 InputManager_RegisterButtonControlKbd_scr(ButtonControls.Attack, vk_space);
+InputManager_RegisterButtonControlKbd_scr(ButtonControls.Detonate, vk_control);

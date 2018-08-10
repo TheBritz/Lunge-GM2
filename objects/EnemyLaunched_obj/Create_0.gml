@@ -7,3 +7,5 @@ event_inherited();
 Projectile_SetBounceQuotient_scr(id, .1);
 m_frictionQuotientH = .9;
 m_frictionQuotientV = .9;
+m_frictionH = .15;
+m_frictionV = .15;

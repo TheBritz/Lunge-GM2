@@ -33,6 +33,22 @@ with spear
         }
       }
     } 
+    
+    var sparkNumber = 16;
+    var spark;
+    var sparkSpeedRange = array(12, 23);
+    var sparkDeviation = 20;
+    var sparkDeccelRange = array(.8, 1.2);
+    var spkDev, spkSpd, spkDcl;
+    for(var i = 0; i < sparkNumber; i++)
+    {
+      spark = instance_create(x, y, SparkBlue_obj);
+      spkDev = random_range(-sparkDeviation, sparkDeviation);
+      spkSpd = random_range(sparkSpeedRange[0], sparkSpeedRange[1]);
+      spkDcl = random_range(sparkDeccelRange[0], sparkDeccelRange[1]);
+      spark.m_deccel = spkDcl;
+      Movable_AddMotion_scr(spark, image_angle + spkDev, spkSpd);  
+    }
     ds_list_clear(m_skeweredEnemies);
     return detonation;
   }

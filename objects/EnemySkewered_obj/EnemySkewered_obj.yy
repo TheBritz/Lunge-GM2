@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "EnemySkewered_obj",
     "eventList": [
-        
+        {
+            "id": "da531851-ac7d-4c51-8fc9-345c2962f80d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "d279a08f-7ec9-427a-8931-aa4c6dacd02d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

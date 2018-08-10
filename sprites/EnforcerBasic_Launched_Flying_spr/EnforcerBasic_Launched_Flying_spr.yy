@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 25,
     "bbox_left": 0,
-    "bbox_right": 21,
+    "bbox_right": 23,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -76,6 +76,13 @@
                     "mvc": "1.0",
                     "FrameId": "19976893-4b6c-4190-a956-11f1f176fe37",
                     "LayerId": "254b7b24-6731-4cb2-9d69-704e37453ad0"
+                },
+                {
+                    "id": "3571e436-aad3-4d77-99f3-656db23f9cab",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "19976893-4b6c-4190-a956-11f1f176fe37",
+                    "LayerId": "2be7c718-c831-47e6-b341-79436852c9e4"
                 }
             ]
         }
@@ -96,12 +103,23 @@
             "visible": true
         },
         {
+            "id": "2be7c718-c831-47e6-b341-79436852c9e4",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "87ae5051-9069-4846-bc37-0f18c96d05cf",
+            "blendMode": 0,
+            "isLocked": true,
+            "name": "Arm Cavity",
+            "opacity": 100,
+            "visible": false
+        },
+        {
             "id": "054fc059-7d1a-4f28-b320-5da5fcd72771",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "87ae5051-9069-4846-bc37-0f18c96d05cf",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Shoulder Pads",
             "opacity": 100,
             "visible": true
@@ -112,7 +130,7 @@
             "mvc": "1.0",
             "SpriteId": "87ae5051-9069-4846-bc37-0f18c96d05cf",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Head",
             "opacity": 100,
             "visible": true
@@ -123,7 +141,7 @@
             "mvc": "1.0",
             "SpriteId": "87ae5051-9069-4846-bc37-0f18c96d05cf",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Front Leg",
             "opacity": 100,
             "visible": true
@@ -145,7 +163,7 @@
             "mvc": "1.0",
             "SpriteId": "87ae5051-9069-4846-bc37-0f18c96d05cf",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Back Arm",
             "opacity": 100,
             "visible": true
@@ -156,13 +174,13 @@
             "mvc": "1.0",
             "SpriteId": "87ae5051-9069-4846-bc37-0f18c96d05cf",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Back Leg",
             "opacity": 100,
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 9,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -172,7 +190,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 22,
-    "xorig": 0,
-    "yorig": 0
+    "width": 26,
+    "xorig": 18,
+    "yorig": 12
 }

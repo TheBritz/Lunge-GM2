@@ -10,6 +10,10 @@ m_accelRate = undefined;
 m_bounceQuotientH = undefined;
 m_bounceQuotientV = undefined;
 
-//How much the projectile slows down when it bounces
-m_frictionQuotientH = undefined;
-m_frictionQuotientV = undefined;
+//How much the projectile slows down (multiplicative) when it bounces
+m_frictionQuotientH = 1;
+m_frictionQuotientV = 1;
+
+//How much the projectile slows down (additive) when it bounces
+m_frictionH = 0;
+m_frictionV = 0;
