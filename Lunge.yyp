@@ -3460,14 +3460,6 @@
             }
         },
         {
-            "Key": "f5cf22fb-4229-4074-998b-d6ed2f66d588",
-            "Value": {
-                "id": "3000be23-1841-4fee-a5fa-bab0d6a5454d",
-                "resourcePath": "sprites\\EnforcerBasic_StuckToWall_Severed_spr1\\EnforcerBasic_StuckToWall_Severed_spr1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f6252050-1b13-4316-a7e4-aa4a323787e8",
             "Value": {
                 "id": "b0455614-fc3b-48ab-b35c-0f4cf50a6cc1",

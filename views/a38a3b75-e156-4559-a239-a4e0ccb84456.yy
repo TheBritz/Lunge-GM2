@@ -12,8 +12,7 @@
         "1f91d015-f75e-48cc-b685-3afe8f688b15",
         "33eb4482-bb6c-4630-9824-d0eef1ff582a",
         "05c8ab80-fc14-4389-8c9f-4c43a4d5bdeb",
-        "6e1526c8-fd27-4ca3-a6c8-5a449b345835",
-        "f5cf22fb-4229-4074-998b-d6ed2f66d588"
+        "6e1526c8-fd27-4ca3-a6c8-5a449b345835"
     ],
     "filterType": "GMSprite",
     "folderName": "Enforcer",
