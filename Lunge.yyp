@@ -121,6 +121,14 @@
             }
         },
         {
+            "Key": "08d24981-c472-405d-a64b-cee434cd3690",
+            "Value": {
+                "id": "da58eb83-44da-4f96-bddf-53f2f18390cd",
+                "resourcePath": "sprites\\EnforcerBasic_Air_LeapAttack_spr\\EnforcerBasic_Air_LeapAttack_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "093679b7-2ac3-4030-b822-2ce791d66363",
             "Value": {
                 "id": "aed6eb43-de3b-43ab-ac4c-9ca048e8dc81",
@@ -345,6 +353,14 @@
             }
         },
         {
+            "Key": "1c59fc09-5691-49c9-b373-100398449545",
+            "Value": {
+                "id": "f80f9a7f-c015-4909-8a02-bed4075a5f2d",
+                "resourcePath": "scripts\\jump_get_hangtime\\jump_get_hangtime.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1c5e1613-b3e9-4a43-a0d8-c262a022529f",
             "Value": {
                 "id": "a61182c8-ed1d-4212-a56b-3c961f7c44b4",
@@ -497,6 +513,14 @@
             }
         },
         {
+            "Key": "290ca5fe-9a96-48d5-a0aa-735367d56bb4",
+            "Value": {
+                "id": "6db822a0-2694-4bc0-92f6-292416a67c84",
+                "resourcePath": "scripts\\EngagementController_GetTargetController_scr\\EngagementController_GetTargetController_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "292fdba0-ade4-432e-aa4c-81ac50d681d1",
             "Value": {
                 "id": "938c02fb-bae5-49ad-940e-f59eee17ad8f",
@@ -517,6 +541,14 @@
             "Value": {
                 "id": "f22e212d-6dc4-4c74-a5d5-f9cda9475daf",
                 "resourcePath": "scripts\\script109\\script109.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "29806f3d-2abd-4270-907e-9bb00d1e4144",
+            "Value": {
+                "id": "4d97c179-ccdf-4342-a1bc-217ce8522023",
+                "resourcePath": "scripts\\EngagementController_InitializeTarget_scr\\EngagementController_InitializeTarget_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -573,6 +605,14 @@
             "Value": {
                 "id": "9197a0ad-0057-4b64-bba3-b7b8e2587d66",
                 "resourcePath": "scripts\\SpritePositionDataAddCategory_scr\\SpritePositionDataAddCategory_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2d0624e9-3608-48ab-92ec-6971f7df5c64",
+            "Value": {
+                "id": "7b00ac1f-7fa5-4810-a6b9-8073e91d7bc5",
+                "resourcePath": "scripts\\EngagementController_DisengageTarget_scr\\EngagementController_DisengageTarget_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -729,6 +769,14 @@
             }
         },
         {
+            "Key": "3570315c-ac91-473a-9b32-6aa98255c198",
+            "Value": {
+                "id": "4f3b0f74-3122-41a4-bfda-5ae953c98b46",
+                "resourcePath": "scripts\\EngagementController_ReleasePosition_scr\\EngagementController_ReleasePosition_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "35c327a8-8d18-40b3-b563-492ff24fab3c",
             "Value": {
                 "id": "836103e7-b7ef-44dd-a242-5a4d5cfafc12",
@@ -774,6 +822,14 @@
                 "id": "64276720-bb85-43ed-afd1-fcc40a1c7e60",
                 "resourcePath": "sprites\\console_spr\\console_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "38d5fde9-ea9b-47b9-bd42-19e453e08d56",
+            "Value": {
+                "id": "f02e033d-8254-4de1-9d18-f84012c9e2c5",
+                "resourcePath": "scripts\\jump_get_jump_speed_to_reach_distance\\jump_get_jump_speed_to_reach_distance.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1153,6 +1209,14 @@
             }
         },
         {
+            "Key": "53b5adc4-7868-4912-aafe-ca01ab8305fe",
+            "Value": {
+                "id": "5deaeb7a-fa21-4b35-89b3-e6ba6cd70c17",
+                "resourcePath": "objects\\EngagementController_obj\\EngagementController_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "548d83da-903f-49e9-adde-f2bb4d8a464e",
             "Value": {
                 "id": "16aa498d-10f0-4f86-905c-7f0d0f535999",
@@ -1473,6 +1537,14 @@
             }
         },
         {
+            "Key": "657b9233-6d41-48e2-9134-8a8ad8c23316",
+            "Value": {
+                "id": "37c7ae2a-3e21-4367-a305-96d7ebedaf37",
+                "resourcePath": "scripts\\EnemyAIBase_GetLeapAttackSpeedOncoming_scr\\EnemyAIBase_GetLeapAttackSpeedOncoming_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "66368436-ba2e-4bdc-b49c-199e69cc63f9",
             "Value": {
                 "id": "80fedf9d-60b7-4e11-b4e1-fce8724440fb",
@@ -1757,6 +1829,14 @@
             "Value": {
                 "id": "1d115b53-1701-4397-a1aa-b1c2ae597600",
                 "resourcePath": "scripts\\roll_chance\\roll_chance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7e5786b4-09cf-4a2f-b55f-23ccc2a844ae",
+            "Value": {
+                "id": "a28b4867-3c5b-4e02-9efb-08a92c601fa2",
+                "resourcePath": "scripts\\EngagementController_EngageTarget_scr\\EngagementController_EngageTarget_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2065,6 +2145,14 @@
             }
         },
         {
+            "Key": "91fa6c0f-9d86-4f38-ad05-0075e705b720",
+            "Value": {
+                "id": "d5a0b26a-e4ec-48d2-ab2d-0623efa6b7d4",
+                "resourcePath": "scripts\\EngagementController_IsEnemyEngaged_scr\\EngagementController_IsEnemyEngaged_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "924fe2ab-fbbd-4ed4-827a-f5c9fc9790ca",
             "Value": {
                 "id": "734ae13f-803c-4056-8aad-6ec72d3e2545",
@@ -2129,6 +2217,14 @@
             }
         },
         {
+            "Key": "974438e8-72d2-41eb-a213-34f26548c554",
+            "Value": {
+                "id": "e080706d-845b-46a0-88b1-2a3659c783fd",
+                "resourcePath": "scripts\\EngagementController_AssignPosition_scr\\EngagementController_AssignPosition_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "97a110d8-a4b1-4102-a102-34fbcbb61c9d",
             "Value": {
                 "id": "4bbe21fe-df2b-4094-bc14-8065ba2e273e",
@@ -2165,6 +2261,14 @@
             "Value": {
                 "id": "ab5d39f3-7473-4ba4-a247-29304d9185d9",
                 "resourcePath": "scripts\\PlayerSpear_AddCharge_scr\\PlayerSpear_AddCharge_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9ae93e94-68ad-4936-b436-72a7d4df7dd4",
+            "Value": {
+                "id": "41aa01fc-4f40-491f-b691-574cc716df4e",
+                "resourcePath": "scripts\\jump_get_frames_to_fall_distance\\jump_get_frames_to_fall_distance.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2358,6 +2462,14 @@
                 "id": "11a2f40b-01a7-4ea4-9851-a6f6356b9d64",
                 "resourcePath": "views\\a8239292-34de-4fa4-b833-6a93eefbbd85.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a877c6fa-329d-4c15-9805-fb4721734465",
+            "Value": {
+                "id": "4fc1c477-7269-4749-ad79-cb9389a1712c",
+                "resourcePath": "scripts\\EngagementController_GetEngageDistance_scr\\EngagementController_GetEngageDistance_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2601,6 +2713,14 @@
             }
         },
         {
+            "Key": "b9cb683f-407b-4c65-9417-9778ca5451ab",
+            "Value": {
+                "id": "846ca203-0932-44da-9e5c-07d428debb61",
+                "resourcePath": "scripts\\EnemyAI_StartLeapAttack_scr\\EnemyAI_StartLeapAttack_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b9fc1f0d-c43f-4f7c-ab40-3d97c5e2327a",
             "Value": {
                 "id": "00a836a7-b47d-4ad8-ad47-f78eafac4bd5",
@@ -2614,6 +2734,14 @@
                 "id": "d673b4b8-037e-461d-9831-9a6292bd4586",
                 "resourcePath": "sprites\\SparkMask_spr\\SparkMask_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba9494db-b953-446c-a74f-1109227b47b6",
+            "Value": {
+                "id": "04bdefff-eb09-4001-9f89-331d5dcfb00b",
+                "resourcePath": "scripts\\EnemyAIBase_BehaviorLeapAttack_scr\\EnemyAIBase_BehaviorLeapAttack_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2873,6 +3001,14 @@
             }
         },
         {
+            "Key": "cb98eeb4-fad7-43ec-8e93-437132f88354",
+            "Value": {
+                "id": "ad9c0b82-92c7-4791-8f15-02f726f53d74",
+                "resourcePath": "scripts\\EngagementController_AssessEnemyPositions_scr\\EngagementController_AssessEnemyPositions_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cb9f99f5-e9c8-416f-95dc-61399398ed5a",
             "Value": {
                 "id": "ed88b6a8-c821-4784-8a60-f7a7edaa6e81",
@@ -2945,6 +3081,14 @@
                 "id": "d109131f-99e3-4712-9c2c-60fa3a6b5d07",
                 "resourcePath": "views\\cfa27172-37b5-469e-a3d4-b1e13b6cd456.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d0314734-ca8c-4ae2-a5ec-9af89f8d6e14",
+            "Value": {
+                "id": "a4548ffd-666a-4ca4-bb8c-ddf89b74253c",
+                "resourcePath": "scripts\\jump_get_jump_speed_for_hangtime\\jump_get_jump_speed_for_hangtime.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3140,6 +3284,22 @@
             }
         },
         {
+            "Key": "dde247bb-e4f0-4f8e-a5a0-a2919ea82148",
+            "Value": {
+                "id": "ceaaa644-71a4-4c61-a85b-75aaca30c57c",
+                "resourcePath": "scripts\\sort_object_list_by_variable\\sort_object_list_by_variable.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "de2d472a-5848-4b95-948d-36d3a3a83b2f",
+            "Value": {
+                "id": "0663815a-95db-4ceb-8c91-9bc2bedec6f2",
+                "resourcePath": "scripts\\EngagementController_GetClosestOpenPosition_scr\\EngagementController_GetClosestOpenPosition_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "de5e51a8-0abe-44ec-aaf0-a72088b55d68",
             "Value": {
                 "id": "88cca40d-0d95-4223-860e-eb0990e80d0e",
@@ -3257,6 +3417,14 @@
                 "id": "88b69fc8-5bc2-46b4-9285-eed9c9efabe2",
                 "resourcePath": "scripts\\GameController_InitGlobals_scr\\GameController_InitGlobals_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e61efd6e-b282-4d94-ae3c-c5df9f71b6d5",
+            "Value": {
+                "id": "eec6ba80-5358-422e-85a4-ed0d2614bf94",
+                "resourcePath": "views\\e61efd6e-b282-4d94-ae3c-c5df9f71b6d5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3556,6 +3724,14 @@
             }
         },
         {
+            "Key": "fe83c0b7-4cc9-4eb5-817c-f3157d72c95b",
+            "Value": {
+                "id": "58f6e619-58bc-4b18-bc54-f5750357c9f7",
+                "resourcePath": "sprites\\EnforcerBasic_Air_LeapAttackSlash_spr\\EnforcerBasic_Air_LeapAttackSlash_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ff8d4c30-c369-48ae-9c04-03170ad616ef",
             "Value": {
                 "id": "9a1e0e2d-97e7-4897-93b3-9b01e9e1b695",
@@ -3640,6 +3816,16 @@
         "da6c6592-1500-463b-b176-87e6a584f783",
         "480e1db8-7670-479d-8c1c-2e3c3bbe4c67",
         "725c1e9d-fa9b-42f8-81f5-d7c81078e924",
+        "cb98eeb4-fad7-43ec-8e93-437132f88354",
+        "7e5786b4-09cf-4a2f-b55f-23ccc2a844ae",
+        "2d0624e9-3608-48ab-92ec-6971f7df5c64",
+        "29806f3d-2abd-4270-907e-9bb00d1e4144",
+        "a877c6fa-329d-4c15-9805-fb4721734465",
+        "290ca5fe-9a96-48d5-a0aa-735367d56bb4",
+        "974438e8-72d2-41eb-a213-34f26548c554",
+        "de2d472a-5848-4b95-948d-36d3a3a83b2f",
+        "3570315c-ac91-473a-9b32-6aa98255c198",
+        "91fa6c0f-9d86-4f38-ad05-0075e705b720",
         "cc0003ef-3ee6-40de-8380-d9b7f22d48f1",
         "8908f116-df6b-4cbe-adf7-bd5b5075c05d",
         "29e0b9d3-0580-4f08-b6ca-e59530a8380c",
@@ -3704,20 +3890,23 @@
         "4c45e56e-b582-4a81-9380-d430bef2e6f9",
         "9402599c-e115-4b75-b3a9-5c4495035c0b",
         "e1e6577e-ed73-442b-97bf-0ebf815ce514",
+        "ba9494db-b953-446c-a74f-1109227b47b6",
         "e7a660b3-9bf2-4c07-8134-493a6e57d08d",
         "7a604837-ade9-47da-9ac8-e7f2e6180939",
-        "baf508ed-f1ee-4df4-b2ba-9d3e4a4d7a39",
         "85d3d81d-14dc-40f7-bf0a-0ae833c2e893",
         "332cc437-dbcd-4cc6-9638-9b3e39e51738",
+        "baf508ed-f1ee-4df4-b2ba-9d3e4a4d7a39",
         "5a4e9ee7-cf2a-49c4-83f4-21727af67a96",
         "8d900b3f-51a8-4845-a45f-35893e1f7500",
         "0e72b85a-8a56-4333-bd53-7ece94100635",
+        "657b9233-6d41-48e2-9134-8a8ad8c23316",
         "34ad5fb1-2d64-4e9c-94f3-6d1c73e8f84c",
         "d9edfab4-7e53-4f1c-afbe-5bcdbc345f5e",
         "350f755c-e982-4a63-bda6-0d79c5be02ed",
         "e48003f9-602b-46a0-a931-f816f9d50327",
         "682d15ad-bf49-4415-a2c5-b900e366769a",
         "03c7e649-2612-44f4-a945-2b681106d244",
+        "b9cb683f-407b-4c65-9417-9778ca5451ab",
         "5dbe84aa-b42e-4bb3-8b5f-5843420854ff",
         "8c6d6dd1-beb5-4125-8726-3a69c56c6f53",
         "6e972c29-5c4f-4944-b3e7-ee679455391e",
@@ -3748,7 +3937,12 @@
         "20e36951-2144-4b96-a383-e49d378a3992",
         "7dfa75c9-a486-4a8d-92a3-9b1aba193de7",
         "913d420f-bdea-475b-8c23-1bb739881414",
+        "38d5fde9-ea9b-47b9-bd42-19e453e08d56",
         "87edea7e-fdeb-435e-b565-29f052c33007",
+        "dde247bb-e4f0-4f8e-a5a0-a2919ea82148",
+        "9ae93e94-68ad-4936-b436-72a7d4df7dd4",
+        "1c59fc09-5691-49c9-b373-100398449545",
+        "d0314734-ca8c-4ae2-a5ec-9af89f8d6e14",
         "c6e0a0ae-d8ba-45ec-b8f1-dc99fca8e592",
         "35dfa0b5-8b09-45c2-a920-901c9e845a15",
         "59016f6c-2b84-4043-a91e-f1f94490e708",

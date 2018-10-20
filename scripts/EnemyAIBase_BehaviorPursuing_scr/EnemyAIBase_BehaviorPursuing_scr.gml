@@ -22,6 +22,7 @@ else if(abs(horDist) < m_aiEngageDistance)
 {
   //Engage target
   m_aiState = EnemyAIStates.EngagingAntagonist;
+  EngagementController_EngageTarget_scr(id, m_aiTarget);
 }
 else
 {

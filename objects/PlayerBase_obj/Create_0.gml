@@ -1,6 +1,9 @@
 /// @description PlayerBase_obj Init
 event_inherited();
 
+//Initialize as an engageable target
+EngagementController_InitializeTarget_scr(id);
+
 enum PlayerBaseAlarms
 {
   ResetIsLunging = 3,

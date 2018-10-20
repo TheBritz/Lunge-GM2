@@ -1,12 +1,40 @@
 /// @param jumpSpeedModifier[optional]
+/// @param jumpSpeedOverride[optional]
 
 var speedMod = 1;
 if(argument_count > 0)
 {
-  speedMod = argument[0];
+  if(!is_undefined(argument[0]))
+  {
+    speedMod = argument[0];
+  }
 }
 
-Movable_ChangeVSpeed_scr(-m_movementGroundJumpSpeed * speedMod);
+var speedOverride = undefined;
+if(argument_count > 1)
+{
+  if(!is_undefined(argument[1]))
+  {
+    speedOverride = argument[1];
+  }
+}
+
+var spd;
+if(!is_undefined(speedOverride))
+{
+  spd = speedOverride;
+}
+else
+{
+  spd = m_movementGroundJumpSpeed;
+}
+
+if(spd > 0)
+{
+  spd *= -1;
+}
+
+Movable_ChangeVSpeed_scr(spd * speedMod);
 
 if(!is_undefined(m_audioJump))
 {

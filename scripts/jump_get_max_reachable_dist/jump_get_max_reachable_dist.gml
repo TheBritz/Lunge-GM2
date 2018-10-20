@@ -1,3 +1,8 @@
+/// @param heightToReach
+/// @param jumpSpeed
+/// @param grav
+/// @param horSpeed
+
 var heightToReach = argument0;
 var jumpSpeed = argument1;
 var grav = argument2;

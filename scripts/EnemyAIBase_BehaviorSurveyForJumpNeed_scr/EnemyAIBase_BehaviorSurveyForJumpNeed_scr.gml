@@ -10,7 +10,7 @@ if(instance_exists(standableSurface))
   for(var i = 0; i < ds_list_size(impediments); i++)
   {
     var impediment = impediments[|i];
-    var dist;    
+    var dist = 0;    
     if(m_facing == -1)
     {
       dist = bbox_left - impediment.bbox_right;

@@ -11,6 +11,8 @@ enum EnemyAIStates
   EngagingAntagonist,
   //Attacking
   Attacking,
+  //Performing a leaping attack
+  LeapAttacking,
   //Reacting to an incoming attack
   ReactingToAttack,
   //Fleeing
@@ -19,9 +21,12 @@ enum EnemyAIStates
 
 //Extensions
 m_behaviorExtensions = undefined;
+m_behaviorTicker = 0;
+m_behaviorTickrate = undefined;
 
 //aiBehaviors map stores behaviors (scripts) for each state they support
 m_aiState = EnemyAIStates.Idling;
+m_aiSubState = undefined;
 //Used to detect state change
 m_aiStatePreviousFrame = m_aiState;
 m_aiBehaviors = ds_map_create();
@@ -30,6 +35,7 @@ m_aiStateFrames = 0;
 m_aiBehaviors[? EnemyAIStates.Idling] = EnemyAIBase_BehaviorIdling_scr;
 m_aiBehaviors[? EnemyAIStates.PursuingAntagonist] = EnemyAIBase_BehaviorPursuing_scr;
 m_aiBehaviors[? EnemyAIStates.EngagingAntagonist] = EnemyAIBase_BehaviorEngaging_scr;
+m_aiBehaviors[? EnemyAIStates.LeapAttacking] = EnemyAIBase_BehaviorLeapAttack_scr;
 
 //Triggers - these are eval scripts that run and when a set of conditions are
 //satisfied, add one or more ai behaviors to the AI Behavior list
@@ -82,7 +88,25 @@ m_aiSightCone = array(70, -70);
 //Whether or not this enemy can be skewered on the player's spear
 m_skewerable = true;
 
-m_combatSprintAttackRange = undefined;
+//The range at which to start a leap attack
+m_combatLeapAttackRange = undefined;
+//The range at which to execute the slash of the leap attack
+m_combatLeapAttackSlashRange = undefined;
+
+m_combatLeapAttackMinimumtPeakHeightAboveTarget = undefined;
+m_combatLeapAttackSpeedOncoming = undefined;
+//A multiple of the max speed to use when leap attacking
+m_combatLeapAttackSpeedOncomingModifier = undefined;
+m_combatLeapAttackSpeedStationary = undefined;
+//A multiple of the max speed to use when leap attacking
+m_combatLeapAttackSpeedStationaryModifier = undefined;
+//A multiple of the max speed to use when dashing
+m_combatDashSpeedModifier = 1;
+m_combatEngagingSpeedModifier = .75;
+
+//Member variable assigned by the Engagement Controller 
+m_engagementPosition = undefined;
+m_engagementPositionVariance = 5;
 
 
 

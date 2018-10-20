@@ -8,7 +8,7 @@ m_slopeStickFactor = .7;
 
 //AI members
 m_aiAttackDistance = 42;
-m_aiEngageDistance = 120;
+m_aiEngageDistance = 450;
 
 //Combatant members
 m_combatantHp = 2;
@@ -25,6 +25,10 @@ m_movementGroundJumpSpeed = 7.5;
 m_combatSprintAttackRange = array(m_aiEngageDistance + 5, m_aiEngageDistance + 30);
 m_combatSprintAttackLikelihood = 100;
 
+m_enemySpriteLeapAttack = EnforcerBasic_Air_LeapAttack_spr;
+m_enemySpriteLeapAttackSlash = EnforcerBasic_Air_LeapAttackSlash_spr;
+
+
 //Enemy members
 m_enemySpriteLaunched = EnforcerBasic_Launched_Flying_spr;
 m_enemySpriteImpaled = EnforcerBasic_Impaled_spr;
@@ -35,5 +39,12 @@ m_enemySpriteSeveredLegs = EnforcerBasic_SeveredLegs_spr;
 //Set knockback
 Combatant_SetAttackKnockback_scr
   (EnemyHollowGroundAttack_spr, 5, 5);
+  
+//Combat AI members
+m_combatLeapAttackSpeedOncomingModifier = 1.5;
+m_combatLeapAttackRange = 350;
+m_combatLeapAttackSlashRange = 120;
+m_combatEngagingSpeedModifier = .8;
+m_combatDashSpeedModifier = 1.25;
 
 

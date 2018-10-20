@@ -3,7 +3,7 @@
 
 if(m_impactVelH != 0)
 { 
-  if(!is_undefined(m_enemySpriteStuckToWallSevered) && !PlayerBase_WallSlideCheckForWall_scr(undefined, undefined, 30))
+  if(variable_instance_exists(id, "m_enemySpriteStuckToWallSevered") && !is_undefined(m_enemySpriteStuckToWallSevered) && !PlayerBase_WallSlideCheckForWall_scr(undefined, undefined, 30))
   {
     sprite_index = m_enemySpriteStuckToWallSevered;
     image_xscale = sign(m_impactVelH);
@@ -23,7 +23,7 @@ if(m_impactVelH != 0)
     image_angle = 0;
     image_yscale = 1; 
   }
-  else if(!is_undefined(m_enemySpriteStuckToWall))
+  else if(variable_instance_exists(id, "m_enemySpriteStuckToWallSevered") && !is_undefined(m_enemySpriteStuckToWall))
   {
     m_velocityH = 0;
     m_velocityV = 0;
