@@ -2,9 +2,11 @@
 if(PlayerSpear_CanStrike_scr(id))
 {
   mask_index = m_skewerHitbox;
-  var hitList = instance_place_list(x, y, m_targetType, 3);
+  var hitList = global.ReusableHitList;
+  ds_list_clear(hitList);
+  var hitCount = instance_place_list(x, y, m_targetType, hitList, false);
   
-  for(var i = 0; i < ds_list_size(hitList); i++)
+  for(var i = 0; i < hitCount; i++)
   {
     var hit = hitList[|i];
     PlayerSpear_ImpaleEnemy_scr(id, hit);
@@ -41,9 +43,6 @@ if(PlayerSpear_CanStrike_scr(id) && instance_exists(m_wielder) &&
     }until(abs(xMod) > maxX)
   }
 }
-
-
-
 
 ///Imbed Positioning
 PlayerSpear_SetAngle_scr(id, image_angle);

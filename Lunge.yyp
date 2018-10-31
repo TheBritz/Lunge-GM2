@@ -1628,7 +1628,7 @@
             "Key": "6b48fd65-f7ec-4b42-8b8b-4c1e346ef0a4",
             "Value": {
                 "id": "6332cd5f-726d-4a65-80c0-2dd39feee312",
-                "resourcePath": "scripts\\instance_place_list\\instance_place_list.yy",
+                "resourcePath": "scripts\\instance_place_list_custom\\instance_place_list_custom.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2341,6 +2341,14 @@
             "Value": {
                 "id": "53bec664-13ea-4cd6-bb0a-5558433eb7a5",
                 "resourcePath": "scripts\\object_is\\object_is.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9ecccdec-b791-4eb1-8ed8-55968a2a65c6",
+            "Value": {
+                "id": "84016ac3-3be0-45fd-8000-92f5cb1fa5e1",
+                "resourcePath": "scripts\\EngagementController_CommandAttack_scr\\EngagementController_CommandAttack_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3826,6 +3834,7 @@
         "de2d472a-5848-4b95-948d-36d3a3a83b2f",
         "3570315c-ac91-473a-9b32-6aa98255c198",
         "91fa6c0f-9d86-4f38-ad05-0075e705b720",
+        "9ecccdec-b791-4eb1-8ed8-55968a2a65c6",
         "cc0003ef-3ee6-40de-8380-d9b7f22d48f1",
         "8908f116-df6b-4cbe-adf7-bd5b5075c05d",
         "29e0b9d3-0580-4f08-b6ca-e59530a8380c",

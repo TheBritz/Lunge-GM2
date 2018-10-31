@@ -59,6 +59,19 @@ if(!is_undefined(enemyList))
   }
   #endregion
   
+  #region Control Melee attacks from closest Fighters
+  if(ds_map_exists(m_engagementPositionAssignementsByPos, -1))
+  {
+    var closestLeft = m_engagementPositionAssignementsByPos[? -1];
+    
+  }
+  
+  if(ds_map_exists(m_engagementPositionAssignementsByPos, 1))
+  {
+    var closestRight = m_engagementPositionAssignementsByPos[? 1]; 
+  }
+  #endregion
+  
   #region Test Leap Attack
   //Test leap attack
   //if(numberOfEnemies > 0)

@@ -12,6 +12,16 @@ m_behaviorTickrate = 6;
 
 if(instance_exists(m_aiTarget))
 {
+  //Decrement
+  if(m_aiAttackDelayTimer > 0)
+  {
+    m_aiAttackDelayTimer--;
+    if(m_aiAttackDelayTimer < 0)
+    {
+      //Execute attack
+    }
+  }
+  
   if(!is_undefined(m_combatantSpriteEngage))
   {
     sprite_index = m_combatantSpriteEngage;
@@ -46,7 +56,9 @@ if(instance_exists(m_aiTarget))
   var dist = point_distance(m_aiTarget.x, m_aiTarget.y, x, y);
   if(dist > m_aiDisengageDistance)
   {
+    //Disengage
     m_aiState = EnemyAIStates.PursuingAntagonist;
+    m_aiAttackDelayTimer = -1;
   }
 }
 else

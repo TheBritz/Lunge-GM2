@@ -32,6 +32,10 @@ m_aiStatePreviousFrame = m_aiState;
 m_aiBehaviors = ds_map_create();
 m_aiStateFrames = 0;
 
+m_aiAttackDelayRange = undefined;
+m_aiAttackDelayTimer = -1;
+m_aiAttackCooldownTimer = -1;
+
 m_aiBehaviors[? EnemyAIStates.Idling] = EnemyAIBase_BehaviorIdling_scr;
 m_aiBehaviors[? EnemyAIStates.PursuingAntagonist] = EnemyAIBase_BehaviorPursuing_scr;
 m_aiBehaviors[? EnemyAIStates.EngagingAntagonist] = EnemyAIBase_BehaviorEngaging_scr;
@@ -103,6 +107,7 @@ m_combatLeapAttackSpeedStationaryModifier = undefined;
 //A multiple of the max speed to use when dashing
 m_combatDashSpeedModifier = 1;
 m_combatEngagingSpeedModifier = .75;
+
 
 //Member variable assigned by the Engagement Controller 
 m_engagementPosition = undefined;

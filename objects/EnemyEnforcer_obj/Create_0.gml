@@ -9,6 +9,7 @@ m_slopeStickFactor = .7;
 //AI members
 m_aiAttackDistance = 42;
 m_aiEngageDistance = 450;
+m_aiAttackDelayRange = array(round(room_speed/3), round(room_speed*2));
 
 //Combatant members
 m_combatantHp = 2;

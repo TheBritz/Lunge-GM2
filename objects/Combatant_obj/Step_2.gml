@@ -55,9 +55,11 @@ for(var i = 0; i < ds_list_size(m_hitboxesAttack); i++)
     
     with(hitbox)
     {
-      var hitList = 
-        instance_place_list(x, y, other.m_combatantAttackableType, 1000);
-      for(var ii = 0; ii < ds_list_size(hitList); ii++)
+      var hitList = global.ReusableHitList;
+      ds_list_clear(hitList);
+      var hitCount = 
+        instance_place_list(x, y, other.m_combatantAttackableType, hitList, false);
+      for(var ii = 0; ii < hitCount; ii++)
       {
         var hit = hitList[| ii];
         if(Hitbox_CanHit_scr(hitbox, hit))
