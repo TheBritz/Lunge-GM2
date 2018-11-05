@@ -20,6 +20,11 @@ enum EventMembers
   ID
 }
 
+//Apply animation frame speed adjustment
+m_isUsingFrameSpeedAdjustedAnimations = true;
+m_imageSpeedCore = undefined;
+
 //For debug purposes
 m_frameNumber = 0;
+last_image = image_index;
 

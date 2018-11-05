@@ -34,7 +34,8 @@ if(spd > 0)
   spd *= -1;
 }
 
-Movable_ChangeVSpeed_scr(spd * speedMod);
+var jumpSpeed = spd * speedMod * GameController_GetFramerateSpeedAdjustment_scr();
+Movable_ChangeVSpeed_scr(jumpSpeed);
 
 if(!is_undefined(m_audioJump))
 {

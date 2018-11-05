@@ -18,6 +18,11 @@ if(!m_movementSuppressGravity)
   {
     terminalVelocity = m_movementAirFallMaxSpeedVert;
   }
+  
+  if(m_impactVelV == 0)
+  {
+    var test = "test";
+  }
     
   Movable_ChangeVSpeed_scr(terminalVelocity, grav);
 }

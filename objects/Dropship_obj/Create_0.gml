@@ -2,7 +2,7 @@
 event_inherited();
 
 //Movable
-m_solidObservant = false;
+m_isSolidObservant = false;
 
 //Dropship members
 m_deploying = false;

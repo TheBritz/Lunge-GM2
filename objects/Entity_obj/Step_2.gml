@@ -100,3 +100,5 @@ if(effectiveIndex != m_lastImageIndex || isNewSpriteIndex)
   m_lastSpriteIndex = sprite_index;
 }
 
+image_speed = m_imageSpeedCore;
+

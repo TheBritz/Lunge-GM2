@@ -2049,6 +2049,14 @@
             }
         },
         {
+            "Key": "89308084-8b6c-4e53-9a7c-573884796a30",
+            "Value": {
+                "id": "908537e3-cd59-4610-837a-0858ca5e0644",
+                "resourcePath": "views\\89308084-8b6c-4e53-9a7c-573884796a30.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "89f42f02-a01f-466b-b66d-cef1726fcf5b",
             "Value": {
                 "id": "8720f7e1-202c-4d2d-962f-4cf0e7ca3622",
@@ -2353,6 +2361,14 @@
             }
         },
         {
+            "Key": "9f52dc77-9197-490f-a579-29ccb4273fa2",
+            "Value": {
+                "id": "fcf26e15-b203-42b2-b7fe-5a896cf54605",
+                "resourcePath": "scripts\\Movable_GetVSpeedEffective_scr\\Movable_GetVSpeedEffective_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9f694f5a-cffc-40fe-ac4a-b8606aa284d5",
             "Value": {
                 "id": "354262ca-6069-4555-9adc-d4e2ed00f8db",
@@ -2438,6 +2454,14 @@
                 "id": "564268d6-5dcd-4011-8ecb-9b283858e415",
                 "resourcePath": "sprites\\background0\\background0.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6157480-4c6f-441e-80af-e42883f7968c",
+            "Value": {
+                "id": "47d25daa-aeb4-498a-8c04-3686202e61a2",
+                "resourcePath": "objects\\FrameRateDeterminer_obj\\FrameRateDeterminer_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2566,6 +2590,14 @@
                 "id": "b2b5af9a-16fa-427a-a56d-554af27a96cd",
                 "resourcePath": "objects\\EnemyBas\\EnemyBas.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "acdc3a8c-d374-4515-9d0f-24be1d51e012",
+            "Value": {
+                "id": "dadf96ab-2836-413f-97ca-3a658cb1c05b",
+                "resourcePath": "scripts\\GameController_GetFramerateSpeedAdjustment_scr\\GameController_GetFramerateSpeedAdjustment_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2862,6 +2894,14 @@
                 "id": "7a6f6ff9-0e11-4bc4-a944-6e38212589b6",
                 "resourcePath": "views\\c3148de2-1f1e-45e4-ade0-5d779bb400d8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c35a2a1e-ed57-4969-80da-4b203bb99653",
+            "Value": {
+                "id": "7bb77537-b159-493c-8429-c92baa3b9e99",
+                "resourcePath": "scripts\\Movable_GetHSpeedEffective_scr\\Movable_GetHSpeedEffective_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3820,6 +3860,7 @@
         "585ef655-ea4e-44fd-bf38-a00a452fc927",
         "16b6bb42-12d0-4b42-9b81-d2723db3d885",
         "e5e50a8b-f786-4ba0-af2f-14549ae4810d",
+        "acdc3a8c-d374-4515-9d0f-24be1d51e012",
         "475596b6-966b-4563-8d7f-f35056a676d6",
         "da6c6592-1500-463b-b176-87e6a584f783",
         "480e1db8-7670-479d-8c1c-2e3c3bbe4c67",
@@ -3891,6 +3932,8 @@
         "89f42f02-a01f-466b-b66d-cef1726fcf5b",
         "1a2077ff-577d-47dc-8ef9-9c65be4fc094",
         "e2b8b9b9-bd5b-4814-8fd1-4c1b5f0a5513",
+        "c35a2a1e-ed57-4969-80da-4b203bb99653",
+        "9f52dc77-9197-490f-a579-29ccb4273fa2",
         "8790d073-3709-4f71-9c21-99388101ef76",
         "fe223e21-e16f-43dd-87d7-f0a1c713bf25",
         "34fe813e-89f7-4bf3-bfe3-b28784e9b808",

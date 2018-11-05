@@ -1,6 +1,6 @@
 /// @description Movable_ChangeVSpeed_scr(targetSpeed, acceleration)
 /// @param targetSpeed
-/// @param  acceleration
+/// @param acceleration
 
 var targetSpeed = argument[0];
 if(!is_undefined(targetSpeed))
@@ -11,6 +11,12 @@ if(!is_undefined(targetSpeed))
   
   if(!is_undefined(acceleration))
   {
+    if(m_movementUseFramerateAdjust)
+    {
+      acceleration *= GameController_GetFramerateSpeedAdjustment_scr() * global.AccelModMult;
+      acceleration += global.AccelModAdd;
+    }
+    
     if (m_velocityV < targetSpeed)
         m_velocityV = min(m_velocityV + acceleration, targetSpeed); 
     else

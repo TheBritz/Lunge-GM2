@@ -1,10 +1,12 @@
 /// @description Movable_HandleMovement_scr()
-if(m_solidObservant)
+if(m_isSolidObservant)
 {
   var xStart = x;
+  var velocityEffH = Movable_GetHSpeedEffective_scr(id);
+  var velocityEffV = Movable_GetVSpeedEffective_scr(id);
 
   // Handle sub-pixel movement
-  m_subH += m_velocityH;
+  m_subH += velocityEffH;
   var roundedVelocityH = round(m_subH);
   m_subH -= roundedVelocityH;
 
@@ -23,7 +25,7 @@ if(m_solidObservant)
       Movable_CheckSlopeCollision_scr();
       if(place_meeting(x + sign(roundedVelocityH), y, Solid_obj))
       {
-        m_collideH = sign(m_velocityH);
+        m_collideH = sign(velocityEffH);
         m_impactVelH = m_velocityH;
         m_velocityH = 0;
         break;
@@ -37,7 +39,7 @@ if(m_solidObservant)
     m_impactVelH = 0;
   }  
 
-  m_subV += m_velocityV;    
+  m_subV += velocityEffV;    
   var roundedVelocityV = round(m_subV);
   m_subV -= roundedVelocityV;
 
@@ -62,7 +64,7 @@ if(m_solidObservant)
       y += sign(roundedVelocityV); 
     else 
     {
-      m_collideV = sign(m_velocityV);
+      m_collideV = sign(velocityEffV);
       m_impactVelV = m_velocityV;
       m_velocityV = 0;
       break;
@@ -84,6 +86,6 @@ if(m_solidObservant)
 else
 {
   //Update position without regard to solids
-  x += m_velocityH;
-  y += m_velocityV;
+  x += velocityEffH;
+  y += velocityEffV;
 }

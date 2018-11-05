@@ -25,6 +25,12 @@ if(!is_undefined(acceleration))
     }
   }
   
+  if(m_movementUseFramerateAdjust)
+  {
+    acceleration *= GameController_GetFramerateSpeedAdjustment_scr() * global.AccelModMult;
+    acceleration += global.AccelModAdd;
+  }
+  
   if (m_velocityH < targetSpeed)
       m_velocityH = min(m_velocityH + acceleration, targetSpeed); 
   else

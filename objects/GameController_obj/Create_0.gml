@@ -1,5 +1,4 @@
 /// @description Init
-
 show_debug_overlay(debug_mode);
 
 //Globals

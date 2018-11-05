@@ -46,7 +46,7 @@ if(abs(spdH) > m_movementAirFallMaxSpeedHor)
 
 if(accelHor != 0)
 {
-  Movable_ChangeHSpeed_scr(m_movementAirFallMaxSpeedHor * m_facing * abs(speedMaxMod), m_movementAirFallAccelHor, 0);
+  Movable_ChangeHSpeed_scr(m_movementAirFallMaxSpeedHor * m_facing * abs(speedMaxMod), m_movementAirFallAccelHor * GameController_GetFramerateSpeedAdjustment_scr(), 0);
 }
 
 var jumpState = InputManager_GetButtonControlState_scr(ButtonControls.Jump);
