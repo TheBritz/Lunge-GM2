@@ -6,6 +6,15 @@ if(instance_exists(m_cameraTarget))
   var diffX = centerPointX - m_cameraTarget.x; 
   var snapRateHor = m_snapRateHor / GameController_GetFramerateSpeedAdjustment_scr();
   var snapRateVert = m_snapRateVert / GameController_GetFramerateSpeedAdjustment_scr();
+  
+  if(variable_instance_exists(m_cameraTarget, "m_facing"))
+  {
+    if(sign(diffX) != m_cameraTarget.m_facing)
+    {
+      snapRateHor *= m_snapRateHorFacingModMult;
+    }
+  }
+  
   if(abs(diffX) < m_settleThreshold)
   {
     __view_set( e__VW.XView, 0, m_cameraTarget.x - __view_get( e__VW.WView, 0 )/2 + adjustX );
