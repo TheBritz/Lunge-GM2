@@ -8,7 +8,8 @@ if(!is_undefined(extScript))
   script_execute(extScript);
 }
 
-m_behaviorTickrate = 6;
+m_behaviorTickrate = 1;
+m_engagementInPosition = false;
 
 if(instance_exists(m_aiTarget))
 {
@@ -32,7 +33,8 @@ if(instance_exists(m_aiTarget))
     var diffX = m_aiTarget.x - x;
     var diffXEngage = diffX + m_engagementPosition;
     m_facing = sign(diffX); 
-    if(abs(diffXEngage) > m_engagementPositionVariance)
+		var speedBuffer = abs(Movable_GetHSpeed_scr(id) * 3);
+    if(abs(diffXEngage) > m_engagementPositionVariance + speedBuffer)
     {
       var engageSpeed = m_movementGroundMaxSpeed * sign(diffXEngage); 
       if(sign(m_engagementPosition) == sign(diffX))
@@ -47,9 +49,15 @@ if(instance_exists(m_aiTarget))
       Movable_ChangeHSpeed_scr(engageSpeed, m_movementGroundAccelHor);
       EnemyAIBase_BehaviorSurveyForJumpNeed_scr();
     }
+		else if(abs(diffXEngage) > m_engagementPositionVariance)
+		{
+			var slowingSpeed = m_movementGroundMaxSpeed/2 * sign(diffXEngage); 
+			Movable_ChangeHSpeed_scr(slowingSpeed, m_movementGroundAccelHor);
+		}
     else
     {
       Movable_ChangeHSpeed_scr(0, m_movementGroundAccelHor);
+			m_engagementInPosition = true;
     }
   }
   
@@ -57,8 +65,8 @@ if(instance_exists(m_aiTarget))
   if(dist > m_aiDisengageDistance)
   {
     //Disengage
-    m_aiState = EnemyAIStates.PursuingAntagonist;
-    m_aiAttackDelayTimer = -1;
+    //m_aiState = EnemyAIStates.PursuingAntagonist;
+    //m_aiAttackDelayTimer = -1;
   }
 }
 else

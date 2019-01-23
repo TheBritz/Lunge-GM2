@@ -19,6 +19,8 @@ enum EnemyAIStates
   Fleeing
 }
 
+m_movementGroundAccelHor = .7;
+
 //Extensions
 m_behaviorExtensions = undefined;
 m_behaviorTicker = 0;
@@ -40,6 +42,7 @@ m_aiBehaviors[? EnemyAIStates.Idling] = EnemyAIBase_BehaviorIdling_scr;
 m_aiBehaviors[? EnemyAIStates.PursuingAntagonist] = EnemyAIBase_BehaviorPursuing_scr;
 m_aiBehaviors[? EnemyAIStates.EngagingAntagonist] = EnemyAIBase_BehaviorEngaging_scr;
 m_aiBehaviors[? EnemyAIStates.LeapAttacking] = EnemyAIBase_BehaviorLeapAttack_scr;
+m_aiBehaviors[? EnemyAIStates.Attacking] = EnemyAIBase_BehaviorAttacking_scr;
 
 //Triggers - these are eval scripts that run and when a set of conditions are
 //satisfied, add one or more ai behaviors to the AI Behavior list
@@ -112,6 +115,7 @@ m_combatEngagingSpeedModifier = .75;
 //Member variable assigned by the Engagement Controller 
 m_engagementPosition = undefined;
 m_engagementPositionVariance = 5;
+m_engagementInPosition = false;
 
 
 

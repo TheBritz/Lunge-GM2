@@ -21,8 +21,11 @@ if(instance_exists(controller))
     {
       engagementList = m_engagementMap[? engagerType];
     }
-      
-    ds_list_add(engagementList, engager);
+    
+		var pos = ds_list_find_index(engagementList, engager);
+		EngagementController_ReleasePosition_scr(engager);
+    ds_list_delete(engagementList, pos);
+		
     return true;
   }
   

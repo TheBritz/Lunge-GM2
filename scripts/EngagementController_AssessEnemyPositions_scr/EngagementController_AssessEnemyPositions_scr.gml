@@ -59,16 +59,49 @@ if(!is_undefined(enemyList))
   }
   #endregion
   
+	#region Move Engagers forward (if close-combat)
+	var posOpenRight = EngagementController_GetClosestOpenPosition_scr(Direction2D.Right);
+	if(posOpenRight == 1)
+  {
+		var test = "test";
+	}
+	var numberOfEnemies = ds_map_size(m_engagementPositionAssignementsByPos);
+	for(var i = 1; i <= numberOfEnemies; i++)
+	{
+		if(ds_map_exists(m_engagementPositionAssignementsByPos, i))
+		{
+			var enemy = m_engagementPositionAssignementsByPos[? i];
+			if(posOpenRight < i)
+			{
+				EngagementController_AssignPosition_scr(enemy, posOpenRight);
+			}
+		}
+	}
+	#endregion
+	
   #region Control Melee attacks from closest Fighters
   if(ds_map_exists(m_engagementPositionAssignementsByPos, -1))
   {
-    var closestLeft = m_engagementPositionAssignementsByPos[? -1];
-    
+    var closest = m_engagementPositionAssignementsByPos[? -1];
+    if(instance_exists(closest) && closest.m_engagementInPosition)
+		{
+			if(closest.m_aiState == EnemyAIStates.EngagingAntagonist)
+		  {
+			  closest.m_aiState = EnemyAIStates.Attacking;
+			}
+		}
   }
   
   if(ds_map_exists(m_engagementPositionAssignementsByPos, 1))
   {
-    var closestRight = m_engagementPositionAssignementsByPos[? 1]; 
+    var closest = m_engagementPositionAssignementsByPos[? 1]; 
+		if(instance_exists(closest) && closest.m_engagementInPosition)
+		{
+			if(closest.m_aiState == EnemyAIStates.EngagingAntagonist)
+		  {
+			  closest.m_aiState = EnemyAIStates.Attacking;
+			}
+		}
   }
   #endregion
   

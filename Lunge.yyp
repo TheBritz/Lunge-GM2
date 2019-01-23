@@ -425,6 +425,14 @@
             }
         },
         {
+            "Key": "20b410de-c77d-4296-8c06-cc64a41157fa",
+            "Value": {
+                "id": "6c386378-d7c3-486a-bcf3-56c57b711da5",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_60_spr\\Player_Ground_Stationary_Attacking_60_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20e36951-2144-4b96-a383-e49d378a3992",
             "Value": {
                 "id": "b321e172-f15f-4c55-92e6-3e085e72f4e2",
@@ -517,6 +525,14 @@
             "Value": {
                 "id": "6db822a0-2694-4bc0-92f6-292416a67c84",
                 "resourcePath": "scripts\\EngagementController_GetTargetController_scr\\EngagementController_GetTargetController_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2923ea54-4fc4-449a-b32f-a79ed1385ced",
+            "Value": {
+                "id": "dc5e8548-6ea8-42e9-b78f-84f916d41d15",
+                "resourcePath": "scripts\\PlayerBase_GetSpearAimRelativeDirection_scr\\PlayerBase_GetSpearAimRelativeDirection_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1233,6 +1249,14 @@
             }
         },
         {
+            "Key": "554459c0-b4ae-47a2-aee8-54b3a3873a16",
+            "Value": {
+                "id": "10a24bf9-5265-4dcd-8253-9ebf90e092d1",
+                "resourcePath": "sprites\\EnforcerShielder_Ground_Stationary_Ready_spr1\\EnforcerShielder_Ground_Stationary_Ready_spr1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5559f5c3-2730-4e9a-a8a4-768db8f47224",
             "Value": {
                 "id": "1af912d7-f340-42f9-82f1-613ba60aa15d",
@@ -1406,6 +1430,14 @@
                 "id": "c2b461cb-619b-46b5-b50f-5cdb1e5107b9",
                 "resourcePath": "scripts\\Combatant_AudioCreateEmitters_scr\\Combatant_AudioCreateEmitters_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5c273619-22c0-406a-86f4-aae1b938c4f7",
+            "Value": {
+                "id": "683f13c6-688c-4525-9e5a-3e4c2d983ace",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_Behind_spr\\Player_Ground_Stationary_Attacking_Behind_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1825,6 +1857,14 @@
             }
         },
         {
+            "Key": "7d1d32b2-9264-49c7-8a52-1f7239a4a6e1",
+            "Value": {
+                "id": "3e8fff16-565f-4864-9d6a-33ae7f7e0f56",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_22_spr\\Player_Ground_Stationary_Attacking_22_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7dfa75c9-a486-4a8d-92a3-9b1aba193de7",
             "Value": {
                 "id": "1d115b53-1701-4397-a1aa-b1c2ae597600",
@@ -2153,6 +2193,14 @@
             }
         },
         {
+            "Key": "90e1bc5c-3a02-4c21-b9f5-984fff39a788",
+            "Value": {
+                "id": "419e0130-ead3-4ed8-ba8b-80f734cf1980",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_45_spr\\Player_Ground_Stationary_Attacking_45_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "913d420f-bdea-475b-8c23-1bb739881414",
             "Value": {
                 "id": "8cf97e2b-f715-4134-ac6f-332e5c27064d",
@@ -2222,6 +2270,14 @@
                 "id": "dd7abb4c-e87e-44fc-aae3-5fe4551908c1",
                 "resourcePath": "sprites\\PlayerJumpCrouch_spr\\PlayerJumpCrouch_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95711f1b-ecaa-418d-aab6-951576c3493a",
+            "Value": {
+                "id": "629dd98a-12e2-4c0c-9bba-c1ee048aa73e",
+                "resourcePath": "scripts\\PlayerBase_BuildDirectionalAttackMap_scr\\PlayerBase_BuildDirectionalAttackMap_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2477,6 +2533,14 @@
             "Value": {
                 "id": "9ba11843-d400-4516-953e-604dd36ebf36",
                 "resourcePath": "sprites\\BloodLettingChamber_spr\\BloodLettingChamber_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a70d8f45-8ded-43f7-89be-82c80fe4a44f",
+            "Value": {
+                "id": "88b2ee03-aaae-4fd5-8cda-2ebb54bd3705",
+                "resourcePath": "sprites\\PlayerCyberneticArm_spr\\PlayerCyberneticArm_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3380,6 +3444,14 @@
             }
         },
         {
+            "Key": "df70c740-9aa4-4902-a830-a812e7b0adf2",
+            "Value": {
+                "id": "d7fbaf80-9d2e-4751-9878-78a748e6cc0d",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_180_spr\\Player_Ground_Stationary_Attacking_180_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dfb11e4b-daee-4eea-9084-c256e52a11ec",
             "Value": {
                 "id": "4cbfec78-66c0-40d6-945d-99298b239071",
@@ -3473,6 +3545,14 @@
                 "id": "0ff7bee9-8947-45b6-98e5-546222641cfc",
                 "resourcePath": "scripts\\PlayerBase_StateTransitionWallSlide_scr\\PlayerBase_StateTransitionWallSlide_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e58e9d40-089f-41f3-9800-34781d034bb7",
+            "Value": {
+                "id": "4985be28-4532-4902-842b-a94e45d18255",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_30_spr\\Player_Ground_Stationary_Attacking_30_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3660,6 +3740,14 @@
             }
         },
         {
+            "Key": "f34f6ab0-5898-4036-a721-123c4d6063d3",
+            "Value": {
+                "id": "0d9c5d11-295b-4b97-a9aa-277a3d4aa599",
+                "resourcePath": "sprites\\EnforcerGunner_Ground_Stationary_Ready_spr\\EnforcerGunner_Ground_Stationary_Ready_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3803611-6231-4b0a-8583-222761c52c12",
             "Value": {
                 "id": "8a9f3de8-76fd-46b0-99bc-dadd41615142",
@@ -3745,6 +3833,14 @@
                 "id": "37f535ab-2376-4aab-8faa-4ae723b0a334",
                 "resourcePath": "views\\f9f68b15-d9ed-4497-b62f-714606ff8eff.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb41b37f-60a9-4943-81f8-af1e9bd83b1c",
+            "Value": {
+                "id": "0bf88b1f-e962-4415-a769-8d2278d8d66e",
+                "resourcePath": "sprites\\EnforcerGunner_Ground_Stationary_Aiming_spr\\EnforcerGunner_Ground_Stationary_Aiming_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3941,6 +4037,7 @@
         "9c0207b6-fd75-42e9-8af5-4e04e29effba",
         "ddd83979-031d-4219-a0eb-dea17c1b326b",
         "386a80ff-b892-463f-b5b5-11591b5b2f93",
+        "95711f1b-ecaa-418d-aab6-951576c3493a",
         "494be3cb-555e-4023-97a3-8a0bfe13f485",
         "a8f12fcc-d102-421e-84ad-b66f7bfc1799",
         "e4b87ca8-4362-4c3c-8058-771c1054fad8",
@@ -3950,6 +4047,7 @@
         "42791338-9419-4f79-a30c-ba854efb90cb",
         "88e91741-1913-41b6-8831-6443da0ddf3b",
         "0c9a9850-fb2d-4276-834d-fa049229e1b5",
+        "2923ea54-4fc4-449a-b32f-a79ed1385ced",
         "9ea07c97-82de-468d-8c17-c776a2cb713a",
         "5559f5c3-2730-4e9a-a8a4-768db8f47224",
         "77ea8464-957b-444f-871f-e8ad5851fd0b",

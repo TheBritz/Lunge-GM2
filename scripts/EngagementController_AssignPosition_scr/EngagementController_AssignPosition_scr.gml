@@ -1,3 +1,6 @@
+/// @param enemy
+/// @param position
+
 var enemy = argument0;
 var position = argument1;
 

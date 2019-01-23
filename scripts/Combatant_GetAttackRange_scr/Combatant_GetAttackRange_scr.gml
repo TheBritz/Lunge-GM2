@@ -1,3 +1,5 @@
+///@param attackSprite
+
 var attackSprite = argument0;
 
 //Range is the distance from the x origin to the edge of the sprite

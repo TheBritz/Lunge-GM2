@@ -56,6 +56,27 @@ m_combatantSpriteFall = PlayerFall_spr;
 m_combatantSpriteRun = PlayerRun_spr;
 m_playerSpriteWallCling = PlayerWallCling_spr;
 m_combatantSpriteGroundAttack = Player_Ground_Stationary_Attacking_spr;
+enum AttackDirection
+{
+	Forward,
+	Behind,
+	Up,
+	Down
+}
+m_playerSpriteDirectionalGroundAttacksAlt = PlayerBase_BuildDirectionalAttackMap_scr(Player_Ground_Stationary_Attacking_spr, 1, "_spr");
+
+var size = ds_map_size(m_playerSpriteDirectionalGroundAttacksAlt);
+var spr = ds_map_find_first(m_playerSpriteDirectionalGroundAttacksAlt);
+for(var i = 0; i < size; i++)
+{
+	Entity_RegisterAnimationEvent_scr
+	  (id, spr, 1, PlayerBase_Ground_Stationary_Attack_scr, undefined);
+	spr = ds_map_find_next(m_playerSpriteDirectionalGroundAttacksAlt, spr);
+}
+
+m_playerSpriteDirectionalGroundAttacks = ds_map_create();
+m_playerSpriteDirectionalGroundAttacks[? AttackDirection.Forward] = Player_Ground_Stationary_Attacking_spr;
+m_playerSpriteDirectionalGroundAttacks[? AttackDirection.Behind] = Player_Ground_Stationary_Attacking_Behind_spr;
 m_combatantImageSpeedGroundAttack = .5;
 m_combatantSpriteJumpCrouch = PlayerJumpCrouch_spr;
 m_combatantSpriteDirectionChange = PlayerRunDirectionChange_spr;
@@ -112,7 +133,9 @@ Entity_RegisterAnimationEvent_scr(id, PlayerRun_spr,
   7, PlayerBase_ThrowMovmentDust_scr, id);
 
 //Neutral Ground Attack animation event
-Entity_RegisterAnimationEvent_scr(id, Player_Ground_Stationary_Attacking_spr,
+//Entity_RegisterAnimationEvent_scr(id, Player_Ground_Stationary_Attacking_spr,
+//  1, PlayerBase_Ground_Stationary_Attack_scr, undefined);
+Entity_RegisterAnimationEvent_scr(id, Player_Ground_Stationary_Attacking_Behind_spr,
   1, PlayerBase_Ground_Stationary_Attack_scr, undefined);
   
   

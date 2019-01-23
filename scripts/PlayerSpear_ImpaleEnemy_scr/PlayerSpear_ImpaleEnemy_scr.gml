@@ -15,6 +15,7 @@ with(enemy)
   if(m_skewerable)
   {
     var sprite = sprite_index;
+		EngagementController_DisengageTarget_scr(enemy, enemy.m_aiTarget);
     instance_change(EnemySkewered_obj, false);
     sprite_index = sprite;
     image_speed = 0;

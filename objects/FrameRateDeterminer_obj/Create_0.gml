@@ -9,4 +9,4 @@ m_calcCounter = 0;
 m_calcSampleSize = 60;
 alarm[0] = m_calcInterval;
 
-m_commonRefreshRates = array(24, 30, 60, 75, 96, 120, 144, 165, 240);
+m_commonRefreshRates = array(24, 30, 60, 96, 120, 144, 165, 240);

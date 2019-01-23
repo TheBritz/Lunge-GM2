@@ -15,10 +15,7 @@ if(ds_list_size(m_yPreviousList) > m_maximumPreviousTracked)
 ///Monitor for animation events
 //Check to see if the image index has changed (this doesn't need to run unless
 //the image index or the sprite index has iterated)
-if(sprite_index == Player_Ground_Stationary_Attacking_spr)
-{
-  var test = "test";
-}
+
 var effectiveIndex = floor(image_index);
 var maxIndex = sprite_get_number(sprite_index);
 if(effectiveIndex > maxIndex - 1)

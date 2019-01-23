@@ -59,8 +59,14 @@ if(instance_exists(m_spear))
       if(abs(Movable_GetHSpeed_scr(id)) < (m_movementGroundMaxSpeed * 
         m_combatantDashAttackSpeedThreshold) && m_spearCanLunge)
       {
+				var spearDir = floor(PlayerBase_GetSpearAimRelativeDirection_scr(id));
+				var attackSprite = m_combatantSpriteGroundAttack;
+				if(ds_map_exists(m_playerSpriteDirectionalGroundAttacksAlt, spearDir))
+				{
+					attackSprite = m_playerSpriteDirectionalGroundAttacksAlt[? spearDir];
+				}
         Combatant_PlaySoundOn_scr(id, Stab_snd, AudioEmitterTypes.Attack, false, 1);
-        sprite_index = m_combatantSpriteGroundAttack;
+        sprite_index = attackSprite;
         image_speed = m_combatantImageSpeedGroundAttack;
         m_spearIsLunging = true;
         alarm[PlayerBaseAlarms.ResetIsLunging] = round(sprite_get_number(sprite_index) / image_speed);
