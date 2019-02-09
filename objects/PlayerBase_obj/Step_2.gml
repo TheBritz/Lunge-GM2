@@ -56,22 +56,30 @@ if(instance_exists(m_spear))
   {
     if(is_undefined(m_spear.m_imbedPointX))
     {
-      if(abs(Movable_GetHSpeed_scr(id)) < (m_movementGroundMaxSpeed * 
-        m_combatantDashAttackSpeedThreshold) && m_spearCanLunge)
-      {
-				var spearDir = floor(PlayerBase_GetSpearAimRelativeDirection_scr(id));
-				var attackSprite = m_combatantSpriteGroundAttack;
-				if(ds_map_exists(m_playerSpriteDirectionalGroundAttacksAlt, spearDir))
+      if(m_spearCanLunge)
+			{
+				var spd = abs(Movable_GetHSpeed_scr(id));
+				if(spd < m_movementGroundMaxSpeed * m_combatantDashAttackSpeedThreshold)
+	      {
+					var spearDir = floor(PlayerBase_GetSpearAimRelativeDirection_scr(id));
+					var attackSprite = m_combatantSpriteGroundAttack;
+					if(ds_map_exists(m_playerSpriteDirectionalGroundAttacksAlt, spearDir))
+					{
+						attackSprite = m_playerSpriteDirectionalGroundAttacksAlt[? spearDir];
+					}
+	        Combatant_PlaySoundOn_scr(id, Stab_snd, AudioEmitterTypes.Attack, false, 1);
+	        sprite_index = attackSprite;
+	        image_speed = m_combatantImageSpeedGroundAttack;
+	        m_isAttacking = true;
+					//m_spearIsLunging = true;
+	        alarm[PlayerBaseAlarms.ResetIsLunging] = floor(sprite_get_number(sprite_index) / image_speed);
+	        m_combatantState = CombatantStates.GroundAttack;
+	      }
+				else
 				{
-					attackSprite = m_playerSpriteDirectionalGroundAttacksAlt[? spearDir];
+					//Sprint Attack
 				}
-        Combatant_PlaySoundOn_scr(id, Stab_snd, AudioEmitterTypes.Attack, false, 1);
-        sprite_index = attackSprite;
-        image_speed = m_combatantImageSpeedGroundAttack;
-        m_spearIsLunging = true;
-        alarm[PlayerBaseAlarms.ResetIsLunging] = round(sprite_get_number(sprite_index) / image_speed);
-        m_combatantState = CombatantStates.GroundAttack;
-      }
+			}
     }
     else
     {
@@ -168,7 +176,7 @@ if(instance_exists(m_spear))
     m_velocityV = 0;
   }
   
-  if(!m_spearIsLunging && !m_movementGroundActivelyMoving)
+  if(!m_isAttacking && !m_movementGroundActivelyMoving && Movable_IsGrounded_scr(id))
   {
     var spearFacing = angle_get_horizontal_direction(m_spear.image_angle);
     if(m_facing != spearFacing && spearFacing != 0)

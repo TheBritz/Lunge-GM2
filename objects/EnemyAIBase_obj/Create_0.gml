@@ -114,7 +114,7 @@ m_combatEngagingSpeedModifier = .75;
 
 //Member variable assigned by the Engagement Controller 
 m_engagementPosition = undefined;
-m_engagementPositionVariance = 5;
+m_engagementPositionVariance = 15;
 m_engagementInPosition = false;
 
 

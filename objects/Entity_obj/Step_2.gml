@@ -30,6 +30,11 @@ if(isNewSpriteIndex)
   m_lastImageIndex = effectiveIndex;
 }
 
+if(sprite_index == Player_Ground_Stationary_Attacking_spr)
+{
+  var test = "test";
+}
+
 if(effectiveIndex != m_lastImageIndex || isNewSpriteIndex)
 { 
   if(!is_undefined(m_animationEventsMap))

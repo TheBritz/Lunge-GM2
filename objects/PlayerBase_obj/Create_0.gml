@@ -24,6 +24,7 @@ m_spearLungeAngle = undefined;
 m_spearHoldX = 0;
 m_spearHoldY = 0;
 m_spearIsLunging = false;
+m_isAttacking = false;
 m_spearLungeTime = 8;
 m_spearLungeDelay = 12;
 m_spearCanLunge = true;
@@ -63,15 +64,19 @@ enum AttackDirection
 	Up,
 	Down
 }
+
 m_playerSpriteDirectionalGroundAttacksAlt = PlayerBase_BuildDirectionalAttackMap_scr(Player_Ground_Stationary_Attacking_spr, 1, "_spr");
 
 var size = ds_map_size(m_playerSpriteDirectionalGroundAttacksAlt);
-var spr = ds_map_find_first(m_playerSpriteDirectionalGroundAttacksAlt);
+var key = ds_map_find_first(m_playerSpriteDirectionalGroundAttacksAlt);
+var spr = m_playerSpriteDirectionalGroundAttacksAlt[? key];
 for(var i = 0; i < size; i++)
 {
+	var spriteName = sprite_get_name(spr);
 	Entity_RegisterAnimationEvent_scr
 	  (id, spr, 1, PlayerBase_Ground_Stationary_Attack_scr, undefined);
-	spr = ds_map_find_next(m_playerSpriteDirectionalGroundAttacksAlt, spr);
+	key = ds_map_find_next(m_playerSpriteDirectionalGroundAttacksAlt, key);
+	spr = m_playerSpriteDirectionalGroundAttacksAlt[? key];
 }
 
 m_playerSpriteDirectionalGroundAttacks = ds_map_create();

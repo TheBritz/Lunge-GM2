@@ -1,5 +1,6 @@
 /// @description Reset m_spearIslunging
 m_spearIsLunging = false;
+m_isAttacking = false;
 m_spearLungeAdjust = 0;
 
 sprite_index = m_combatantSpriteIdle;

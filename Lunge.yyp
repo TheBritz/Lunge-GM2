@@ -121,6 +121,14 @@
             }
         },
         {
+            "Key": "08992871-1869-4b59-9b90-f248e7be2d4f",
+            "Value": {
+                "id": "84e3a13e-b677-4353-a233-17d22ee90550",
+                "resourcePath": "scripts\\Movable_IsGrounded_scr\\Movable_IsGrounded_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "08d24981-c472-405d-a64b-cee434cd3690",
             "Value": {
                 "id": "da58eb83-44da-4f96-bddf-53f2f18390cd",
@@ -806,6 +814,14 @@
                 "id": "06929d28-4196-4e24-9355-ffe56700757d",
                 "resourcePath": "scripts\\@instance_create\\instance_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "360a8b6a-6474-4dfc-b63a-937278d309b4",
+            "Value": {
+                "id": "74fd9f03-935e-4d19-b48c-2f914d5c0c3b",
+                "resourcePath": "views\\360a8b6a-6474-4dfc-b63a-937278d309b4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1553,6 +1569,14 @@
             }
         },
         {
+            "Key": "641143be-cdb9-4477-8c24-6e1f57250e2b",
+            "Value": {
+                "id": "7342d8c6-d98f-4058-8453-bed545a95b3d",
+                "resourcePath": "scripts\\PlayerBase_ResetAttack_scr\\PlayerBase_ResetAttack_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "64718551-7e49-41c7-88d2-86537d905c19",
             "Value": {
                 "id": "df01416c-08e5-47a6-b293-89358aa9e34c",
@@ -1726,6 +1750,14 @@
                 "id": "7ac6df55-6083-4168-8b9e-32ce1d087e92",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7076a3c9-3cfd-4f99-9b49-29329f15099a",
+            "Value": {
+                "id": "e5b2b629-c36f-4d97-b403-1124bfa4a998",
+                "resourcePath": "scripts\\EventManager_AddEvent_scr\\EventManager_AddEvent_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3009,6 +3041,14 @@
             }
         },
         {
+            "Key": "c68f2cf9-d4d8-4c30-a6fb-ea0354c4fc84",
+            "Value": {
+                "id": "50d6aed7-2746-4199-817f-e5dc2020d5e5",
+                "resourcePath": "scripts\\PlayerBase_TerminateAttack_scr\\PlayerBase_TerminateAttack_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6b5db2a-e569-4d04-af17-94a00e53fb97",
             "Value": {
                 "id": "bcde143f-f729-4990-a178-cb70bd68ee5a",
@@ -3420,6 +3460,14 @@
             }
         },
         {
+            "Key": "de27df29-eb6f-4966-95f5-6c743964b58c",
+            "Value": {
+                "id": "287e976d-6e53-455d-96c2-d66b8834c5b9",
+                "resourcePath": "views\\de27df29-eb6f-4966-95f5-6c743964b58c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "de2d472a-5848-4b95-948d-36d3a3a83b2f",
             "Value": {
                 "id": "0663815a-95db-4ceb-8c91-9bc2bedec6f2",
@@ -3577,6 +3625,14 @@
                 "id": "886ecaea-a6f7-4718-9cd5-6d0326df9ca9",
                 "resourcePath": "scripts\\ConsoleMetadataSetRoomSpeed_scr\\ConsoleMetadataSetRoomSpeed_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e70301dd-2c4b-419b-8047-94dcb7e8ae73",
+            "Value": {
+                "id": "9abbc010-71fc-4d42-9983-66145c6656ef",
+                "resourcePath": "objects\\EventManager_obj\\EventManager_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3996,6 +4052,7 @@
         "3570315c-ac91-473a-9b32-6aa98255c198",
         "91fa6c0f-9d86-4f38-ad05-0075e705b720",
         "9ecccdec-b791-4eb1-8ed8-55968a2a65c6",
+        "7076a3c9-3cfd-4f99-9b49-29329f15099a",
         "cc0003ef-3ee6-40de-8380-d9b7f22d48f1",
         "8908f116-df6b-4cbe-adf7-bd5b5075c05d",
         "29e0b9d3-0580-4f08-b6ca-e59530a8380c",
@@ -4038,6 +4095,8 @@
         "ddd83979-031d-4219-a0eb-dea17c1b326b",
         "386a80ff-b892-463f-b5b5-11591b5b2f93",
         "95711f1b-ecaa-418d-aab6-951576c3493a",
+        "c68f2cf9-d4d8-4c30-a6fb-ea0354c4fc84",
+        "641143be-cdb9-4477-8c24-6e1f57250e2b",
         "494be3cb-555e-4023-97a3-8a0bfe13f485",
         "a8f12fcc-d102-421e-84ad-b66f7bfc1799",
         "e4b87ca8-4362-4c3c-8058-771c1054fad8",
@@ -4060,6 +4119,7 @@
         "8790d073-3709-4f71-9c21-99388101ef76",
         "fe223e21-e16f-43dd-87d7-f0a1c713bf25",
         "34fe813e-89f7-4bf3-bfe3-b28784e9b808",
+        "08992871-1869-4b59-9b90-f248e7be2d4f",
         "2ddca943-91fd-4673-830a-357718597db5",
         "06ea841e-3e30-48c0-b03f-98b5b6ddc289",
         "4c45e56e-b582-4a81-9380-d430bef2e6f9",
