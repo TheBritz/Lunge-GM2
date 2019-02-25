@@ -59,26 +59,47 @@ if(instance_exists(m_spear))
       if(m_spearCanLunge)
 			{
 				var spd = abs(Movable_GetHSpeed_scr(id));
-				if(spd < m_movementGroundMaxSpeed * m_combatantDashAttackSpeedThreshold)
-	      {
-					var spearDir = floor(PlayerBase_GetSpearAimRelativeDirection_scr(id));
-					var attackSprite = m_combatantSpriteGroundAttack;
-					if(ds_map_exists(m_playerSpriteDirectionalGroundAttacksAlt, spearDir))
-					{
-						attackSprite = m_playerSpriteDirectionalGroundAttacksAlt[? spearDir];
-					}
-	        Combatant_PlaySoundOn_scr(id, Stab_snd, AudioEmitterTypes.Attack, false, 1);
-	        sprite_index = attackSprite;
-	        image_speed = m_combatantImageSpeedGroundAttack;
-	        m_isAttacking = true;
-					//m_spearIsLunging = true;
-	        alarm[PlayerBaseAlarms.ResetIsLunging] = floor(sprite_get_number(sprite_index) / image_speed);
-	        m_combatantState = CombatantStates.GroundAttack;
-	      }
-				else
+        
+        var attacks, attackSprite;
+        var isGrounded = Movable_IsGrounded_scr(id);
+        if(isGrounded)
+        {
+          if(spd < m_movementGroundMaxSpeed * m_combatantDashAttackSpeedThreshold)
+          {
+            attacks = m_playerSpriteDirectionalGroundAttacksAlt;
+            attackSprite = m_combatantSpriteGroundAttack;
+          }
+          else
+          {
+            //Assign dashing sprite (temporarily using stationary)
+            attacks = m_playerSpriteDirectionalGroundAttacksAlt;
+            attackSprite = m_combatantSpriteGroundAttack;
+          }
+        }
+        else
+        {
+          attacks = m_playerSpriteDirectionalAirAttacksAlt;
+          attackSprite = m_combatantSpriteAirAttack;
+        }
+        
+				var spearDir = floor(PlayerBase_GetSpearAimRelativeDirection_scr(id));
+					
+				if(ds_map_exists(attacks, spearDir))
 				{
-					//Sprint Attack
+					attackSprite = attacks[? spearDir];
 				}
+	      Combatant_PlaySoundOn_scr(id, Stab_snd, AudioEmitterTypes.Attack, false, 1);
+	      sprite_index = attackSprite;
+        var sprSpd = sprite_get_speed(attackSprite);
+        var sprNumber = sprite_get_number(attackSprite);
+        var duration = sprNumber / sprSpd * 1000000;
+        EventManager_AddEvent_scr(PlayerBase_ResetSpearLunging_scr, duration, id);
+        
+	      //image_speed = m_combatantImageSpeedGroundAttack;
+	      m_isAttacking = true;
+				//m_spearIsLunging = true;
+	      alarm[PlayerBaseAlarms.ResetIsLunging] = floor(sprite_get_number(sprite_index) / image_speed);
+	      m_combatantState = CombatantStates.GroundAttack;	      
 			}
     }
     else

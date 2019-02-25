@@ -257,6 +257,14 @@
             }
         },
         {
+            "Key": "15066b6e-7ec6-4a27-be2d-af658680e270",
+            "Value": {
+                "id": "718a241a-a725-4e19-b72f-83f887858704",
+                "resourcePath": "sprites\\Player_Ground_Running_Attacking_spr\\Player_Ground_Running_Attacking_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "161d4575-85ed-4b2c-9081-00b1a1f92f6c",
             "Value": {
                 "id": "10dd246b-e007-4941-a67a-42fafa5e7956",
@@ -1729,6 +1737,14 @@
             }
         },
         {
+            "Key": "6f02a972-dff5-4988-b2ee-d10fa9822f93",
+            "Value": {
+                "id": "c6c37eb3-3c09-4d32-9d9a-f71612cfe904",
+                "resourcePath": "scripts\\PlayerBase_ResetSpearLunging_scr\\PlayerBase_ResetSpearLunging_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6f885f5a-d12d-4db1-a494-740d39203372",
             "Value": {
                 "id": "b53d3aa3-224f-4309-b359-285a40cfbb6a",
@@ -2481,6 +2497,14 @@
             }
         },
         {
+            "Key": "a02770cf-3bc8-43c0-b088-070df8411665",
+            "Value": {
+                "id": "5ca41295-7838-44d4-bbb8-dcaa39719a4c",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_337_spr\\Player_Ground_Stationary_Attacking_337_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a068cd72-0fbe-4545-aea1-52aca634721f",
             "Value": {
                 "id": "c93f9cc3-ed3c-401e-b6b2-091b1a973314",
@@ -2757,6 +2781,14 @@
             "Value": {
                 "id": "b946fc6d-75bd-4e42-892e-0f580d821151",
                 "resourcePath": "scripts\\Spark_BuildColorList_scr\\Spark_BuildColorList_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b0f53c2f-235f-4104-b45a-d38f3bf82ff8",
+            "Value": {
+                "id": "16a6c84a-1204-409e-a97c-0bd74302bb5a",
+                "resourcePath": "scripts\\EventManager_GetEventManager_scr\\EventManager_GetEventManager_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3345,6 +3377,14 @@
                 "id": "f572e806-507a-434f-b924-3343ccba3c8f",
                 "resourcePath": "objects\\SolidSloped_obj\\SolidSloped_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4511a39-bc25-4e5d-a2b4-b7c44ea6bb90",
+            "Value": {
+                "id": "adfaf407-8f10-478b-a1ac-c0b9be6ec59b",
+                "resourcePath": "sprites\\Player_Air_Attacking_spr\\Player_Air_Attacking_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4053,6 +4093,7 @@
         "91fa6c0f-9d86-4f38-ad05-0075e705b720",
         "9ecccdec-b791-4eb1-8ed8-55968a2a65c6",
         "7076a3c9-3cfd-4f99-9b49-29329f15099a",
+        "b0f53c2f-235f-4104-b45a-d38f3bf82ff8",
         "cc0003ef-3ee6-40de-8380-d9b7f22d48f1",
         "8908f116-df6b-4cbe-adf7-bd5b5075c05d",
         "29e0b9d3-0580-4f08-b6ca-e59530a8380c",
@@ -4097,6 +4138,7 @@
         "95711f1b-ecaa-418d-aab6-951576c3493a",
         "c68f2cf9-d4d8-4c30-a6fb-ea0354c4fc84",
         "641143be-cdb9-4477-8c24-6e1f57250e2b",
+        "6f02a972-dff5-4988-b2ee-d10fa9822f93",
         "494be3cb-555e-4023-97a3-8a0bfe13f485",
         "a8f12fcc-d102-421e-84ad-b66f7bfc1799",
         "e4b87ca8-4362-4c3c-8058-771c1054fad8",

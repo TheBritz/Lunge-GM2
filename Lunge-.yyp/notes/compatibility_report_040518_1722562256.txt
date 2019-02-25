@@ -1,0 +1,708 @@
+Converting GML script: ${project_dir}\scripts\InitKbdShiftMap_scr\InitKbdShiftMap_scr.gml
+Converted description /// @description InitKbdShiftMap_scr()
+Converted string - line 20: "\" -> "\\"
+Converted string - line 22: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\InitKbdKnownKeys_scr\InitKbdKnownKeys_scr.gml
+Converted description /// @description InitKbdKnownKeys_scr()
+Converted string - line 102: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\InitConsoleCommands_scr\InitConsoleCommands_scr.gml
+Converted description /// @description InitConsoleCommands_scr()
+
+Converting GML script: ${project_dir}\scripts\ParseConsoleCommand_scr\ParseConsoleCommand_scr.gml
+Converted description /// @description ParseConsoleCommand_scr(command)/// @param command
+
+Converting GML script: ${project_dir}\scripts\ExecuteConsoleCommand_scr\ExecuteConsoleCommand_scr.gml
+Converted description /// @description ExecuteConsoleCommand_scr(command, argArr)/// @param command
+/// @param  argArr
+
+Converting GML script: ${project_dir}\scripts\PrintConsoleLine_scr\PrintConsoleLine_scr.gml
+Converted description /// @description PrintConsoleLine_scr(text)/// @param text
+
+Converting GML script: ${project_dir}\scripts\SanitizeConsoleScriptName_scr\SanitizeConsoleScriptName_scr.gml
+Converted description /// @description SanitizeConsoleScriptName_scr(consoleScriptName)/// @param consoleScriptName
+
+Converting GML script: ${project_dir}\scripts\BuildIntellisenseList_scr\BuildIntellisenseList_scr.gml
+Converted description /// @description BuildIntellisenseList_scr(partialCommand)/// @param partialCommand
+
+Converting GML script: ${project_dir}\scripts\UpdateIntellisenseList_scr\UpdateIntellisenseList_scr.gml
+Converted description /// @description UpdateIntellisenseList_scr(partialCommand)/// @param partialCommand
+
+Converting GML script: ${project_dir}\scripts\GetConsoleMetadata_scr\GetConsoleMetadata_scr.gml
+Converted description /// @description GetConsoleMetadata_scr(consoleCommand)/// @param consoleCommand
+
+Converting GML script: ${project_dir}\scripts\GetValidatorMetadata_scr\GetValidatorMetadata_scr.gml
+Converted description /// @description GetValidatorMetadata_scr(paramType)/// @param paramType
+
+Converting GML script: ${project_dir}\scripts\ValidateArgs_scr\ValidateArgs_scr.gml
+Converted description /// @description ValidateArgs_scr(command, args, errorList, warningList)/// @param command
+/// @param  args
+/// @param  errorList
+/// @param  warningList
+
+Converting GML script: ${project_dir}\scripts\GetParamTypes_scr\GetParamTypes_scr.gml
+Converted description /// @description GetParamTypes_scr(command)/// @param command
+
+Converting GML script: ${project_dir}\scripts\GetSuggestionList_scr\GetSuggestionList_scr.gml
+Converted description /// @description GetSuggestionList_scr(commandString, paramIndex, paramType)/// @param commandString
+/// @param  paramIndex
+/// @param  paramType
+
+Converting GML script: ${project_dir}\scripts\BuildAssetLists_scr\BuildAssetLists_scr.gml
+Converted description /// @description BuildAssetLists_scr()
+
+Converting GML script: ${project_dir}\scripts\split\split.gml
+Converted description /// @description split(string, separator)/// @param string
+/// @param  separator
+
+Converting GML script: ${project_dir}\scripts\limit_value_magnitude\limit_value_magnitude.gml
+Converted description /// @description limit_value_magnitude(value, limit)/// @param value
+/// @param  limit
+
+Converting GML script: ${project_dir}\scripts\move_outside_solid_with_mask\move_outside_solid_with_mask.gml
+Converted description /// @description move_outside_solid_with_mask(direction, maxDist, maskIndex)/// @param direction
+/// @param  maxDist
+/// @param  maskIndex
+
+Converting GML script: ${project_dir}\scripts\move_until_solid\move_until_solid.gml
+Converted description /// @description move_until_solid(xStart, yStart, xEnd, yEnd, increment)/// @param xStart
+/// @param  yStart
+/// @param  xEnd
+/// @param  yEnd
+/// @param  increment
+
+Converting GML script: ${project_dir}\scripts\move_until_solid_with_mask\move_until_solid_with_mask.gml
+Converted description /// @description move_until_solid_with_mask(xStart, yStart, xEnd, yEnd, increment, maskIndex)/// @param xStart
+/// @param  yStart
+/// @param  xEnd
+/// @param  yEnd
+/// @param  increment
+/// @param  maskIndex
+
+Converting GML script: ${project_dir}\scripts\sprite_set_properties\sprite_set_properties.gml
+Converted description /// @description sprite_set_properties(sprite_index, image_index, image_speed)/// @param sprite_index
+/// @param  image_index
+/// @param  image_speed
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterInt_scr\ConsoleValidateParameterInt_scr.gml
+Converted description /// @description ConsoleValidateParameterInt_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataInt_scr\ConsoleValidateParameterMetadataInt_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataInt_scr(metadataMap)/// @param metadataMap
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterObjectInstance_scr\ConsoleValidateParameterObjectInstance_scr.gml
+Converted description /// @description ConsoleValidateParameterObjectInstance_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataObjectInstance_scr\ConsoleValidateParameterMetadataObjectInstance_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataObjectInstance_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterString_scr\ConsoleValidateParameterString_scr.gml
+Converted description /// @description ConsoleValidateParameterObjectInstance_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterObjectType_scr\ConsoleValidateParameterObjectType_scr.gml
+Converted description /// @description ConsoleValidateParameterObjectType_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataObjectType_scr\ConsoleValidateParameterMetadataObjectType_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataObjectType_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterRoom_scr\ConsoleValidateParameterRoom_scr.gml
+Converted description /// @description ConsoleValidateParameterRoom_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataRoom_scr\ConsoleValidateParameterMetadataRoom_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataRoom_scr(metadataMap)/// @param metadataMap
+
+Converting GML script: ${project_dir}\scripts\GetObjectTypes_scr\GetObjectTypes_scr.gml
+Converted description /// @description GetObjectTypes_scr(text, list)/// @param text
+/// @param  list
+
+Converting GML script: ${project_dir}\scripts\GetRooms_scr\GetRooms_scr.gml
+Converted description /// @description GetRooms_scr(text, valueList, displayList)/// @param text
+/// @param  valueList
+/// @param  displayList
+
+Converting GML script: ${project_dir}\scripts\ConsoleGoToRoom_scr\ConsoleGoToRoom_scr.gml
+Converted description /// @description ConsoleGoToRoom(room)/// @param room
+
+Converting GML script: ${project_dir}\scripts\ConsoleShowRooms_scr\ConsoleShowRooms_scr.gml
+Converted description /// @description ConsoleShowRooms_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataShowRooms_scr\ConsoleMetadataShowRooms_scr.gml
+Converted description /// @description ConsoleMetadataShowRooms_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleShowConsoleCommands_scr\ConsoleShowConsoleCommands_scr.gml
+Converted description /// @description ConsoleShowConsoleCommands_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleSpawnObject_scr\ConsoleSpawnObject_scr.gml
+Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description ConsoleSpawnObject_scr(index, number [optional], separation [optional])/// @param index
+/// @param  number [optional]
+/// @param  separation [optional]
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataSpawnObject_scr\ConsoleMetadataSpawnObject_scr.gml
+Converted description /// @description ConsoleMetadataShowRooms_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleDeleteObjectInstancesOfType_scr\ConsoleDeleteObjectInstancesOfType_scr.gml
+Converted description /// @description ConsoleDeleteObjectInstancesOfType_scr(objectIndex)/// @param objectIndex
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataDeleteObjectInstancesOfType_scr\ConsoleMetadataDeleteObjectInstancesOfType_scr.gml
+Converted description /// @description ConsoleMetadataDeleteObjectInstancesOfType_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleRestartRoom_scr\ConsoleRestartRoom_scr.gml
+Converted description /// @description ConsoleResetRoom_scr()
+
+Converting GML script: ${project_dir}\scripts\InputManager_GetButtonControlState_scr\InputManager_GetButtonControlState_scr.gml
+Converted description /// @description InputManager_GetButtonControlState_scr(button)/// @param button
+
+Converting GML script: ${project_dir}\scripts\InputManager_IsButtonControlPressed_scr\InputManager_IsButtonControlPressed_scr.gml
+Converted description /// @description InputManager_IsButtonControlPressed_scr(buttonControl)/// @param buttonControl
+
+Converting GML script: ${project_dir}\scripts\InputManager_IsButtonControlReleased_scr\InputManager_IsButtonControlReleased_scr.gml
+Converted description /// @description InputManger_IsButtonControlReleased_scr(buttonControl)/// @param buttonControl
+
+Converting GML script: ${project_dir}\scripts\InputManager_RegisterButtonControlKbd_scr\InputManager_RegisterButtonControlKbd_scr.gml
+Converted description /// @description InputManager_RegisterButtonControlKbd_scr(buttonControl, keyCode)/// @param buttonControl
+/// @param  keyCode
+
+Converting GML script: ${project_dir}\scripts\InputManager_RegisterButtonControlGpd_scr\InputManager_RegisterButtonControlGpd_scr.gml
+Converted description /// @description InputManager_RegisterButtonControlGpd_scr(buttonControl [ButtonControls enum], gamepadButton)/// @param buttonControl [ButtonControls enum]
+/// @param  gamepadButton
+
+Converting GML script: ${project_dir}\scripts\InputManager_InitDefaultKbdControls_scr\InputManager_InitDefaultKbdControls_scr.gml
+Converted description /// @description InputManager_InitDefaultKbdControls_scr()
+
+Converting GML script: ${project_dir}\scripts\InputManager_InitDefaultGpdControls_scr\InputManager_InitDefaultGpdControls_scr.gml
+Converted description /// @description InputManager_InitDefaultGpdControls_scr()
+
+Converting GML script: ${project_dir}\scripts\InputManager_DefineEnums_scr\InputManager_DefineEnums_scr.gml
+Converted description /// @description InputManager_DefineEnums_scr()
+
+Converting GML script: ${project_dir}\scripts\Hitbox_PlaceMeeting_scr\Hitbox_PlaceMeeting_scr.gml
+Converted description /// @description Hitbox_PlaceMeeting_scr(x, y, objectIndex, maskIndex)/// @param x
+/// @param  y
+/// @param  objectIndex
+/// @param  maskIndex
+
+Converting GML script: ${project_dir}\scripts\Hitbox_InstancePlaceList_scr\Hitbox_InstancePlaceList_scr.gml
+Converted description /// @description Hitbox_InstancePlaceList_scr(x, y, objectIndex, maskIndex)/// @param x
+/// @param  y
+/// @param  objectIndex
+/// @param  maskIndex
+
+Converting GML script: ${project_dir}\scripts\Hitbox_InstancePlace_scr\Hitbox_InstancePlace_scr.gml
+Converted description /// @description Hitbox_InstancePlace_scr(x, y, objectIndex, maskIndex)/// @param x
+/// @param  y
+/// @param  objectIndex
+/// @param  maskIndex
+
+Converting GML script: ${project_dir}\scripts\Hitbox_Create_scr\Hitbox_Create_scr.gml
+Converted description /// @description Hitbox_Create_scr(mask, x, y, relativeX, relativeY, timeToLive [optional])/// @param mask
+/// @param  x
+/// @param  y
+/// @param  relativeX
+/// @param  relativeY
+/// @param  timeToLive [optional]
+
+Converting GML script: ${project_dir}\scripts\Hitbox_CanHit_scr\Hitbox_CanHit_scr.gml
+Converted description /// @description Hitbox_CanHit_scr(hitbox, hittee)/// @param hitbox
+/// @param  hittee
+
+Converting GML script: ${project_dir}\scripts\Hitbox_ExclusionListAdd_scr\Hitbox_ExclusionListAdd_scr.gml
+Converted description /// @description Hitbox_ExclusionListAdd_scr(hitbox, hittee)/// @param hitbox
+/// @param  hittee
+
+Converting GML script: ${project_dir}\scripts\SolidSloped_GetSolidY_scr\SolidSloped_GetSolidY_scr.gml
+Converted description /// @description SolidSloped_GetSolidY_scr(slopedSolid, x)/// @param slopedSolid
+/// @param  x
+
+Converting GML script: ${project_dir}\scripts\SolidSloped_CollisionCheck_scr\SolidSloped_CollisionCheck_scr.gml
+Converted description /// @description SolidSloped_CollisionCheck_scr(x, y, contactPointY)/// @param x
+/// @param  y
+/// @param  contactPointY
+
+Converting GML script: ${project_dir}\scripts\Camera_GetPositionAdjustmentsX_scr\Camera_GetPositionAdjustmentsX_scr.gml
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted description /// @description Camera_GetPositionAdjustmentsX_scr(target)/// @param target
+
+Converting GML script: ${project_dir}\scripts\Camera_GetPositionAdjustmentsY_scr\Camera_GetPositionAdjustmentsY_scr.gml
+Converted builtin - line 16: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Camera_GetPositionAdjustmentsY_scr(target)/// @param target
+
+Converting GML script: ${project_dir}\scripts\Entity_GetPreviousPosition_scr\Entity_GetPreviousPosition_scr.gml
+Converted description /// @description Entity_GetPreviousPosition_scr(entity, framesPast)/// @param entity
+/// @param  framesPast
+
+Converting GML script: ${project_dir}\scripts\Entity_RegisterAnimationEvent_scr\Entity_RegisterAnimationEvent_scr.gml
+Converted description /// @description Entity_RegisterAnimationEvent_scr(entity, sprite, imageIndex, eventScript, eventArgs, eventID [optional], allowDuplicates [optional])/// @param entity
+/// @param  sprite
+/// @param  imageIndex
+/// @param  eventScript
+/// @param  eventArgs
+/// @param  eventID [optional]
+/// @param  allowDuplicates [optional]
+
+Converting GML script: ${project_dir}\scripts\Combatant_StateIdle_scr\Combatant_StateIdle_scr.gml
+Converted description /// @description Combatant_StateGround_scr()
+
+Converting GML script: ${project_dir}\scripts\Combatant_StateGround_scr\Combatant_StateGround_scr.gml
+Converted description /// @description Combatant_StateGround_scr()
+
+Converting GML script: ${project_dir}\scripts\Combatant_StateAir_scr\Combatant_StateAir_scr.gml
+Converted description /// @description Combatant_StateAir_scr()
+
+Converting GML script: ${project_dir}\scripts\Combatant_CollisionSolidGround_scr\Combatant_CollisionSolidGround_scr.gml
+Converted description /// @description Check for solids
+
+Converting GML script: ${project_dir}\scripts\Combatant_LimitGroundSpeed_scr\Combatant_LimitGroundSpeed_scr.gml
+Converted description /// @description Combatant_LimitGroundSpeed_scr()
+
+Converting GML script: ${project_dir}\scripts\Combatant_LimitAirSpeed_scr\Combatant_LimitAirSpeed_scr.gml
+Converted description /// @description Combatant_LimitGroundSpeed_scr()
+
+Converting GML script: ${project_dir}\scripts\Combatant_ControlAudioGround_scr\Combatant_ControlAudioGround_scr.gml
+Converted description /// @description Combatant_ControlAudioGround_scr()
+
+Converting GML script: ${project_dir}\scripts\Combatant_CreateAudioEmitter_scr\Combatant_CreateAudioEmitter_scr.gml
+Converted description /// @description Combatant_CreateAutioEmitter_scr(audioEmitterType)/// @param audioEmitterType
+
+Converting GML script: ${project_dir}\scripts\Combatant_ApplyGravity_scr\Combatant_ApplyGravity_scr.gml
+Converted description /// @description Combatant_ApplyGravity_scr(gravity [optional])/// @param gravity [optional]
+
+Converting GML script: ${project_dir}\scripts\Combatant_AddHitboxAttack_scr\Combatant_AddHitboxAttack_scr.gml
+Converted description /// @description Combatant_AddHitboxAttack_scr(<args> mask, relativeX, relativeY, framesToLive)/// @param <args> mask
+/// @param  relativeX
+/// @param  relativeY
+/// @param  framesToLive
+
+Converting GML script: ${project_dir}\scripts\Combatant_GetHit_scr\Combatant_GetHit_scr.gml
+Converted description /// @description Combatant_GetHit_scr(hittee, damage, knockbackX, knockbackY)/// @param hittee
+/// @param  damage
+/// @param  knockbackX
+/// @param  knockbackY
+
+Converting GML script: ${project_dir}\scripts\Combatant_GetAttackDamage_scr\Combatant_GetAttackDamage_scr.gml
+Converted description /// @description Combatant_GetAttackDamage_scr(attackSprite)/// @param attackSprite
+
+Converting GML script: ${project_dir}\scripts\Combatant_SetAttackDamage_scr\Combatant_SetAttackDamage_scr.gml
+Converted description /// @description Combatant_SetAttackDamage_scr(attackSprite, damage)/// @param attackSprite
+/// @param  damage
+
+Converting GML script: ${project_dir}\scripts\Combatant_GetAttackKnockback_scr\Combatant_GetAttackKnockback_scr.gml
+Converted description /// @description Combatant_GetAttackDamage_scr(attackSprite)/// @param attackSprite
+
+Converting GML script: ${project_dir}\scripts\Combatant_SetAttackKnockback_scr\Combatant_SetAttackKnockback_scr.gml
+Converted description /// @description Combatant_SetAttackKnockback_scr(attackSprite, knockbackX, knockbackY)/// @param attackSprite
+/// @param  knockbackX
+/// @param  knockbackY
+
+Converting GML script: ${project_dir}\scripts\Combatant_PlaySoundOn_scr\Combatant_PlaySoundOn_scr.gml
+Converted description /// @description Combatant_PlaySoundOn_scr(combatant, soundID, emitterType, isLooping, priority, index [optional])/// @param combatant
+/// @param  soundID
+/// @param  emitterType
+/// @param  isLooping
+/// @param  priority
+/// @param  index [optional]
+
+Converting GML script: ${project_dir}\scripts\Combatant_GetState_scr\Combatant_GetState_scr.gml
+Converted description /// @description Combatant_GetState_scr(combatant)/// @param combatant
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_GroundControlsMovement_scr\PlayerBase_GroundControlsMovement_scr.gml
+Converted description /// @description Read Controls
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_AirControlsMovement_scr\PlayerBase_AirControlsMovement_scr.gml
+Converted description /// @description Read Controls
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_PlayRunStepSound_scr\PlayerBase_PlayRunStepSound_scr.gml
+Converted description /// @description PlayerBase_PlayRunStepSound_scr()
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_ThrowMovmentDust_scr\PlayerBase_ThrowMovmentDust_scr.gml
+Converted description /// @description PlayerBase_ThrowMovmentDust_scr(player)/// @param player
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_WallSlideCheckForWall_scr\PlayerBase_WallSlideCheckForWall_scr.gml
+Converted description /// @description PlayerBase_WallSlideCheckForWall_scr(facingOverride, facingMod [optional])/// @param facingOverride
+/// @param  facingMod [optional]
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_GetClosestSpearHoldAngle_scr\PlayerBase_GetClosestSpearHoldAngle_scr.gml
+Converted description /// @description PlayerBase_GetClosestSpearHoldAngle_scr(player, angle)/// @param player
+/// @param  angle
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_StateGround_scr\PlayerBase_StateGround_scr.gml
+Converted description /// @description PlayerBase_StateGround_scr()
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_StateTransitionWallLatch_scr\PlayerBase_StateTransitionWallLatch_scr.gml
+Converted description /// @description PlayerBase_StateTransitionWallLatch_scr(facing)/// @param facing
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_StateTransitionWallSlide_scr\PlayerBase_StateTransitionWallSlide_scr.gml
+Converted description /// @description PlayerBase_StateTransitionWallSlide_scr(facing)/// @param facing
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_GetSpearHoldRelativePosition_scr\PlayerBase_GetSpearHoldRelativePosition_scr.gml
+Converted description /// @description PlayerBase_GetSpearHoldRelativePosition_scr(player)/// @param player
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_GetSpearHoldHeightAboveGround_scr\PlayerBase_GetSpearHoldHeightAboveGround_scr.gml
+Converted description /// @description PlayerBase_GetSpearHoldHeightAboveGround_scr(player)/// @param player
+
+Converting GML script: ${project_dir}\scripts\PlayerBase_GetSpearThrustDistance_scr\PlayerBase_GetSpearThrustDistance_scr.gml
+Converted description /// @description PlayerBase_GetSpearThrustDistance_scr(player)/// @param player
+
+Converting GML script: ${project_dir}\scripts\Movable_Init_scr\Movable_Init_scr.gml
+Converted description /// @description Movable_Init_scr()
+
+Converting GML script: ${project_dir}\scripts\Movable_HandleMovement_scr\Movable_HandleMovement_scr.gml
+Converted description /// @description Movable_HandleMovement_scr()
+
+Converting GML script: ${project_dir}\scripts\Movable_CheckSlopeCollision_scr\Movable_CheckSlopeCollision_scr.gml
+Converted description /// @description Movable_CheckSlopeCollision_scr
+
+Converting GML script: ${project_dir}\scripts\Movable_TestControls_scr\Movable_TestControls_scr.gml
+Converted description /// @description Movable_TestControls_scr()
+
+Converting GML script: ${project_dir}\scripts\Movable_ChangeHSpeed_scr\Movable_ChangeHSpeed_scr.gml
+Converted description /// @description Movable_ChangeHSpeed_scr(targetSpeed, acceleration)/// @param targetSpeed
+/// @param  acceleration
+
+Converting GML script: ${project_dir}\scripts\Movable_ChangeVSpeed_scr\Movable_ChangeVSpeed_scr.gml
+Converted description /// @description Movable_ChangeVSpeed_scr(targetSpeed, acceleration)/// @param targetSpeed
+/// @param  acceleration
+
+Converting GML script: ${project_dir}\scripts\Movable_GetHSpeed_scr\Movable_GetHSpeed_scr.gml
+Converted description /// @description Movable_GetHSpeed_scr(movableInstance)/// @param movableInstance
+
+Converting GML script: ${project_dir}\scripts\Movable_GetVSpeed_scr\Movable_GetVSpeed_scr.gml
+Converted description /// @description Movable_GetVSpeed_scr(movableInstance)/// @param movableInstance
+
+Converting GML script: ${project_dir}\scripts\Movable_AddMotion_scr\Movable_AddMotion_scr.gml
+Converted description /// @description Movable_AddMotion_scr(movable, direction, speed);/// @param movable
+/// @param  direction
+/// @param  speed
+
+Converting GML script: ${project_dir}\scripts\EnemyAIBase_BehaviorIdling_scr\EnemyAIBase_BehaviorIdling_scr.gml
+Converted description /// @description EnemyAIBase_BehaviorIdling_scr(extesionScript)/// @param extesionScript
+
+Converting GML script: ${project_dir}\scripts\EnemyAIBase_BehaviorEngaging_scr\EnemyAIBase_BehaviorEngaging_scr.gml
+Converted description /// @description EnemyAIBase_BehaviorEngaging_scr(extensionScript)/// @param extensionScript
+
+Converting GML script: ${project_dir}\scripts\EnemyAIBase_SupportingBehaviorLookForAntagonist_scr\EnemyAIBase_SupportingBehaviorLookForAntagonist_scr.gml
+Converted description /// @description EnemyAIBase_SupportingBehaviorLookForAntagonist_scr()
+
+Converting GML script: ${project_dir}\scripts\EnemyAIBase_BehaviorPursuing_scr\EnemyAIBase_BehaviorPursuing_scr.gml
+Converted description /// @description EnemyAIBase_BehaviorIdling_scr(extesionScript)/// @param extesionScript
+
+Converting GML script: ${project_dir}\scripts\EnemyAIBase_GetCurrentStateFrames_scr\EnemyAIBase_GetCurrentStateFrames_scr.gml
+Converted description /// @description EnemyAIBase_GetCurrentStateFrames_scr(enemyAIBase)/// @param enemyAIBase
+
+Converting GML script: ${project_dir}\scripts\EnemyAIBase_SetBehaviorExtensionScript_scr\EnemyAIBase_SetBehaviorExtensionScript_scr.gml
+Converted description /// @description EnemyAIBase_SetIdlingExtensionScript_scr(enemyAIBase, behaviorState [EnemyAIStates enum], extScript)/// @param enemyAIBase
+/// @param  behaviorState [EnemyAIStates enum]
+/// @param  extScript
+
+Converting GML script: ${project_dir}\scripts\EnemyAIBase_GetExtensionScript_scr\EnemyAIBase_GetExtensionScript_scr.gml
+Converted description /// @description EnemyAIBase_GetExtensionScript_scr(enemyAIBase, behaviorState [EnemyAIStates enum])/// @param enemyAIBase
+/// @param  behaviorState [EnemyAIStates enum]
+
+Converting GML script: ${project_dir}\scripts\TestTarget_GettingHitEvent_scr\TestTarget_GettingHitEvent_scr.gml
+Converted description /// @description TestTarget_GettingHitEvent_scr(hitter)/// @param hitter
+
+Converting GML script: ${project_dir}\scripts\EnemyAI_BehaviorTemplate_scr\EnemyAI_BehaviorTemplate_scr.gml
+Converted description /// @description EnemyAI_BehaviorTemplate_scr(getAttributes, framesActive or attributeReturnMap)/// @param getAttributes
+/// @param  framesActive or attributeReturnMap
+
+Converting GML script: ${project_dir}\scripts\EnemyAI_AddTrigger_scr\EnemyAI_AddTrigger_scr.gml
+Converted description /// @description EnemyAI_AddTrigger_scr(evalScript, triggerType, possibleBehaviorNumber, nullWeight, behaviorOption1, weight1, behaviorOption2, weight2, ...)/// @param evalScript
+/// @param  triggerType
+/// @param  possibleBehaviorNumber
+/// @param  nullWeight
+/// @param  behaviorOption1
+/// @param  weight1
+/// @param  behaviorOption2
+/// @param  weight2
+/// @param  ...
+
+Converting GML script: ${project_dir}\scripts\EnemyBasher_BehaviorEngaging_scr\EnemyBasher_BehaviorEngaging_scr.gml
+Converted description /// @description EnemyBasher_BehaviorEngaging_scr()
+
+Converting GML script: ${project_dir}\scripts\EnemyBasher_BehaviorLungeAttack_scr\EnemyBasher_BehaviorLungeAttack_scr.gml
+Converted description /// @description EnemyBasher_BehaviorLungeAttack_scr()
+
+Converting GML script: ${project_dir}\scripts\EnemyBasher_BehaviorJumpAttack_scr\EnemyBasher_BehaviorJumpAttack_scr.gml
+Converted description /// @description EnemyBasher_BehaviorJumpAttack_scr()
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_Detonate_scr\PlayerSpear_Detonate_scr.gml
+Converted description /// @description PlayerSpear_Detonate_scr(spear)/// @param spear
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_AddCharge_scr\PlayerSpear_AddCharge_scr.gml
+Converted description /// @description PlayerSpear_AddCharge_scr(spear, chargeAmount, allowOvercharge [optional])/// @param spear
+/// @param  chargeAmount
+/// @param  allowOvercharge [optional]
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_CanDetonate_scr\PlayerSpear_CanDetonate_scr.gml
+Converted description /// @description PlayerSpear_CanDetonate_scr(spear)/// @param spear
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_Attack_scr\PlayerSpear_Attack_scr.gml
+Converted description /// @description PlayerSpear_Attack_scr(spear, strikeTimeOverride [optional])/// @param spear
+/// @param  strikeTimeOverride [optional]
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_CanStrike_scr\PlayerSpear_CanStrike_scr.gml
+Converted description /// @description PlayerSpear_CanStrike_scr(spear)/// @param spear
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_SkewerEnemy_scr\PlayerSpear_SkewerEnemy_scr.gml
+Converted description /// @description PlayerSpear_SkewerEnemy_scr(spear, enemy)/// @param spear
+/// @param  enemy
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_PositionSkeweredEnemies_scr\PlayerSpear_PositionSkeweredEnemies_scr.gml
+Converted description /// @description PlayerSpear_PositionSkeweredEnemies_scr(spear)/// @param spear
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_SetAngle_scr\PlayerSpear_SetAngle_scr.gml
+Converted description /// @description PlayerSpear_SetAngle_scr(spear, angle)/// @param spear
+/// @param  angle
+
+Converting GML script: ${project_dir}\scripts\PlayerSpear_IsImbedded_scr\PlayerSpear_IsImbedded_scr.gml
+Converted description /// @description PlayerSpear_IsImbedded_scr(spear)/// @param spear
+
+Converting GML script: ${project_dir}\scripts\CollisionTriggerCameraMod_SetCameraValues_scr\CollisionTriggerCameraMod_SetCameraValues_scr.gml
+Converted description /// @description CollisionTriggerCameraMod_SetCameraValues_scr()
+
+Converting GML script: ${project_dir}\scripts\object_is\object_is.gml
+Converted description /// @description object_is(object_index1, object_index2)/// @param object_index1
+/// @param  object_index2
+
+Converting GML script: ${project_dir}\scripts\instance_place_list\instance_place_list.gml
+Converted description /// @description instance_place_list(x, y, object_index, hit_limit [optional], checkSolid [optional], list [optional])/// @param x
+/// @param  y
+/// @param  object_index
+/// @param  hit_limit [optional]
+/// @param  checkSolid [optional]
+/// @param  list [optional]
+
+Converting GML script: ${project_dir}\scripts\trace\trace.gml
+Converted description /// @description  trace(...)/// @param ...
+
+Converting GML script: ${project_dir}\scripts\move_outside\move_outside.gml
+Converted description /// @description move_outside(obj, dir, maxdist)/// @param obj
+/// @param  dir
+/// @param  maxdist
+
+Converting GML script: ${project_dir}\scripts\GamepadGetDirectionFromStickAxes_scr\GamepadGetDirectionFromStickAxes_scr.gml
+Converted description /// @description GamepadGetDirectionFromStickAxes_scr(device, stick [GameStick enum], deadzone [optional])/// @param device
+/// @param  stick [GameStick enum]
+/// @param  deadzone [optional]
+
+Converting GML script: ${project_dir}\scripts\relative_coordinates\relative_coordinates.gml
+Converted description /// @description relative_coordinates(xOrigin, yOrigin, xShift, yShift, angle)/// @param xOrigin
+/// @param  yOrigin
+/// @param  xShift
+/// @param  yShift
+/// @param  angle
+
+Converting GML script: ${project_dir}\scripts\ExecuteScriptArgArray_scr\ExecuteScriptArgArray_scr.gml
+Converted description /// @description ExecuteScriptArgArray_scr(script, args)/// @param script
+/// @param  args
+
+Converting GML script: ${project_dir}\scripts\choose_weighted\choose_weighted.gml
+Converted description /// @description choose_weighted(option1, weight1, option2, weight2, ...)/// @param option1
+/// @param  weight1
+/// @param  option2
+/// @param  weight2
+/// @param  ...
+
+Converting GML script: ${project_dir}\scripts\is_within_range\is_within_range.gml
+Converted description /// @description is_within_range(value, min, max)/// @param value
+/// @param  min
+/// @param  max
+
+Font console_fnt has been converted to font family Consolas (Bold) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\Hitbox_obj\Alarm_0.gml
+Converted description /// @description Destroy self
+
+Converting GML script: ${project_dir}\objects\Hitbox_obj\Draw_0.gml
+Converted description /// @description Draw hitbox
+
+Converting GML script: ${project_dir}\objects\InputManager_obj\Create_0.gml
+Converted description /// @description Input Manager Init
+
+Converting GML script: ${project_dir}\objects\InputManager_obj\Step_0.gml
+Converted description /// @description Read Keyboard Controls
+
+Converting GML script: ${project_dir}\objects\GameController_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\Camera_obj\Create_0.gml
+Converted description /// @description Camera Init
+
+Converting GML script: ${project_dir}\objects\Camera_obj\Step_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\Camera_obj\Draw_76.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview = m_cameraTarget.x - view_wview/2 + adjustX -> __view_set( e__VW.XView, 0, m_cameraTarget.x - view_wview/2 + adjustX )
+Converted builtin - line 13: view_xview += -diffX/m_snapRateHor -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (-diffX/m_snapRateHor) )
+Converted builtin - line 17: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview = m_cameraTarget.y - view_hview/2 + adjustY -> __view_set( e__VW.YView, 0, m_cameraTarget.y - view_hview/2 + adjustY )
+Converted builtin - line 25: view_yview += -diffY/m_snapRateVert -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (-diffY/m_snapRateVert) )
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Position Camera
+Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 21: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\Entity_obj\Create_0.gml
+Converted description /// @description Entity Init
+
+Converting GML script: ${project_dir}\objects\Entity_obj\Step_2.gml
+Converted description /// @description Add to previous lists
+
+Converting GML script: ${project_dir}\objects\Entity_obj\Step_1.gml
+Converted description /// @description Increment frame number
+
+Converting GML script: ${project_dir}\objects\Combatant_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\Combatant_obj\Alarm_2.gml
+Converted description /// @description Combatant Jump
+
+Converting GML script: ${project_dir}\objects\Combatant_obj\Alarm_1.gml
+Converted description /// @description Ground Reset
+
+Converting GML script: ${project_dir}\objects\Combatant_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\Combatant_obj\Step_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\Enemy_obj\Create_0.gml
+Converted description /// @description Enemy Init
+
+Converting GML script: ${project_dir}\objects\EnemyAIBase_obj\Create_0.gml
+Converted description /// @description Enemy Base Init
+
+Converting GML script: ${project_dir}\objects\EnemyAIBase_obj\Alarm_11.gml
+Converted description /// @description Look for a friendly combatant to attack
+
+Converting GML script: ${project_dir}\objects\EnemyAIBase_obj\Step_1.gml
+Converted description /// @description AI Behaviors - Robust (unimplemented)/// @param unimplemented
+
+Converting GML script: ${project_dir}\objects\EnemyEnforcer_obj\Create_0.gml
+Converted description /// @description EnemyHollow_obj init
+
+Converting GML script: ${project_dir}\objects\EnemyTestTarget_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\PlayerBase_obj\Create_0.gml
+Converted description /// @description PlayerBase_obj Init
+
+Converting GML script: ${project_dir}\objects\PlayerBase_obj\Alarm_4.gml
+Converted description /// @description Reset m_spearCanLunge
+
+Converting GML script: ${project_dir}\objects\PlayerBase_obj\Alarm_3.gml
+Converted description /// @description Reset m_spearIslunging
+
+Converting GML script: ${project_dir}\objects\PlayerBase_obj\Alarm_2.gml
+Converted description /// @description Player Jump
+
+Converting GML script: ${project_dir}\objects\PlayerBase_obj\Alarm_0.gml
+Converted description /// @description Wall-latch to Wall-slide alarm
+
+Converting GML script: ${project_dir}\objects\PlayerBase_obj\Step_2.gml
+Converted description /// @description Inherited Events
+
+Converting GML script: ${project_dir}\objects\PlayerBase_obj\Step_1.gml
+Converted description /// @description Charge Spear
+
+Converting GML script: ${project_dir}\objects\Player1_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\Player1Test_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\Player1Test_obj\Step_2.gml
+Converted description /// @description Position spear on self
+
+Converting GML script: ${project_dir}\objects\PlayerSpear_obj\Create_0.gml
+Converted description /// @description PlayerSpear Init
+
+Converting GML script: ${project_dir}\objects\PlayerSpear_obj\Step_2.gml
+Converted description /// @description Attack Collision
+
+Converting GML script: ${project_dir}\objects\PlayerSpear_obj\Step_1.gml
+Converted description /// @description Decrement Strike timer
+
+Converting GML script: ${project_dir}\objects\PlayerSpear_obj\Other_7.gml
+Converted description /// @description Reset
+
+Converting GML script: ${project_dir}\objects\SpearDetonation_obj\Create_0.gml
+Converted description /// @description Spear Detonation Init
+
+Converting GML script: ${project_dir}\objects\ElevatorCar_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\ElevatorCar_obj\Step_2.gml
+Converted description /// @description Place Player in car
+
+Converting GML script: ${project_dir}\objects\ElevatorCar_obj\Other_4.gml
+Converted description /// @description Get shaft instance
+
+Converting GML script: ${project_dir}\objects\TrainingTargetPlatform_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\TrainingTargetPlatform_obj\Step_2.gml
+Converted description /// @description Check if all targets have been hit
+
+Converting GML script: ${project_dir}\objects\TrainingTargetPlatform_obj\Other_4.gml
+Converted description /// @description Get door
+
+Converting GML script: ${project_dir}\objects\MovementDust_obj\Step_0.gml
+Converted description /// @description Change scale
+
+Converting GML script: ${project_dir}\objects\CollisionTrigger_obj\Alarm_0.gml
+Converted description /// @description Execute delayed event
+
+Converting GML script: ${project_dir}\objects\CollisionTrigger_obj\Step_2.gml
+Converted description /// @description Check for trigger
+
+Converting GML script: ${project_dir}\objects\HitboxRepresentation_obj\Draw_77.gml
+Converted description /// @description Destroy self
+
+Converting GML script: ${project_dir}\objects\console_obj\Create_0.gml
+Converted description /// @description Console Init
+
+Converting GML script: ${project_dir}\objects\console_obj\Step_2.gml
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Positioning
+
+Converting GML script: ${project_dir}\objects\console_obj\Step_1.gml
+Converted description /// @description Check for console activation
+
+Converting GML script: ${project_dir}\objects\console_obj\Step_0.gml
+Converted description /// @description Handle typing
+
+Converting GML script: ${project_dir}\objects\console_obj\Keyboard_1.gml
+Converted description /// @description Handle Typing
+
+Converting GML script: ${project_dir}\objects\console_obj\Draw_64.gml
+Converted description /// @description Draw console text
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'Descend_snd' - setting to default audio group
+Missing audiogroup for sound: 'RunStep1_snd' - setting to default audio group
+Missing audiogroup for sound: 'RunStep2_snd' - setting to default audio group
+Missing audiogroup for sound: 'RunStep3_snd' - setting to default audio group
+Missing audiogroup for sound: 'Run_snd' - setting to default audio group
+Missing audiogroup for sound: 'PlayerJump_snd' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

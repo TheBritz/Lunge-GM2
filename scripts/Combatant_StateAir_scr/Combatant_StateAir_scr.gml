@@ -9,7 +9,7 @@ if(abs(hSpeed) > m_movementAirFallMaxSpeedHor * m_movementGroundOverspeedThresho
     sprite_set_properties(m_combatantSpriteOverspeed, undefined, m_combatantImageSpeedOverspeed);
   }
 }
-else if(!is_undefined(m_combatantSpriteFall))
+else if(!is_undefined(m_combatantSpriteFall) && !m_isAttacking)
 {
   sprite_index = m_combatantSpriteFall;
 }

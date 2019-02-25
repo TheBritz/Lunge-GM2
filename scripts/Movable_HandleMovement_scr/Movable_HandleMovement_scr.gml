@@ -1,6 +1,7 @@
 /// @description Movable_HandleMovement_scr()
 if(m_isSolidObservant)
 {
+  m_isGrounded = false;
   var xStart = x;
   var velocityEffH = Movable_GetHSpeedEffective_scr(id);
   var velocityEffV = Movable_GetVSpeedEffective_scr(id);
@@ -81,6 +82,15 @@ if(m_isSolidObservant)
   if(flatYCollision && y > preCheckY)
   {
     y = preCheckY;
+  }
+  
+  if(m_impactVelV > 0)
+  {
+    m_isGrounded = true;
+  }
+  else
+  {
+    m_isGrounded = place_meeting(x, y + 1, Solid_obj) || place_meeting(x, y + 1, Platform_obj);
   }
 }
 else

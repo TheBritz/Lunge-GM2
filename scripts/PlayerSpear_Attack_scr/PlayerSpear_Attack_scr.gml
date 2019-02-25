@@ -13,7 +13,7 @@ if(argument_count > 1)
 with(spear)
 {
   sprite_index = PlayerSpearLunging_spr;
-  image_speed = .5;
+  //image_speed = .5;
   if(!is_undefined(strikeTime))
   {
     m_strikeTimer = strikeTime;

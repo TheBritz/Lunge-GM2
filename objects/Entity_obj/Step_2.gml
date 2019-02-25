@@ -64,6 +64,10 @@ if(effectiveIndex != m_lastImageIndex || isNewSpriteIndex)
             {
               //Go back down to zero
               value = 0;
+              
+              //Add a -1 to the list as this is the index used when an
+              //event should be performed at the very end of an animation
+              ds_list_add(imageIndexList, -1);
             } 
           }until(value == effectiveIndex) 
         }
@@ -87,8 +91,15 @@ if(effectiveIndex != m_lastImageIndex || isNewSpriteIndex)
             for(var i = 0; i < ds_list_size(eventList); i++)
             {
               var eventMap = eventList[|i];
-              script_execute(eventMap[? EventMembers.Script], 
-                eventMap[? EventMembers.Args]);
+              if(!is_undefined(eventMap[? EventMembers.Args]))
+              {
+                script_execute(eventMap[? EventMembers.Script], 
+                  eventMap[? EventMembers.Args]);
+              }
+              else
+              {
+                script_execute(eventMap[? EventMembers.Script]);
+              }
             }            
           }
         }
@@ -102,5 +113,5 @@ if(effectiveIndex != m_lastImageIndex || isNewSpriteIndex)
   m_lastSpriteIndex = sprite_index;
 }
 
-image_speed = m_imageSpeedCore;
+//image_speed = m_imageSpeedCore;
 

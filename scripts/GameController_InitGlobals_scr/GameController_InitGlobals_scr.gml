@@ -31,6 +31,10 @@ global.AccelModAdd = 0;
 global.AnimSpeedModMult = 1.1;
 global.AnimSpeedModAdd = 0;
 
+//Time Mod
+global.TimeSpeedModMult = 1;
+global.TimeSpeedModAdd = 0;
+
 
 
 

@@ -1,3 +1,3 @@
 /// @description Increment frame number
 m_frameNumber++;
-image_speed = m_imageSpeedCore;
+//image_speed = m_imageSpeedCore;

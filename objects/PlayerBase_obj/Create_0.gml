@@ -57,6 +57,8 @@ m_combatantSpriteFall = PlayerFall_spr;
 m_combatantSpriteRun = PlayerRun_spr;
 m_playerSpriteWallCling = PlayerWallCling_spr;
 m_combatantSpriteGroundAttack = Player_Ground_Stationary_Attacking_spr;
+m_combatantSpriteAirAttack = Player_Air_Attacking_spr;
+
 enum AttackDirection
 {
 	Forward,
@@ -65,6 +67,24 @@ enum AttackDirection
 	Down
 }
 
+//Air attacks
+m_playerSpriteDirectionalAirAttacksAlt = PlayerBase_BuildDirectionalAttackMap_scr(Player_Air_Attacking_spr, 1, "_spr");
+
+var size = ds_map_size(m_playerSpriteDirectionalAirAttacksAlt);
+var key = ds_map_find_first(m_playerSpriteDirectionalAirAttacksAlt);
+var spr = m_playerSpriteDirectionalAirAttacksAlt[? key];
+for(var i = 0; i < size; i++)
+{
+	var spriteName = sprite_get_name(spr);
+	Entity_RegisterAnimationEvent_scr
+	  (id, spr, 0, PlayerBase_Ground_Stationary_Attack_scr, undefined);
+  Entity_RegisterAnimationEvent_scr
+	  (id, spr, -1, PlayerBase_ResetSpearLunging_scr, undefined);
+	key = ds_map_find_next(m_playerSpriteDirectionalAirAttacksAlt, key);
+	spr = m_playerSpriteDirectionalAirAttacksAlt[? key];
+}
+
+//Ground attacks
 m_playerSpriteDirectionalGroundAttacksAlt = PlayerBase_BuildDirectionalAttackMap_scr(Player_Ground_Stationary_Attacking_spr, 1, "_spr");
 
 var size = ds_map_size(m_playerSpriteDirectionalGroundAttacksAlt);
@@ -74,7 +94,9 @@ for(var i = 0; i < size; i++)
 {
 	var spriteName = sprite_get_name(spr);
 	Entity_RegisterAnimationEvent_scr
-	  (id, spr, 1, PlayerBase_Ground_Stationary_Attack_scr, undefined);
+	  (id, spr, 0, PlayerBase_Ground_Stationary_Attack_scr, undefined);
+  Entity_RegisterAnimationEvent_scr
+	  (id, spr, -1, PlayerBase_ResetSpearLunging_scr, undefined);
 	key = ds_map_find_next(m_playerSpriteDirectionalGroundAttacksAlt, key);
 	spr = m_playerSpriteDirectionalGroundAttacksAlt[? key];
 }
