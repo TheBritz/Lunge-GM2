@@ -4,7 +4,7 @@
 var hSpeed = Movable_GetHSpeed_scr(id);
 if(abs(hSpeed) > m_movementAirFallMaxSpeedHor * m_movementGroundOverspeedThreshold && sign(hSpeed) == m_facing)
 {
-  if(!is_undefined(m_combatantSpriteOverspeed))
+  if(!is_undefined(m_combatantSpriteOverspeed) && !m_isAttacking)
   {
     sprite_set_properties(m_combatantSpriteOverspeed, undefined, m_combatantImageSpeedOverspeed);
   }

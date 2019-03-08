@@ -417,6 +417,14 @@
             }
         },
         {
+            "Key": "20341ca4-e24c-4db7-9eb0-131a3a0188f6",
+            "Value": {
+                "id": "bfc17a4b-ced8-4ebd-97a5-c1c1fcf2e583",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_90_spr\\Player_Ground_Stationary_Attacking_90_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "203c7b58-e731-482c-9441-7077c8fde53d",
             "Value": {
                 "id": "372a48c9-1aa9-4156-9a00-b863126a5a77",
@@ -774,6 +782,14 @@
                 "id": "6ddb1a56-b66f-4bac-ac61-bd684370fab3",
                 "resourcePath": "scripts\\EnemyAI_BehaviorTemplate_scr\\EnemyAI_BehaviorTemplate_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "34dc6172-423a-4921-bc43-5fd22bb05023",
+            "Value": {
+                "id": "33282dc1-8dd3-442f-9726-7b00cc04e043",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Idling_LookingBack_spr1\\Player_Ground_Stationary_Idling_LookingBack_spr1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1838,6 +1854,14 @@
                 "id": "6c7f12b2-0fb0-40cc-8008-4135d566ed8d",
                 "resourcePath": "scripts\\Combatant_StartGroundAttack_scr\\Combatant_StartGroundAttack_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "76a9f3aa-c12b-4e56-8273-88d7fc44295d",
+            "Value": {
+                "id": "72911265-cd60-4ed1-927b-f9cf5922284d",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_157_spr\\Player_Ground_Stationary_Attacking_157_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2969,6 +2993,14 @@
             }
         },
         {
+            "Key": "bbc2230a-87c9-4694-a6f4-373f0dfbde50",
+            "Value": {
+                "id": "899f61ea-b21a-4b60-8c2f-797e89e83f7f",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_135_spr\\Player_Ground_Stationary_Attacking_135_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bbcf3754-e0ba-4b80-a088-acfa4dd9d08b",
             "Value": {
                 "id": "0d058012-fc3a-4bfb-8e6e-3bd3ae4adbe6",
@@ -3102,6 +3134,14 @@
                 "id": "bcde143f-f729-4990-a178-cb70bd68ee5a",
                 "resourcePath": "scripts\\Combatant_CollisionSolidGround_scr\\Combatant_CollisionSolidGround_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c6d12159-130b-4935-b5ef-c98ccb428683",
+            "Value": {
+                "id": "13307c3f-9bea-45f9-9a7a-44bcb605c25f",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_78_spr\\Player_Ground_Stationary_Attacking_78_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3262,6 +3302,14 @@
                 "id": "938a7b07-58bb-4fb9-ab6c-3f23ddd0847b",
                 "resourcePath": "rooms\\room3\\room3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "cc942418-6fea-48e6-93ed-8661dccc9341",
+            "Value": {
+                "id": "93a2972a-85c9-4246-a426-e3deec8d4f0c",
+                "resourcePath": "sprites\\Player_Ground_Stationary_Attacking_112_spr\\Player_Ground_Stationary_Attacking_112_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

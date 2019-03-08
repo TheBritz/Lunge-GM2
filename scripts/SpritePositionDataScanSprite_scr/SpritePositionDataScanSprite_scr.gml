@@ -57,5 +57,6 @@ for(var iFrame = 0; iFrame < sprite_get_number(sprite); iFrame++)
 
 if(freeSurf)
 {
+  surface_reset_target();
   surface_free(surf);
 }
