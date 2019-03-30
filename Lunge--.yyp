@@ -265,6 +265,14 @@
             }
         },
         {
+            "Key": "15524115-2833-4353-83bb-b1090f5d5cc1",
+            "Value": {
+                "id": "1cc23731-81d3-4797-ab57-4782abdc4749",
+                "resourcePath": "scripts\\PlayerSpear_GetLateralDirection_scr\\PlayerSpear_GetLateralDirection_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "161d4575-85ed-4b2c-9081-00b1a1f92f6c",
             "Value": {
                 "id": "10dd246b-e007-4941-a67a-42fafa5e7956",
@@ -1593,6 +1601,14 @@
             }
         },
         {
+            "Key": "62a73738-5c71-4ed0-ac93-721a82d5d087",
+            "Value": {
+                "id": "7aba5af6-5fcf-4788-9914-4d6eabe433ae",
+                "resourcePath": "scripts\\Combatant_IsInOverspeed_scr\\Combatant_IsInOverspeed_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "62c31987-a584-4273-a5bc-19f7c1273d93",
             "Value": {
                 "id": "ac1ba7b1-d4a0-4fda-9bab-71126561b2f8",
@@ -2118,6 +2134,14 @@
                 "id": "9b2fd3f0-9d1a-4f92-b09d-6e203e2c1ee1",
                 "resourcePath": "scripts\\PlayerBase_StateWallSlide_scr\\PlayerBase_StateWallSlide_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "875e9c5d-e750-4fad-a96f-86b6c166b0c9",
+            "Value": {
+                "id": "4b8c747a-c9c3-4c7a-ab4b-3f923e9f6732",
+                "resourcePath": "sprites\\Player_Ground_Sliding_spr\\Player_Ground_Sliding_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4191,6 +4215,7 @@
         "0415c751-57bc-49ce-9701-9e1d61fe714a",
         "523956f8-1cc5-44a3-b701-7eaeae568b5c",
         "f258e1f2-d935-48e2-83fb-7797859fac54",
+        "62a73738-5c71-4ed0-ac93-721a82d5d087",
         "ec71fdb6-49e5-47bc-a48f-9fea33c79da7",
         "53877df6-286b-405f-91dc-6dde66a151ed",
         "485972b1-8e2d-445a-932d-b42116a1c31b",
@@ -4262,6 +4287,7 @@
         "75e79786-9211-43f5-9d1f-d576be0ebd3a",
         "5237e604-c56d-4795-b793-dcfac5db9f09",
         "4b3ce3b7-5a4b-4bc3-bf54-799813b31099",
+        "15524115-2833-4353-83bb-b1090f5d5cc1",
         "0499c20c-707b-4e38-8e02-a286133e6383",
         "ccd253dd-f1fa-427c-ba9a-f95e7c7e58c4",
         "778f3cb6-bb3e-47da-8142-365a5406202a",

@@ -97,9 +97,4 @@ else
   var test = "test";
 }
 
-if(object_index == EnemyTestTarget_obj)
-{
-  var t = "t";
-}
-
 Combatant_ApplyGravity_scr(grav);

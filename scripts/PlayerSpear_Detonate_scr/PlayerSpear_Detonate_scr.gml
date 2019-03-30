@@ -23,6 +23,7 @@ with spear
         event_perform_object(EnemyLaunched_obj, ev_create, 0);
         sprite_index = sprite;
         Movable_AddMotion_scr(id, spear.image_angle, 15);
+               
         if(!is_undefined(m_enemySpriteLaunched))
         {
           sprite_index = m_enemySpriteLaunched;
@@ -34,7 +35,7 @@ with spear
       }
     } 
     
-    var sparkNumber = 16;
+    var sparkNumber = 24;
     var spark;
     var sparkSpeedRange = array(12, 23);
     var sparkDeviation = 20;

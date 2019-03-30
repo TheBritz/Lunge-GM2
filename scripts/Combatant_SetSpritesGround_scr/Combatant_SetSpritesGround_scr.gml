@@ -2,7 +2,7 @@ var hSpeed = Movable_GetHSpeed_scr(id);
 if(hSpeed != 0)
 {
   //Set overspeed image  
-  if(abs(hSpeed) > m_movementGroundMaxSpeed * m_movementGroundOverspeedThreshold && sign(hSpeed) == m_facing)
+  if(Combatant_IsInOverspeed_scr((id)))
   {
     if(!is_undefined(m_combatantSpriteOverspeed))
     {

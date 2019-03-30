@@ -55,6 +55,7 @@ m_combatantHp = 3;
 m_combatantSpriteIdle = Player_spr;
 m_combatantSpriteFall = PlayerFall_spr;
 m_combatantSpriteRun = PlayerRun_spr;
+m_combatantSpriteSlide = Player_Ground_Sliding_spr;
 m_playerSpriteWallCling = PlayerWallCling_spr;
 m_combatantSpriteGroundAttack = Player_Ground_Stationary_Attacking_spr;
 m_combatantSpriteAirAttack = Player_Air_Attacking_spr;
@@ -108,6 +109,11 @@ m_combatantImageSpeedGroundAttack = .5;
 m_combatantSpriteJumpCrouch = PlayerJumpCrouch_spr;
 m_combatantSpriteDirectionChange = PlayerRunDirectionChange_spr;
 m_combatantSpriteOverspeed = PlayerRunOverspeed_spr;
+//m_combatantSpriteOverspeed = Player_Ground_Sliding_spr;
+m_combatantSpriteOverspeedStandard = m_combatantSpriteOverspeed;
+
+m_playerSpriteOverspeedSlide = Player_Ground_Sliding_spr;
+m_movementGroundOverspeedCorrectionHorSlide = .3;
 
 m_combatantState = CombatantStates.Ground;
 
@@ -115,7 +121,8 @@ m_combatantState = CombatantStates.Ground;
 
 m_movementAirFallMaxSpeedHor = 7.5;
 m_movementGroundAccelHor = 1;
-m_movementGroundOverspeedCorrectionHor = .4;
+m_movementGroundOverspeedCorrectionHor = .5;
+m_movementGroundOverspeedCorrectionHorStandard = .5;
 m_movementAirFallAccelHor = .25;
 m_movementGroundFriction = .5;
 m_movementGroundMaxSpeed = 6;

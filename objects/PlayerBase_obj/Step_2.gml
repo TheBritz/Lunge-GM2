@@ -3,6 +3,26 @@
 event_inherited();
 #endregion
 
+#region Player Slide
+if(m_combatantSpriteOverspeed == m_playerSpriteOverspeedSlide)
+{
+  if(sprite_index == m_playerSpriteOverspeedSlide)
+  {
+    m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorSlide;
+  }
+  else
+  {
+    m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorStandard;
+  }
+  
+  if(!Combatant_IsInOverspeed_scr(id))
+  {
+    m_combatantSpriteOverspeed = m_combatantSpriteOverspeedStandard;
+    m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorStandard;
+  }
+}
+#endregion
+
 #region Position Spear
 if(instance_exists(m_spear))
 {
@@ -167,7 +187,21 @@ if(instance_exists(m_spear))
       {
         Movable_AddMotion_scr(id, 0, horComponent);
       }
-      m_spearCanDetonate = false;      
+      m_spearCanDetonate = false;
+      
+      #region Player Slide
+      //Check to see if player is on the ground
+      //TODO: Make it so that player can transition to slide from a short distance above ground too
+      if(Movable_IsGrounded_scr(id))
+      {
+        //Check to see if detonation angle is downward and aligns with player movement
+        if((angle >= 200 && angle <= 240 && sign(Movable_GetHSpeed_scr(id)) == -1)
+         ||(angle >= 300 && angle <= 340 && sign(Movable_GetHSpeed_scr(id)) == 1))
+        {
+          m_combatantSpriteOverspeed = m_combatantSpriteSlide;
+        }
+      }
+      #endregion
     }
   }
   
