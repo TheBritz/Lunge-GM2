@@ -1,0 +1,50 @@
+{
+	"runtime_selection_style": { 
+		left: "0dpi_px",
+		top: "0dpi_px",
+		grid_rowlayout: ["auto", "auto", "auto", "1*"], 
+		mouse_events: "False",
+		runtime_grid_even_row:"#ff302d2d",
+		runtime_grid_odd_row:"#ff302d2d",
+		runtime_grid_selected:"#ff302d2d"
+	},
+
+	"runtime_selection_status_button_up": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "Runtime/runtime_button_states.png", 
+		height: "24dpi_px", 
+		auto_height: "true"
+	},
+	
+	"runtime_selection_status_button_down": {
+		position: [
+					[60, 0, 3, 3], [63, 0, 10, 3], [73, 0, 3, 3], 
+					[60, 3, 3, 10], [63, 3, 10, 10], [73, 3, 3, 10], 
+					[60, 13, 3, 3], [63, 13, 10, 3], [73, 13, 3, 3]
+				], 
+		frame_name: "Runtime/runtime_button_states.png"
+	},
+	
+	"runtime_selection_status_button_over": {
+		position: [
+					[41, 0, 3, 3], [44, 0, 10, 3], [54, 0, 3, 3], 
+					[41, 3, 3, 10], [44, 3, 10, 10], [54, 3, 3, 10], 
+					[41, 13, 3, 3], [44, 13, 10, 3], [54, 13, 3, 3]
+				], 
+		frame_name: "Runtime/runtime_button_states.png"
+	},
+	
+	"runtime_selection_status_button_no_over_texture": {
+		frame_name: ""
+	},
+	
+	"runtime_location": {
+		colour: "#00000000",
+		clip: ["4px"], 
+		auto_height: "True"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"previewarea_style": {
+		frame_name: "Background/alpha_bg.png"
+	},
+	
+	"label_resource_header": {
+		font: {
+					size: 9
+				}
+	},
+	
+	"scrollpanel_resource_list": {
+		colour: "#ff555555"
+	}
+}

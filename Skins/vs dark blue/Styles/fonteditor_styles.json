@@ -1,0 +1,16 @@
+{
+	"font_ttfpath_label": {
+		colour: "#FF8B8B8B", 
+		auto_ellipsis: "True"
+	},
+	
+	"window_font_editor": {
+		window_flags: "Default", 
+		width_min: "550dpi_px", 
+		height_min: "350dpi_px"
+	},
+	
+	"font_range_selection": {
+		range_colour: "#FF404040"
+	}
+}

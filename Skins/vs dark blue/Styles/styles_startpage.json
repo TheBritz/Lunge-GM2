@@ -1,0 +1,121 @@
+﻿{
+	"startpage_flat_colors": {
+		MODIFY_COMMENT: "Change to flat VS colors",
+		foreground: "#f1f1f1",
+		foreground_accent: "#f1f1f1",
+		background: "#232323",
+
+		DESCRIBE_COMMENT: "Start page rectangle accents and link text",
+		MODIFY_COMMENT: "Rectangle indicator (removed)",
+		highlight_normal: "rgba(255, 0, 0, 0.0)",
+
+		MODIFY_COMMENT: "Rectangle indicator for tutorials (removed)",
+		highlight_hover: "rgba(255, 0, 0, 0.0)",
+		highlight_tutorial: "rgba(255, 0, 0, 0.0)",
+		highlight_tutorial_hover: "rgba(255, 0, 0, 0.0)",
+
+		MODIFY_COMMENT: "Change tutorial/demo download bar to VS Purple on VS Slate Gray",
+		progressbar: "#68217a",
+		progressbar_border: "#f1f1f1",
+		progressbar_background: "#2d2d30",
+
+		MODIFY_COMMENT: "Flatten out tutorial action buttons",
+		tutorial_icon_border: "#rgba(255, 255, 255, 0.0)",
+		tutorial_icon_background: "rgba(255, 255, 255, 0.0)",
+		tutorial_icon_hover: "#3f3f46",
+
+		MODIFY_COMMENT: "Tooltip border (VS Slate Gray Trim)",
+		tutorial_tooltip_border: "#3f3f46",
+
+		MODIFY_COMMENT: "Remove tutorial tooltip shadow",
+		tutorial_tooltip_shadow: "rgba(0, 0, 0, 0.0)",
+
+		MODIFY_COMMENT: "Tooltip arrow color (VS Dark Gray)",
+		tutorial_tooltip_background: "#232323",
+		MODIFY_COMMENT: "Tooltip border color (VS Slate Gray Trim)",
+		tutorial_tooltip_border_outer: "#3f3f46",
+		tutorial_tooltip_background_outer: "#232323",
+
+		MODIFY_COMMENT: "Flatten the banner, who cares if we obscure the ads?",
+		menu_text: "#f1f1f1",
+		banner: "#232323",
+		slider_button: "rgba(0, 0, 0, 0.0)",
+
+		button_border: "#b5b5b5",
+		button: "#328a65",
+		button_tutorial: "#8A3232",
+		button_hover: "#0b6c43",
+		button_tutorial_hover: "#6C0B0B",
+
+		MODIFY_COMMENT: "Mouseover button background (VS Slate Gray Trim)",
+		back_button: "#3f3f46",
+
+		MODIFY_COMMENT: "Change scrollbar colors to match those used in the IDE text editor",
+		scrollbar_thumb: "#686868",
+		scrollbar_track: "#3e3e42",
+		scrollbar_thumb_hover: "#9e9e9e",
+		scrollbar_thumb_active: "#efebef",
+
+		MODIFY_COMMENT: "Flatten the tutorial thumbnails as much as possible",
+		thumbnail_background: "#232323",
+		thumbnail_tutorial_hover_background: "#2d2d30",
+		thumbnail_tutorial_text_underlay: "#2d2d30",
+		thumbnail_tutorial_text_underlay_installed: "#007acc",
+		thumbnail_tutorial_icon_active: "#232323",
+		MODIFY_COMMENT: "Thumbnail stroke border (VS Slate Gray Trim)",
+		thumbnail_border: "#3f3f46",
+		thumbnail_border_hover: "#3f3f46",
+		thumbnail_border_outer: "#3f3f46",
+
+		MODIFY_COMMENT: "License buttons mouseover (VS Slate Gray Trim)",
+		license_hover: "#3f3f46",
+
+		MODIFY_COMMENT: "Put more focus on the Recent Projects",
+		recentproject_foreground: "#f1f1f1",
+		MODIFY_COMMENT: "Remove Recent Projects shadows...",
+		recentproject_shadow: "rgba(0, 0, 0, 0.0)",
+		MODIFY_COMMENT: "Hide background (otherwise, use opaque VS Dark Gray)",
+		recentproject_hover: "#2d2d30",
+		recentproject_hover_foreground: "#88ccfe",
+		MODIFY_COMMENT: "Remove Recent Projects mouseover shadow",
+		recentproject_hover_shadow: "rgba(24,24,24,0.0)",
+
+		MODIFY_COMMENT: "We don't need to color code this, just make it all the same color",
+		MODIFY_COMMENT: "Use VS Purple to indicate in-progress",
+		tutorial_not_owned: "#007acc",
+		tutorial_owned: "#007acc",
+		tutorial_downloading: "#68217a",
+		tutorial_installed: "#007acc",
+		tutorial_inprogress: "#68217a",
+		tutorial_completed: "#007acc",
+
+		MODIFY_COMMENT: "Use the same button highlight colors as the toolbar",
+		collapsible_color: "#2d2d30",
+		collapsible_button_hover: "#3f3f46",
+		collapsible_highlight: "#2d2d30",
+
+		MODIFY_COMMENT: "Flatten the spinner",
+		spinner_background_color: "2d2d30",
+		spinner_color: "#f1f1f1"
+	},
+
+	"startpage_gradients": {
+		MODIFY_COMMENT: "Change background gradient colors to match VS start page",
+		background_left: "#2d2d30",
+		background_mid: "#2d2d30",
+		background_right: "#2d2d30",
+
+		MODIFY_COMMENT: "???",
+		recentproject_hover_gradient: "rgba(24,24,24,0.0)",
+		recentproject_hover_gradient_active: "#474D58",
+
+		MODIFY_COMMENT: "Flatten license buttons (remove bevelling)",
+		license_border_left: "#2d2d30",
+		license_border_top: "#2d2d30",
+		license_border_right: "#2d2d30",
+		license_border_bottom: "#2d2d30",
+
+		MODIFY_COMMENT: "Tooltip background color",
+		tutorial_tooltip_ellipse_gradient: "#232323"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"room_defaults" :
+	{
+		MODIFY_COMMENT: "Use a standard gray background color (e.g. Unity) instead of pitch black",
+		background_colour: "#ff4d4d4d",
+		MODIFY_COMMENT: "Decrease default grid opacity for subtler guide (50 -> 24, #32 -> #18)",
+        grid_colour : "#18ffffff"
+	}
+}

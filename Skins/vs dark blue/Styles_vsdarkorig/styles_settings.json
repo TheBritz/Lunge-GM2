@@ -1,0 +1,190 @@
+{
+	"settings_browse_button": {
+		name: "...", 
+		width: "40dpi_px", 
+		height: "25dpi_px", 
+		margin: "5dpi_px"
+	},
+	
+	"settings_browse_button_label": {
+		halign: "hAlignCentre", 
+		valign: "vAlignCentre", 
+		mouse_events: "false"
+	},
+	
+	"settings_texture_page_panel": {
+		margin_top: "5dpi_px", 
+		margin_bottom: "5dpi_px", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"settings_last_changed_panel": {
+		margin_top: "5dpi_px", 
+		margin_bottom: "5dpi_px", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"settings_guid_gadget_panel": {
+		margin_top: "5dpi_px", 
+		margin_bottom: "5dpi_px", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"settings_param_sfo_button": {
+		localise_name: "ggs_ps4_param_sfo", 
+		width: "100dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+	
+	"settings_trophy_button": {
+		localise_name: "ggs_ps4_trophy_edit", 
+		width: "100dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+	
+	"settings_gadget_stack_panel": {
+		colour: "#00000000", 
+		stack_order: "LeftToRight", 
+		stack_resize: "ResizeAll", 
+		mouse_events: "false", 
+		left: "0dpi_px", 
+		margin_top: "4dpi_px", 
+		margin_bottom: "4dpi_px"
+	},
+	
+	"settings_gadget_stack_panel_vertical": {
+		colour: "#00000000", 
+		stack_order: "TopToBottom", 
+		stack_resize: "ResizeAll", 
+		mouse_events: "false", 
+		left: "0dpi_px"
+	},
+	
+	"settings_checkbox": {
+		margin_top: "2dpi_px", 
+		margin_bottom: "2dpi_px"
+	},
+	
+	"settings_gadget_label": {
+		width: "100%", 
+		width_min: "120dpi_px", 
+		height: "20dpi_px", 
+		left: "0dpi_px", 
+		auto_size: "true", 
+		mouse_events: "false", 
+		valign: "vAlignCentre"
+	},
+	
+	"settings_slider": {
+		width: "150dpi_px", 
+		height_flags: "None", 
+		width_flags: "None", 
+		slider_direction: "Horizontal", 
+		margin_right: "10dpi_px"
+	},
+	
+	"settings_slider_thumb": {
+		width: "10dpi_px", 
+		height: "20dpi_px", 
+		up_tint: "#ff80ff80"
+	},
+	
+	"settings_slider_bar": {
+		margin: ""
+	},
+	
+	"settings_slider_horizontal_minor_tick": {
+		position: [
+					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1], 
+					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8], 
+					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
+				], 
+		frame_name: "TickFrame.png", 
+		width: "2dpi_px", 
+		height: "10dpi_px", 
+		bottom: "-15dpi_px"
+	},
+	
+	"settings_content_node": {
+		allow_drag: "false", 
+		stack_resize: "ResizeAll", 
+		stack_flags: "WidthIncreaseOnly", 
+		width_flags: "ScaleToFit", 
+		margin_top: "10dpi_px", 
+		margin_bottom: "2dpi_px", 
+		left: "4dpi_px", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png"
+	},
+	
+	"settings_content_subnode": {
+		allow_drag: "false", 
+		margin_top: "0dpi_px", 
+		margin_bottom: "0dpi_px"
+	},
+	
+	"settings_treeview": {
+		MODIFY_COMMENT: "Change selection color to be the same as the code text selection color",
+		selection_color: "#ff83450e"
+	},
+	
+	"settings_tree_node": {
+		allow_drag: "false"
+	},
+	
+	"textstyle_group": {
+		width: "100%", 
+		height: "80dpi_px"
+	},
+	
+	"certsettings_group": {
+		width: "500dpi_px", 
+		height: "250dpi_px"
+	},
+	
+	"settings_textbox_style": {
+		width: "400dpi_px"
+	},
+	
+	"radiogroup_style": {
+		width: "100%", 
+		margin_top: "5px", 
+		margin_bottom: "5px"
+	},
+	
+	"settings_gadget_radiogroup_label": {
+		width: "100%", 
+		width_min: "120dpi_px", 
+		height: "20dpi_px", 
+		left: "0dpi_px", 
+		auto_size: "true", 
+		mouse_events: "false", 
+		valign: "vAlignCentre", 
+		margin_left: "20px", 
+		margin_right: "10px", 
+		margin_top: "5px", 
+		margin_bottom: "5px"
+	},
+	
+	"combobox_style": {
+		width: "100%", 
+		scrollpanel_flags: "ResizeHeight, ResizeWidth"
+	},
+	
+	"settings_window_style": {
+		width_min: "350dpi_px", 
+		height_min: "260dpi_px", 
+		window_flags: "CloseButton, ResizeButton, ScrollBars"
+	},
+		
+	"prefs_window": {
+		width_min: "500dpi_px", 
+		height_min: "385dpi_px"
+	}
+}

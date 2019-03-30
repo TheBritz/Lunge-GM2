@@ -1,0 +1,229 @@
+{
+	"config_manager_info_box": {
+		width: "350dpi_px", 
+		height: "150dpi_px", 
+		window_flags: "DragDisabled"
+	},
+	
+	"asset_import_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Marketplace/icon-import.png"
+	},
+	
+	"asset_delete_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Marketplace/icon-delete.png"
+	},
+	
+	"undo_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_undo.png", 
+		button_over_style: "undo_button_over", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#ffcccccc", 
+		mouseover_down_tint: "#00000000", 
+		up_focused_tint: "#ffd0d0d0", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#ffd0d0d0", 
+		mouseover_down_focused_tint: "#00000000"
+	},
+	
+	"undo_button_over": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_undo.png"
+	},
+	
+	"redo_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_redo.png", 
+		button_over_style: "redo_button_over", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#ffcccccc", 
+		mouseover_down_tint: "#00000000", 
+		up_focused_tint: "#ffd0d0d0", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#ffd0d0d0", 
+		mouseover_down_focused_tint: "#00000000"
+	},
+	
+	"redo_button_over": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_redo.png"
+	},
+	
+	"button_config_moveup": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 19, 11], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ArrowUp.png", 
+		width: "19px", 
+		height: "11px"
+	},
+	
+	"button_config_movedown": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 19, 11], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ArrowDown.png", 
+		width: "19px", 
+		height: "11px"
+	},
+	
+	"visible_checkbox": {
+		colour: "#00000000"
+	},
+	
+	"visible_checkbox_highlighted": {
+		colour: "#55000000", 
+		frame_name: ""
+	},
+	
+	"visible_checkbox_tick": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_visible.png"
+	},
+	
+	"visible_checkbox_untick": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_invisible.png"
+	},
+	
+	"lock_checkbox": {
+		colour: "#00000000"
+	},
+	
+	"lock_checkbox_highlighted": {
+		colour: "#55000000", 
+		frame_name: ""
+	},
+	
+	"lock_checkbox_tick": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_locked.png"
+	},
+	
+	"lock_checkbox_untick": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_unlocked.png"
+	},
+	
+	"font_grid_container": {
+		grid_resize: "ResizeGrid"
+	},
+	
+	"projectmodified_confirm": {
+		height: "200px", 
+		width: "500px"
+	},
+	
+	"border_colour_select": {
+		spawn_dialog_in_parent: "false",
+		selected_colour: "#ff000000"
+	},
+	
+	"generate_image_frame": {
+		colour: "#FFFFFFFF", 
+		clip: ["6px"], 
+		width_flags: "ScaleToFit", 
+		height_flags: "ScaleToFit", 
+		frame_name: "Window/dial_inner_alpha_grey.png", 
+		position: [
+					[0, 0, 8, 4], [8, 0, 0, 0], [24, 0, 8, 4], 
+					[0, 4, 8, 24], [8, 4, 0, 0], [24, 4, 8, 24], 
+					[0, 28, 8, 4], [8, 28, 0, 0], [24, 28, 8, 4]
+				]
+	},
+	
+	"generate_image_preview": {
+		width_flags: "ScaleToFit", 
+		height_flags: "ScaleToFit", 
+		image_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"image_generation_stack": {
+		width_flags: "ScaleToFit", 
+		stack_order: "TopToBottom"
+	},
+	
+	"image_generation_window": {
+		width: "650dpi_px", 
+		height: "300dpi_px", 
+		width_min: "500dpi_px", 
+		height_min: "225dpi_px"
+	},
+	
+	"image_generation_label": {
+		width_flags: "ScaleToFit", 
+		auto_ellipsis: "true"
+	}
+}

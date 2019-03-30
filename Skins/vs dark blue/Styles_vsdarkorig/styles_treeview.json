@@ -1,0 +1,471 @@
+﻿{
+	"gadget_treeview": {
+		colour: "#FFFFFFFF",
+        position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png", 
+		width: "100%",
+		height: "100%",
+		MODIFY_COMMENT: "Change the Resource tree selection color to match VS' menu selection color",
+		selection_colour: "#ff343333",
+		drop_target_colour: "#ff343333",
+
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+    },
+
+	"treeview": {
+		width: "100%",
+		height: "100%",
+		left: "0dpi_px",
+		top: "0px"
+	},	
+
+	"treeview_window": {
+		width: "100%", 
+		height: "400dpi_px", 
+		left: "50dpi_px", 
+		top: "50dpi_px"
+	},
+
+
+	"treeview_gadget": {
+		width: "300dpi_px",
+		height: "400dpi_px"
+	},
+		
+	"treeview_label": {
+			width: "100%",
+			height: "20dpi_px",
+			left: "0dpi_px",
+			mouse_events: "true",
+			valign: "vAlignCentre"
+	},
+
+	"treeview_expand": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+                    [57, 0, 4, 1], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [57, 3, 18, 33], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [75, 36, 4, 1]
+                  ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3px",
+		margin_right: "3px"
+	},	
+
+	"treeview_collapse": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+                    [90, 0, 2, 2], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [96, 6, 27, 27], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [123, 33, 3, 2]
+                  ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3px",
+		margin_right: "3px"
+	},
+
+	"treeview_neutral": {
+		colour: "#00000000",
+		position: [
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0]
+                          ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3px",
+		margin_right: "3px"
+	},
+	
+	"treeview_folder_expand": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+                    [57, 0, 4, 1], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [57, 3, 18, 33], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [75, 36, 4, 1]
+                  ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3px",
+		margin_right: "3px"
+	},	
+
+	"treeview_folder_collapse": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+                    [90, 0, 2, 2], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [96, 6, 27, 27], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [123, 33, 3, 2]
+                  ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3px",
+		margin_right: "3px"
+	},
+
+	"treeview_folder_neutral": {
+		MODIFY_COMMENT: "Hide the nonexistent folder collapsed arrow",
+		colour: "#00000000",
+		position: [
+                    [0, 0, 4, 1], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [12, 3, 18, 33], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [30, 36, 4, 1]
+                  ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3px",
+		margin_right: "3px"
+	},	
+
+	"treeviewnode_panel": {
+		colour: "#0", 
+		height: "24dpi_px", 
+		width: "100%"
+	},
+
+	"resource_treeview": {
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars", 
+		flow_loop: "true"
+	},
+
+	"resourcetree_horizontal_separator": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [5, 5, 1, 1], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ResourceTree/Separator.png",
+		height: "1dpi_px",
+		width_flags: "ScaleToFit",
+		margin_left: "0dpi_px",
+		margin_right: "0dpi_px",
+		top: "0dpi_px"
+	},
+
+	"resource_treeview_panel": {
+		colour: "#0", 
+		width: "100%", 
+		height: "24dpi_px",
+		stack_flags: "FullSizeInternalPanel"
+	},
+
+	"treeview_plusminus_expand": {
+		colour: "#ffffffff",
+		position: [
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,16,16], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0]
+                          ],
+		frame_name: "MaximizeButton.png",
+		width: "16dpi_px",
+		height: "16dpi_px",
+		top: "0px"
+	},	
+	"treeview_plusminus_collapse": {
+		colour: "#ffffffff",
+		position: [
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,16,16], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0]
+                          ],
+		frame_name: "MinimizeButton.png",
+		width: "16dpi_px",
+		height: "16dpi_px",
+		top: "0px"
+	},
+	"treeview_plusminus_neutral": {
+		colour: "#00000000",
+		position: [
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0]
+                          ],
+		frame_name: "Window/dial_window_ctrls.png",
+		width: "0dpi_px",
+		height: "0dpi_px",
+		top: "0dpi_px"
+	},
+
+	"treeview_viewmenu": {
+		grid_resize: "ResizeLast", 
+		mouse_events: "False", 
+		width: "100%", 
+		height: "100%", 
+		colour: "#FFFFFFFF", 
+		position: [
+					[2, 2, 3, 3], [5, 2, 10, 3], [15, 2, 3, 3], 
+					[2, 5, 3, 19], [5, 5, 10, 19], [15, 5, 3, 19], 
+					[2, 24, 3, 3], [5, 24, 10, 3], [15, 24, 3, 3]
+				], 
+		frame_name: "Dock/dock_gadgets.png", 
+		label_style: "borderless_title_bar_label"
+	},
+	
+	"resourcetree_searchoptions_popup": {
+		position: [
+					[0, 0, 8, 8], [8, 0, 16, 8], [24, 0, 8, 8], 
+					[0, 8, 8, 16], [8, 8, 16, 16], [24, 8, 8, 16], 
+					[0, 24, 8, 8], [8, 24, 16, 8], [24, 24, 8, 8]
+				], 
+		frame_name: "Window/context_outer.png", 
+		margin: ["0px", "5px", "5px", "5px"], 
+		colour: "#ffffffff", 
+		width: "388dpi_px", 
+		width_min: "300dpi_px", 
+		width_flags: "ScaleToFit", 
+		height: "110dpi_px", 
+		height_min: "110dpi_px", 
+		height_flags: "ScaleToFit"
+	},
+
+	"resourcetree_viewoptions_button_up": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "SoundEditor/play_button_states.png", 
+		height: "24dpi_px", 
+		auto_height: "True", 
+		deactivated_style: "button_deactivated", 
+		reactivated_style: "button_reactivated"
+	},
+
+	"resourcetree_viewoptions_button_up_icon_with_label": {
+		colour: "#FF949494",
+		width: "14dpi_px", 
+		right: "6dpi_px", 
+		top: "6dpi_px",
+		mouse_events: "False", 
+		image_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+
+	"resourcetree_viewoptions_button_up_label_with_icon": {
+		colour: "#FF8949494",
+		left: "-3dpi_px", 
+		top: "1dpi_px",
+		mouse_events: "False"
+	},
+	
+	"resourcetree_viewoptions_button_down": {
+		position: [
+					[2, 2, 3, 3], [5, 2, 10, 3], [15, 2, 3, 3], 
+					[2, 5, 3, 19], [5, 5, 10, 19], [15, 5, 3, 19], 
+					[2, 24, 3, 3], [5, 24, 10, 3], [15, 24, 3, 3]
+				], 
+		frame_name: "Dock/dock_gadgets.png"
+	},
+
+	"resourcetree_searchoptions_button_down": {
+		position: [
+					[2, 2, 3, 3], [5, 2, 10, 3], [15, 2, 3, 3], 
+					[2, 5, 3, 19], [5, 5, 10, 19], [15, 5, 3, 19], 
+					[2, 24, 3, 3], [5, 24, 10, 3], [15, 24, 3, 3]
+				], 
+		frame_name: "Dock/dock_gadgets.png"
+	},
+	
+	"resourcestreeview": {
+		width: "100%", 
+		height: "100%", 
+		left: "0dpi_px", 
+		top: "0px"
+	},
+	
+	"resourcetreeview_window": {
+		width: "240dpi_px", 
+		height: "400dpi_px", 
+		left: "50dpi_px", 
+		top: "50dpi_px"
+	},
+	
+	"resourcetreeview_gadget": {
+		width: "300dpi_px", 
+		height: "400dpi_px"
+	},
+	
+	"resourcetreeview_panel": {
+		width: "100%",
+		stack_flags: "FullSizeInternalPanel",
+		margin_left: "5dpi_px"
+	},
+	
+	"resourcetreeview_label": {
+		width: "100%", 
+		height: "20dpi_px", 
+		left: "0dpi_px", 
+		mouse_events: "true", 
+		valign: "vAlignCentre"
+	},
+	
+	"resourcetreeview_expand": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+					[57, 0, 4, 1], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [57, 3, 18, 33], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [75, 36, 4, 1]
+				], 
+		frame_name: "Window/resources_expand_collapse.png", 
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3dpi_px", 
+		margin_right: "3dpi_px",
+		left: "5dpi_px"
+	},
+	
+	"resourcetreeview_collapse": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+					[90, 0, 2, 2], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [96, 6, 27, 27], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [123, 33, 3, 2]
+				], 
+		frame_name: "Window/resources_expand_collapse.png", 
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3dpi_px", 
+		margin_right: "3dpi_px",
+		left: "5dpi_px"
+	},
+	
+	"resourcetreeview_neutral": {
+		colour: "#00000000", 
+		width: "0pi_px", 
+		height: "13dpi_px", 
+		margin_left: "3dpi_px", 
+		margin_right: "3dpi_px",
+		left: "5dpi_px"
+	},
+	
+	"rootResourceNode": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png", 
+		width: "100%", 
+		height: "100%", 
+		left: "0dpi_px", 
+		top: "0px"
+	},
+	
+	"rootResourceNode_window": {
+		width: "100%", 
+		height: "400dpi_px", 
+		left: "50dpi_px", 
+		top: "50dpi_px"
+	},
+	
+	"rootResourceNode_gadget": {
+		width: "100%", 
+		height: "400dpi_px"
+	},
+	
+	"rootResourceNode_label": {
+		width: "100%", 
+		height: "20dpi_px", 
+		left: "0dpi_px", 
+		mouse_events: "true", 
+		valign: "vAlignCentre"
+	},
+	
+	"rootResourceNode_label_empty": {
+		colour: "#FF888888", 
+		width: "100%", 
+		height: "20dpi_px", 
+		left: "0dpi_px", 
+		mouse_events: "true", 
+		valign: "vAlignCentre"
+	},
+	
+	"rootResourceNode_expand": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+					[57, 0, 4, 1], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [57, 3, 18, 33], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [75, 36, 4, 1]
+				], 
+		frame_name: "Window/resources_expand_collapse.png", 
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3dpi_px", 
+		margin_right: "3dpi_px",
+		left: "5dpi_px"
+	},
+	
+	"rootResourceNode_collapse": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+		position: [
+					[90, 0, 2, 2], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [96, 6, 27, 27], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [123, 33, 3, 2]
+				], 
+		frame_name: "Window/resources_expand_collapse.png", 
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3dpi_px", 
+		margin_right: "3dpi_px",
+		left: "5dpi_px"
+	},
+	
+	"rootResourceNode_neutral": {
+		MODIFY_COMMENT: "Hide the nonexistent folder collapsed arrow",
+		colour: "#00000000",
+		position: [
+					[0, 0, 4, 1], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [12, 3, 18, 33], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [30, 36, 4, 1]
+				], 
+		frame_name: "Window/resources_expand_collapse.png", 
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "3dpi_px", 
+		margin_right: "3dpi_px",
+		left: "5dpi_px"
+	},
+
+	"resourcetree_label_default": {
+		MODIFY_COMMENT: "Use VS White Gray for resource tree glyphs and text (resource label in styles.json)",
+		colour: "#fff1f1f1",
+        fontname: "Open Sans",
+        size: 9,
+        style: "0",
+        antialias: 0
+	},
+
+	"resourcetree_colours": 
+	{	background_default: "#00000000",
+		icon_default: "#FFFFFFFF",
+
+		MODIFY_COMMENT: "Hide tree level separators (and change to VS Slate Gray Trim if we do want it)",
+		horizontal_separator: "#00463f3f",
+		MODIFY_COMMENT: "Hide tree pipelines (and change to VS Slate Gray Trim if we do want it)",
+		treeline: "#00463f3f",
+		MODIFY_COMMENT: "Hide tree selection highlight (and change to GMS Green if we do want it)",
+		node_select_highlight: "#000b9c71"
+	}
+}

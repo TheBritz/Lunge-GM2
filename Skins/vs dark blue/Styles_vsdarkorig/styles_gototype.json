@@ -1,0 +1,43 @@
+{
+	"image_searchicon": {
+		width: "12dpi_px", 
+		height: "12dpi_px", 
+		image_flags: "Stretch", 
+		mouse_events: "False"
+	},
+
+	"label_item_recently_used": {
+		MODIFY_COMMENT: "Recently selected (Light GMS Green)",
+		colour: "#ff13d098"
+	},
+
+	"item_highlight_color":  {
+		MODIFY_COMMENT: "Matching search string to select (Light GMS Green)",
+		colour: "#ff13d098"
+	},
+
+	"label_item_normal": {
+		MODIFY_COMMENT: "Use VS White Gray instead of pure white labels",
+		colour: "#fff1f1f1"
+	},
+	
+	"gototype_text_box": {
+		delay_change_time: "50"
+	},
+	
+	"label_goto_type": {
+		MODIFY_COMMENT: "Use VS White Gray instead of pure white labels",
+		colour: "#fff1f1f1"
+	},
+
+	"list_box_dial_inner_gototype": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png",
+		MODIFY_COMMENT: "Mouseover item (VS Slate Gray Selected)",
+		mouse_over_colour: "#ff343333"
+	}
+}
