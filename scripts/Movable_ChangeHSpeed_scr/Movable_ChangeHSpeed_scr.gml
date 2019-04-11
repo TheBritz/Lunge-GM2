@@ -10,8 +10,10 @@ if(argument_count > 1)
 
 var overspeedCorrection = undefined;
 if(argument_count > 2)
+{
   overspeedCorrection = argument[2];
-  
+	if(overspeedCorrection < 0) overspeedCorrection = 0;
+} 
 
 if(!is_undefined(acceleration))
 {

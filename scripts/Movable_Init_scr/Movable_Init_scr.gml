@@ -19,5 +19,7 @@ m_movementSuppressGravity = false;
 m_movementAirGravity = undefined;
 m_movementAirFallMaxSpeedVert = undefined;
 m_movementUseFramerateAdjust = true;
+m_movementGroundSlope = 0;
+m_movementGroundSlopeAngle = 0;
 
 m_isGrounded = false;

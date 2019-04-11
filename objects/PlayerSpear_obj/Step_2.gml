@@ -11,6 +11,11 @@ if(PlayerSpear_CanStrike_scr(id))
     var hit = hitList[|i];
     PlayerSpear_ImpaleEnemy_scr(id, hit);
   }
+	
+	if(hitCount > 0)
+	{
+		SleepManager_scr(global.HitSleepTime);
+	}
 }
 
 ///Wall Latch Collision

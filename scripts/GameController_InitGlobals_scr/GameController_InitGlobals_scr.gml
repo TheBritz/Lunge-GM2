@@ -35,6 +35,9 @@ global.AnimSpeedModAdd = 0;
 global.TimeSpeedModMult = 1;
 global.TimeSpeedModAdd = 0;
 
+//Hit freeze frames
+global.HitSleepTime = 150;
+
 
 
 

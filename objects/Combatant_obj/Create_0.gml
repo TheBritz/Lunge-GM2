@@ -50,6 +50,8 @@ m_movementGroundActivelyMoving = undefined;
 m_movementGroundGravityMod = undefined;
 m_movementJumpLag = room_speed/15;
 m_movementGroundOverspeedThreshold = 1.5;
+m_movementGroundSlope = 0;
+m_movementGroundSlopeResistance = 1;
 
 //Combat
 m_combatantDashAttackSpeedThreshold = 1;

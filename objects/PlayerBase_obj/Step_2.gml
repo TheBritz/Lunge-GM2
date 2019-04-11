@@ -9,17 +9,23 @@ if(m_combatantSpriteOverspeed == m_playerSpriteOverspeedSlide)
   if(sprite_index == m_playerSpriteOverspeedSlide)
   {
     m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorSlide;
-  }
+		m_movementGroundSlopeResistance = 0;
+	  image_angle = m_movementGroundSlopeAngle;
+	}
   else
   {
     m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorStandard;
+		m_movementGroundSlopeResistance = 1;
+		image_angle = 0;
   }
   
   if(!Combatant_IsInOverspeed_scr(id))
   {
-    m_combatantSpriteOverspeed = m_combatantSpriteOverspeedStandard;
+    m_movementGroundSlopeResistance = 1;
+		m_combatantSpriteOverspeed = m_combatantSpriteOverspeedStandard;
     m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorStandard;
-  }
+		image_angle = 0;
+	}
 }
 #endregion
 

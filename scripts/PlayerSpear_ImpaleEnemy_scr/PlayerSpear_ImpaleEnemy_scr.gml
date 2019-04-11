@@ -24,5 +24,6 @@ with(enemy)
     {
       sprite_index = m_enemySpriteImpaled;
     }
+		enemy.depth = spear.depth - 1;
   }
 }

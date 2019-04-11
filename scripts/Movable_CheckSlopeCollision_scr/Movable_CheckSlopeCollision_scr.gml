@@ -1,16 +1,12 @@
 /// @description Movable_CheckSlopeCollision_scr
 
 var slopeStickAdjust = 0;
-var slope = instance_place(x, y, SolidSloped_obj)
+var slope = instance_place(x, y, SolidSloped_obj);
 if(m_slopeStickFactor > 0 && 
    instance_exists(slope) && 
    sign(m_velocityH) != sign(slope.image_xscale))
 {
   slopeStickAdjust = m_slopeStickFactor * abs(m_velocityH);
-  if(object_index == Player1_obj)
-  {
-    var test = "test";
-  }
 }
 
 var bottom = sprite_get_height(mask_index) * 
@@ -39,6 +35,8 @@ if(instance_exists(slope))
 var solidY = SolidSloped_CollisionCheck_scr(xx, y + slopeStickAdjust, bottom);
 if(!is_undefined(solidY))
 {
+  m_movementGroundSlope = SolidSloped_GetSlopeValue_scr(slope);
+	m_movementGroundSlopeAngle = SolidSloped_GetSlopeAngle_scr(slope);
   y = solidY;
   m_collideV = 1;
   if(m_velocityV > 0)

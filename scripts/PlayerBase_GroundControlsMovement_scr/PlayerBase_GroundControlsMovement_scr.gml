@@ -33,9 +33,14 @@ else
   speedMaxMod = hState;
 }
 
-if(accelHor != 0)
-{
-  Movable_ChangeHSpeed_scr(m_movementGroundMaxSpeed * m_facing * abs(speedMaxMod), m_movementGroundAccelHor, m_movementGroundOverspeedCorrectionHor);
+var slopeEffect = m_movementGroundSlope * (1 - m_movementGroundSlopeResistance) * sign(Movable_GetHSpeed_scr(id) * -1);
+if(accelHor != 0 || slopeEffect != 0)
+{	
+  if(slopeEffect != 0)
+	{
+		var test = "test";
+	}
+	Movable_ChangeHSpeed_scr(m_movementGroundMaxSpeed * m_facing * abs(speedMaxMod), m_movementGroundAccelHor + slopeEffect, m_movementGroundOverspeedCorrectionHor - slopeEffect);
   m_movementGroundActivelyMoving = true;
 }
 else

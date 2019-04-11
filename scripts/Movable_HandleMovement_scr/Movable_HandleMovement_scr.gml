@@ -1,6 +1,8 @@
 /// @description Movable_HandleMovement_scr()
 if(m_isSolidObservant)
 {
+	m_movementGroundSlope = 0;
+	m_movementGroundSlopeAngle = 0;
   m_isGrounded = false;
   var xStart = x;
   var velocityEffH = Movable_GetHSpeedEffective_scr(id);

@@ -73,6 +73,14 @@
             }
         },
         {
+            "Key": "03e8cc6b-3fdd-4018-a599-38d1ddba5a79",
+            "Value": {
+                "id": "edcd72f0-98e9-4b73-a979-53b1994d4599",
+                "resourcePath": "scripts\\sleep\\sleep.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0415c751-57bc-49ce-9701-9e1d61fe714a",
             "Value": {
                 "id": "ac6ae9fa-91b0-447c-8518-93aac592ae5b",
@@ -478,6 +486,22 @@
                 "id": "c8a05e25-53f1-4d7f-9379-852505b21152",
                 "resourcePath": "scripts\\ConsoleValidateParameterMetadataObjectType_scr\\ConsoleValidateParameterMetadataObjectType_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "212c85a0-8aaf-4bde-afa4-c111c170c9c5",
+            "Value": {
+                "id": "a3b1518f-5812-4e93-adac-e9f7aaed98a2",
+                "resourcePath": "scripts\\SolidSloped_GetSlopeValue_scr\\SolidSloped_GetSlopeValue_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "214c7527-2a99-4b63-ace5-5031b40943eb",
+            "Value": {
+                "id": "32ee938d-3696-4351-a99c-3848c26cb7af",
+                "resourcePath": "objects\\SleepManager_obj\\SleepManager_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1329,6 +1353,14 @@
             }
         },
         {
+            "Key": "55fca033-3d98-4180-85ad-9b3749fe06be",
+            "Value": {
+                "id": "940e77e8-c4a4-41d5-af9c-b1082f549a35",
+                "resourcePath": "views\\55fca033-3d98-4180-85ad-9b3749fe06be.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "56e1d1fc-85da-4726-be17-e029104f8e45",
             "Value": {
                 "id": "9a64e83c-ce3b-4b10-a168-5f18b392a93d",
@@ -1937,6 +1969,14 @@
             }
         },
         {
+            "Key": "7ad50316-d6bd-4c50-8b91-863cf02bbc05",
+            "Value": {
+                "id": "dfbb2389-15f1-4973-a083-1a3ba6be7f8c",
+                "resourcePath": "scripts\\SolidSloped_GetSlopeAngle_scr\\SolidSloped_GetSlopeAngle_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7cc16033-d642-4786-9584-eed010d48007",
             "Value": {
                 "id": "28b99552-ad24-4cdb-a7be-6a19158da543",
@@ -2145,6 +2185,14 @@
             }
         },
         {
+            "Key": "877ac03d-d893-488a-b170-1823af25706e",
+            "Value": {
+                "id": "2da561c2-be67-4323-a1db-396e010dead4",
+                "resourcePath": "scripts\\SleepManager_scr\\SleepManager_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8790d073-3709-4f71-9c21-99388101ef76",
             "Value": {
                 "id": "1fb45268-3403-4694-8373-ffbe448cc098",
@@ -2238,6 +2286,14 @@
                 "id": "bc20e8a4-5a36-4423-a38f-e79cc3b9a7ad",
                 "resourcePath": "scripts\\GetObjectTypes_scr\\GetObjectTypes_scr.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8c84b19f-8997-4b76-958b-9eaf62303a2c",
+            "Value": {
+                "id": "35c9e80c-88d6-4393-9e28-72a977f793c7",
+                "resourcePath": "rooms\\room4\\room4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3173,14 +3229,6 @@
             "Value": {
                 "id": "10c6d7e5-1d1a-45ac-84ab-98c5f6f22071",
                 "resourcePath": "scripts\\Combatant_ControlAudioGround_scr\\Combatant_ControlAudioGround_scr.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c6e0a0ae-d8ba-45ec-b8f1-dc99fca8e592",
-            "Value": {
-                "id": "21e18ad5-ead6-4839-937c-39b7ee82a789",
-                "resourcePath": "scripts\\script120\\script120.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4167,6 +4215,8 @@
         "acdc3a8c-d374-4515-9d0f-24be1d51e012",
         "475596b6-966b-4563-8d7f-f35056a676d6",
         "da6c6592-1500-463b-b176-87e6a584f783",
+        "212c85a0-8aaf-4bde-afa4-c111c170c9c5",
+        "7ad50316-d6bd-4c50-8b91-863cf02bbc05",
         "480e1db8-7670-479d-8c1c-2e3c3bbe4c67",
         "725c1e9d-fa9b-42f8-81f5-d7c81078e924",
         "cb98eeb4-fad7-43ec-8e93-437132f88354",
@@ -4182,6 +4232,7 @@
         "9ecccdec-b791-4eb1-8ed8-55968a2a65c6",
         "7076a3c9-3cfd-4f99-9b49-29329f15099a",
         "b0f53c2f-235f-4104-b45a-d38f3bf82ff8",
+        "877ac03d-d893-488a-b170-1823af25706e",
         "cc0003ef-3ee6-40de-8380-d9b7f22d48f1",
         "8908f116-df6b-4cbe-adf7-bd5b5075c05d",
         "29e0b9d3-0580-4f08-b6ca-e59530a8380c",
@@ -4311,7 +4362,7 @@
         "9ae93e94-68ad-4936-b436-72a7d4df7dd4",
         "1c59fc09-5691-49c9-b373-100398449545",
         "d0314734-ca8c-4ae2-a5ec-9af89f8d6e14",
-        "c6e0a0ae-d8ba-45ec-b8f1-dc99fca8e592",
+        "03e8cc6b-3fdd-4018-a599-38d1ddba5a79",
         "35dfa0b5-8b09-45c2-a920-901c9e845a15",
         "59016f6c-2b84-4043-a91e-f1f94490e708",
         "a015f064-d53b-47cd-b615-a9b404001c89",
