@@ -1,7 +1,10 @@
 var subject = id;
 if(argument_count > 0)
 {
-  subject = argument[0];
+	if(!is_undefined(argument[0]))
+	{
+    subject = argument[0];
+	}
 }
 
 with(subject)

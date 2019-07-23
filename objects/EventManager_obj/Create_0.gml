@@ -4,10 +4,12 @@ enum Event
 {
 	Timer,
 	Script,
+	Instance,
 	Data,
 	OriginalTime,
 	IsRepeating,
-  IsRealTime
+  IsRealTime,
+	RunIfNoInstance
 }
 
 m_scheduledEvents = ds_list_create();

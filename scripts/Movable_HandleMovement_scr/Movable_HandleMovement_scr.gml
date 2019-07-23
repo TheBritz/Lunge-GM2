@@ -1,6 +1,7 @@
 /// @description Movable_HandleMovement_scr()
 if(m_isSolidObservant)
 {
+	m_touchingSurfaceHor = 0;
 	m_movementGroundSlope = 0;
 	m_movementGroundSlopeAngle = 0;
   m_isGrounded = false;
@@ -9,7 +10,8 @@ if(m_isSolidObservant)
   var velocityEffV = Movable_GetVSpeedEffective_scr(id);
 
   // Handle sub-pixel movement
-  m_subH += velocityEffH;
+  m_subH += velocityEffH; 
+	
   var roundedVelocityH = round(m_subH);
   m_subH -= roundedVelocityH;
 
@@ -47,17 +49,23 @@ if(m_isSolidObservant)
   m_subV -= roundedVelocityV;
 
   // Vertical Movement
-  if(roundedVelocityV = 0) m_impactVelV = 0;
+  if(roundedVelocityV == 0) m_impactVelV = 0;
   repeat (abs(roundedVelocityV))
   {
     var hitPlatform = false;
     var velocitySign = sign(roundedVelocityV)
     if(roundedVelocityV > 0)
     {
-      var platform = instance_place(x, y + velocitySign, Platform_obj);
-      if(instance_exists(platform))
+      var platform = instance_place(x, y + velocitySign, PlatformMoving_obj);
+			var exists = instance_exists(platform); 
+      if(!exists)
+			{
+				platform = instance_place(x, y + velocitySign, Platform_obj);
+			}
+			
+			if(exists)
       {
-        if(bbox_bottom <= platform.y)
+        if(bbox_bottom <= platform.bbox_top)
         {
           hitPlatform = true;
         }
@@ -86,14 +94,67 @@ if(m_isSolidObservant)
     y = preCheckY;
   }
   
-  if(m_impactVelV > 0)
+  if(m_impactVelV > m_surfaceLandingSpeedThreshold)
   {
-    m_isGrounded = true;
+		Movable_HandleSurfaceLanding_scr(id);
+		m_isGrounded = true;
+		m_touchingSurfaceVert = 1;
   }
   else
   {
-    m_isGrounded = place_meeting(x, y + 1, Solid_obj) || place_meeting(x, y + 1, Platform_obj);
   }
+	
+	//Prioritize moving surface
+	var standingSurf = instance_place(x, y + 1, StandableSurfaceMoving_obj);
+	var exists = instance_exists(standingSurf);
+	if(!exists)
+	{
+		//Try for a non-moving platform
+		standingSurf = instance_place(x, y + 1, StandableSurface_obj);
+		exists = instance_exists(standingSurf);
+		if(exists)
+		{
+			if(object_is(standingSurf.object_index, SolidSloped_obj))
+			{
+				exists = false;
+			}
+		}
+	}
+		
+	if(exists)
+	{
+		m_isGrounded = true;
+		m_touchingSurfaceVert = 1;
+		m_touchingSurfaceVertInst = standingSurf;
+		m_velocitySurfaceH = standingSurf.m_velocityH;
+	}
+	else
+	{
+		m_velocityH += m_velocitySurfaceH;
+		m_velocitySurfaceH = 0;
+	}
+	
+	if(m_impactVelH > 0)
+	{
+		m_touchingSurfaceHor = 1;
+	}
+	else if(m_impactVelH < 0)
+	{
+		m_touchingSurfaceHor = -1;
+	}
+	else
+	{
+		if(place_meeting(x + 1, y, Solid_obj))
+		{
+			m_touchingSurfaceHor = 1;
+			m_touchingSurfaceHorInst = instance_place(x + 1, y, Solid_obj);
+		}
+		else if(place_meeting(x - 1, y, Solid_obj))
+		{
+			m_touchingSurfaceHor = -1;
+			m_touchingSurfaceHorInst = instance_place(x - 1, y, Solid_obj);
+		}
+	}
 }
 else
 {

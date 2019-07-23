@@ -4,10 +4,11 @@ if(PlayerSpear_IsImbedded_scr(m_spear))
 {
   PlayerSpear_AddCharge_scr(m_spear, 10000, false);
   m_spearCanDetonate = true;
+	m_spearCanDetonateSecondary = true;
 }
 else
 {
-  PlayerSpear_AddCharge_scr(m_spear, m_spearChargeAmount);
+  //PlayerSpear_AddCharge_scr(m_spear, m_spearChargeAmount);
 }
 
 ///State Machine

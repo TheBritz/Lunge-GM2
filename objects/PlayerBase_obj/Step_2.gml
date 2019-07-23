@@ -1,9 +1,60 @@
 #region Inherited Events
+
+
 /// @description Inherited Events
 event_inherited();
 #endregion
 
+#region Player Wall Run
+if(!m_playerIsWallRunning)
+{
+  if(m_impactVelH != 0 || 
+	  (m_playerBoostPreviousFrame && Movable_GetTouchingSurfaceHor_scr(id) != 0))
+	{ 
+	  if(m_velocityV <= abs(m_playerWallRunStartSpeedThresh)*-1)
+		{
+			//Start wall running
+			m_playerIsWallRunning = true;
+			m_combatantSpriteLock = true;
+			//image_angle = 90;
+			sprite_set_properties(m_playerWallRunSprite, 0, undefined);
+			//Set the scale sign according to the wall that is being run up
+			image_xscale = abs(image_xscale) * sign(m_impactVelH);
+			m_movementAirGravityMult = m_playerWallRunGravityMultiplierInactive;
+		}
+	}
+}
+else
+{
+	//Check if player has stopped wall running
+	var isTooSlow = m_velocityV > abs(m_playerWallRunStopSpeedThresh) * -1;
+	if(Movable_GetTouchingSurfaceHor_scr(id) == 0 || isTooSlow)
+	{
+		//Stop wall running
+		m_playerIsWallRunning = false;
+		m_combatantSpriteLock = false;
+		m_movementAirGravityMult = undefined;
+		
+		sprite_set_properties(m_combatantSpriteFall, 0, undefined);
+		//To-do: Experiment with a small hop-off if stop threshold was reached
+		if(isTooSlow)
+		{
+			Movable_ChangeHSpeed_scr(-m_movementGroundJumpSpeed * .2 * m_facing);
+			Movable_ChangeVSpeed_scr(-1000, m_movementGroundJumpSpeed * .25);
+		}
+	}
+}
+#endregion
+
 #region Player Slide
+//Slide landing
+if(m_impactVelV > 0 && m_combatantSpriteOverspeed != m_combatantSpriteSlide && m_movementGroundSlideIsBuffered)
+{
+	m_combatantSpriteOverspeed = m_combatantSpriteSlide;
+	Movable_ChangeHSpeed_scr(m_velocityH + 
+	  (m_movementGroundSlideLandingSpeedBoost * sign(m_velocityH)), m_movementGroundSlideLandingSpeedBoost);
+}
+
 if(m_combatantSpriteOverspeed == m_playerSpriteOverspeedSlide)
 {
   if(sprite_index == m_playerSpriteOverspeedSlide)
@@ -29,9 +80,26 @@ if(m_combatantSpriteOverspeed == m_playerSpriteOverspeedSlide)
 }
 #endregion
 
-#region Position Spear
 if(instance_exists(m_spear))
-{
+{	
+#region Charge Spear
+  var groundMult = 1;
+	if(Movable_IsGrounded_scr(id))
+	{
+		groundMult = m_spearChargeGroundedMult;
+		
+		//Stop boost cruise
+		if(m_movementAirGravity == 0)
+		{
+		  m_movementAirGravity = undefined;
+		}
+	}
+	
+	var charge = get_modified_time() * m_spearChargeAmount * groundMult;
+  PlayerSpear_AddCharge_scr(m_spear, charge, false);
+#endregion
+
+#region Position Spear
   var spearAngle = undefined;
   if(keyboard_check(vk_left) && !keyboard_check(vk_right))
   {
@@ -118,8 +186,8 @@ if(instance_exists(m_spear))
 	      sprite_index = attackSprite;
         var sprSpd = sprite_get_speed(attackSprite);
         var sprNumber = sprite_get_number(attackSprite);
-        var duration = sprNumber / sprSpd * 1000000;
-        EventManager_AddEvent_scr(PlayerBase_ResetSpearLunging_scr, duration, id);
+        var duration = sprNumber / sprSpd;
+        EventManager_AddEvent_scr(PlayerBase_ResetSpearLunging_scr, duration);
         
 	      //image_speed = m_combatantImageSpeedGroundAttack;
 	      m_isAttacking = true;
@@ -162,20 +230,53 @@ if(instance_exists(m_spear))
   m_spear.y = y + yy + yAdjust ;
   m_spear.depth = depth - 1;
   PlayerSpear_PositionSkeweredEnemies_scr(m_spear);
+	#endregion
   
+#region Player Boost
+	var isPlayerBoosting = false;
   if(InputManager_GetButtonControlState_scr(ButtonControls.Detonate) == ButtonStates.JustPressed)
   {
-    if(m_spearCanDetonate && instance_exists(PlayerSpear_Detonate_scr(m_spear)))
-    {
-      //Pull spear out of object
+		var detonationSpeed = PlayerSpear_Detonate_scr(m_spear);
+    if(detonationSpeed > 0)
+    {	
+			m_movementAirGravity = 0;
+			EventManager_AddEvent_scr(PlayerBase_ResetGravity_scr, m_spearDetonationCruiseTime);
+			
+			isPlayerBoosting = true;
+      
+			//Pull spear out of object
       m_spear.m_imbedPointX = undefined;
       m_spear.m_imbedPointY = undefined;  
     
       var angle = m_spear.image_angle + 180;
       if(angle >= 360) angle -= 360;
       
+			var horSpeedMod = 1;
+			
+			#region Player Slide
+      //Check to see if player is on the ground
+      ////TODO: Make it so that player can transition to slide from a short distance above ground too
+      //Check to see if detonation angle is downward and aligns with player movement
+      if((angle >= 200 && angle <= 240 && sign(Movable_GetHSpeed_scr(id)) == -1)
+        ||(angle >= 300 && angle <= 340 && sign(Movable_GetHSpeed_scr(id)) == 1))
+      {
+	      if(Movable_IsGrounded_scr(id))
+	      {
+					m_combatantSpriteOverspeed = m_combatantSpriteSlide;
+					horSpeedMod = m_movementGroundSlideSpeedMult;
+				}
+				else
+				{
+					m_movementGroundSlideIsBuffered = true;
+					//Start event
+					EventManager_AddEvent_scr
+					  (PlayerBase_Event_ResetSlideBuffer_scr, m_movementGroundSlideBufferTime);
+				}
+      }
+      #endregion
+			
       var vertComponent = lengthdir_y(m_spearDetonationSpeed, angle);
-      if(sign(vertComponent) != sign(Movable_GetVSpeed_scr(id)))
+      if(vertComponent != 0 && sign(vertComponent) != sign(Movable_GetVSpeed_scr(id)))
       {
         Movable_ChangeVSpeed_scr(vertComponent, 1000);
       }
@@ -184,8 +285,8 @@ if(instance_exists(m_spear))
         Movable_AddMotion_scr(id, 270, vertComponent);
       }
       
-      var horComponent = lengthdir_x(m_spearDetonationSpeed, angle);
-      if(sign(horComponent) != sign(Movable_GetHSpeed_scr(id)))
+      var horComponent = lengthdir_x(m_spearDetonationSpeed, angle) * horSpeedMod;
+      if(horComponent != 0 && sign(horComponent) != sign(Movable_GetHSpeed_scr(id)))
       {
         Movable_ChangeHSpeed_scr(horComponent, 1000);
       }
@@ -194,22 +295,12 @@ if(instance_exists(m_spear))
         Movable_AddMotion_scr(id, 0, horComponent);
       }
       m_spearCanDetonate = false;
-      
-      #region Player Slide
-      //Check to see if player is on the ground
-      //TODO: Make it so that player can transition to slide from a short distance above ground too
-      if(Movable_IsGrounded_scr(id))
-      {
-        //Check to see if detonation angle is downward and aligns with player movement
-        if((angle >= 200 && angle <= 240 && sign(Movable_GetHSpeed_scr(id)) == -1)
-         ||(angle >= 300 && angle <= 340 && sign(Movable_GetHSpeed_scr(id)) == 1))
-        {
-          m_combatantSpriteOverspeed = m_combatantSpriteSlide;
-        }
-      }
-      #endregion
     }
   }
+	else if(!InputManager_GetButtonControlState_scr(ButtonControls.Detonate) == ButtonStates.Pressed)
+	{
+		m_movementAirGravity = undefined;
+	}
   
   var imbedCoords; 
   var angleBefore = m_spear.image_angle;
@@ -250,5 +341,10 @@ if(instance_exists(m_spear))
     }
   }
 }
+#endregion
+
+#region Previous Frame Variables
+m_playerBoostPreviousFrame = false;
+m_playerBoostPreviousFrame = isPlayerBoosting;
 #endregion
 

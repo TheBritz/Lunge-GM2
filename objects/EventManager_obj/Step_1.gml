@@ -12,10 +12,24 @@ for(var i = 0; i < ds_list_size(m_scheduledEvents); i++)
     
   }
   
-	event[?Event.Timer] = event[?Event.Timer] - (delta_time * global.TimeSpeedModMult + global.TimeSpeedModAdd);
+	event[?Event.Timer] = event[?Event.Timer] - (delta_time / 1000000 * global.TimeSpeedModMult + global.TimeSpeedModAdd);
 	if(event[?Event.Timer] <= 0)
 	{
-		script_execute(event[?Event.Script], event[?Event.Data]);
+		var instance = event[?Event.Instance];
+		var instanceExists = instance_exists(event[?Event.Instance]);
+		if(instance == noone || is_undefined(instance) || 
+		  (!instanceExists && event[?Event.RunIfNoInstance]))
+		{
+		  script_execute(event[?Event.Script], event[?Event.Data]);
+		}
+		else if(instanceExists)
+		{
+			with(instance)
+			{
+				script_execute(event[?Event.Script], event[?Event.Data]);
+			}
+		}
+		
 		
 		if(event[?Event.IsRepeating])
 		{

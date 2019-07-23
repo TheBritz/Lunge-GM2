@@ -16,8 +16,10 @@ m_movementGroundGravityMod = 4;
 
 //Spear
 m_spear = noone;
-m_spearChargeAmount = 2.5;
+m_spearChargeAmount = 15;
+m_spearChargeGroundedMult = 10;
 m_spearCanDetonate = true;
+m_spearCanDetonateSecondary = true;
 m_spearLungeDist = 30;
 m_spearLungeAdjust = 0;
 m_spearLungeAngle = undefined;
@@ -30,6 +32,10 @@ m_spearLungeDelay = 12;
 m_spearCanLunge = true;
 m_spearHoldAngleIncrement = 22.5;
 m_spearDetonationSpeed = 12;
+m_spearDetonationSpeedSecondary = 8;
+m_spearDetonationIsCruising = false;
+m_spearDetonationCruiseTime = .2;
+m_spearDetonationSecondaryAvailable = true;
 
 m_playerIndex = undefined;
 
@@ -114,6 +120,10 @@ m_combatantSpriteOverspeedStandard = m_combatantSpriteOverspeed;
 
 m_playerSpriteOverspeedSlide = Player_Ground_Sliding_spr;
 m_movementGroundOverspeedCorrectionHorSlide = .3;
+m_movementGroundSlideSpeedMult = 1.33;
+m_movementGroundSlideBufferTime = .2;
+m_movementGroundSlideIsBuffered = false;
+m_movementGroundSlideLandingSpeedBoost = 4;
 
 m_combatantState = CombatantStates.Ground;
 
@@ -129,6 +139,10 @@ m_movementGroundMaxSpeed = 6;
 m_movementGroundJumpSpeed = 13.5;
 m_movementAirFallMaxSpeedVert = 12;
 m_movementAirFastFallSpeed = m_movementAirFallMaxSpeedVert * 1.3;
+m_movementAirGravityFloatMult = .7;
+m_movementAirGravityFallMult = 1.25;
+m_movementAirGravityMult = 1;
+m_movementAirIsJumping = false;
 
 m_combatantDashAttackSpeedThreshold = .6;
 
@@ -137,12 +151,12 @@ m_playerState = PlayerStates.None;
 m_analogStickUsed = false;
 
 //Player-specific movment
-m_playerMovementWallLatchTime = .2*room_speed;
+m_playerMovementWallLatchTime = .2 * room_speed;
 m_playerMovementWallSlideGravity = .07;
 m_playerMovementWallSlideMaxSpeed = 5;
 m_playerMovementJumpGrav = global.Gravity * .7;
 m_playerMovementModifyGrav = false;
-m_movementJumpLag = room_speed/10;
+m_movementJumpLag = .05;
 m_playerMovementJumpShortSpeed = m_movementGroundJumpSpeed * .75; 
 m_playerWallLatchJumpSpeed = 10;
 m_playerWallSlideJumpSpeed = 8.5;
@@ -150,6 +164,15 @@ m_playerWallJumpLateralSpeedRatio = .7;
 m_playerWallLatchSpeedThresh = 4;
 m_playerWallSlideSpeedThresh = 1.5;
 m_playerWallDetonateSpeed = 14;
+
+m_playerWallRunStartSpeedThresh = 12;
+m_playerWallRunStopSpeedThresh = 1.5;
+m_playerWallRunGravityMultiplierActive = .45;
+m_playerWallRunGravityMultiplierInactive = .7;
+m_playerWallRunSprite = PlayerWallRun_spr;
+m_playerIsWallRunning = false;
+
+m_playerBoostPreviousFrame = false;
 
 //Audio
 //m_audioRun = Run_snd;

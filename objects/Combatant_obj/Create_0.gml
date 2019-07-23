@@ -39,6 +39,7 @@ m_combatantSpriteOverspeed = undefined;
 m_combatantImageSpeedOverspeed = undefined;
 m_combatantSpriteSlide = undefined
 m_combatantImageSpeedSlide = undefined;
+m_combatantSpriteLock = false;
 
 //Movement
 m_movementGroundMaxSpeed = undefined;
@@ -62,6 +63,7 @@ m_movementAirFallMaxSpeedVert = undefined;
 m_movementAirFallMaxSpeedHor = undefined;
 m_movementAirFallAccelHor = undefined;
 m_movementAirGravity = undefined;
+m_movementAirGravityMult = undefined;
 m_movementSuppressGravity = undefined;
 m_movementAirAccelHor = undefined;
 m_movementAirMaxSpeedHor = undefined;
@@ -81,6 +83,7 @@ enum AudioEmitterTypes
 Combatant_AudioCreateEmitters_scr();
 //Movement Sounds
 m_audioRun = undefined;
+m_audioRunInstance = noone;
 m_audioRunInstance = noone;
 m_audioJump = undefined;
 m_audioJumpInstance = undefined;

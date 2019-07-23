@@ -8,4 +8,4 @@ if(!is_undefined(combatant.m_movementAirGravity))
   grav = combatant.m_movementAirGravity;
 }
 
-return grav;
+return grav; //* m_movementAirGravityMult;

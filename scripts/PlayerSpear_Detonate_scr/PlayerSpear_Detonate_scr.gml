@@ -11,7 +11,19 @@ with spear
     var coords = relative_coordinates(x, y, spearLength, 0, spear.image_angle);
     var detonation = instance_create(coords[0], coords[1], SpearDetonation_obj);
     detonation.depth = depth - 1;
-    m_charge -= m_chargeToDetonate;
+		var detonateSpeed = 0;
+		
+		if(m_charge >= m_chargeToDetonate)
+		{
+			detonateSpeed = m_detonateSpeedPrimary;
+			m_charge = m_chargeToDetonateSecondary;
+		}
+		else if(m_charge >= m_chargeToDetonateSecondary)
+		{
+			detonateSpeed = m_detonateSpeedSecondary;
+			m_charge = 0;
+		}
+
     var enemy;
     for(var i = 0; i < ds_list_size(m_skeweredEnemies); i++)
     {
@@ -51,7 +63,7 @@ with spear
       Movable_AddMotion_scr(spark, image_angle + spkDev, spkSpd);  
     }
     ds_list_clear(m_skeweredEnemies);
-    return detonation;
+    return detonateSpeed;
   }
-  return noone;
+  return 0;
 }

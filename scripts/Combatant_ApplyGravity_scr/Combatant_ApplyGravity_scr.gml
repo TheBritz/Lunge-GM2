@@ -13,7 +13,13 @@ if(!m_movementSuppressGravity)
   {
     grav = m_movementAirGravity;
   }
-  
+	
+	var gravMult = 1;
+	if(m_movementAirGravityMult != undefined)
+  {
+		gravMult = m_movementAirGravityMult;
+	}
+	
   if(!is_undefined(m_movementAirFallMaxSpeedVert))
   {
     terminalVelocity = m_movementAirFallMaxSpeedVert;
@@ -24,5 +30,5 @@ if(!m_movementSuppressGravity)
     var test = "test";
   }
     
-  Movable_ChangeVSpeed_scr(terminalVelocity, grav);
+  Movable_ChangeVSpeed_scr(terminalVelocity, grav * gravMult);
 }

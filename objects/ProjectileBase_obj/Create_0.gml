@@ -17,3 +17,5 @@ m_frictionQuotientV = 1;
 //How much the projectile slows down (additive) when it bounces
 m_frictionH = 0;
 m_frictionV = 0;
+
+m_movementAirGravityMult = undefined;

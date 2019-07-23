@@ -5,7 +5,8 @@
     "name": "6911f3f5-15c9-478c-94f8-703a4b2ad158",
     "children": [
         "1edd7808-8a95-40f9-856f-c1699864f1e9",
-        "de5e51a8-0abe-44ec-aaf0-a72088b55d68"
+        "de5e51a8-0abe-44ec-aaf0-a72088b55d68",
+        "826d7188-b9a3-481a-b3f5-67151a6ce760"
     ],
     "filterType": "GMScript",
     "folderName": "Environment",

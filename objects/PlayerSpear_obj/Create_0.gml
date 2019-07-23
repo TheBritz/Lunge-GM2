@@ -2,9 +2,13 @@
 m_wielder = noone;
 m_strikeTimer = -1;
 m_canDetonate = true;
-m_chargeToDetonate = 100;
-m_charge = m_chargeToDetonate;
-m_chargeMax = m_chargeToDetonate;
+m_chargeToDetonate = 90;
+m_chargeToDetonateSecondary = 40;
+m_detonateSpeedPrimary = 16;
+m_detonateSpeedSecondary = 9;
+m_chargeMax = 100;
+m_charge = m_chargeMax;
+
 m_isLunging = false;
 m_strikeTime = 6;
 m_targetType = Enemy_obj;

@@ -2,4 +2,4 @@
 /// @param spear
 
 var spear = argument0;
-return spear.m_charge >= spear.m_chargeToDetonate;
+return (spear.m_charge >= spear.m_chargeToDetonate || spear.m_charge >= spear.m_chargeToDetonateSecondary);

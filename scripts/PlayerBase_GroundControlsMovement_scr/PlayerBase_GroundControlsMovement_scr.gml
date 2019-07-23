@@ -63,7 +63,8 @@ if(jumpState == ButtonStates.JustPressed)
     {
       image_speed = m_combatantImageSpeedJumpCrouch;
     }
-    alarm[CombatantAlarms.JumpLag] = m_movementJumpLag;
+    //Que the jump event to occur after jump lag period
+		EventManager_AddEvent_scr(PlayerBase_Jump_scr, m_movementJumpLag);
   }
 }
 
