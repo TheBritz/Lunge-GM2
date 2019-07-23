@@ -1,7 +1,4 @@
 #region Inherited Events
-
-
-/// @description Inherited Events
 event_inherited();
 #endregion
 

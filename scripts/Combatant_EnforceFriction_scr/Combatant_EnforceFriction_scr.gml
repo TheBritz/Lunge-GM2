@@ -9,13 +9,16 @@ if(!m_movementGroundActivelyMoving)
   {
     frict = global.Friction;
   }
-	
-  var surface = Movable_GetTouchingSurfaceVertInst_scr(id);
-	if(instance_exists(surface))
-	{
-		var surfSpd = Movable_GetHSpeed_scr(surface);
-	  Movable_ChangeHSpeed_scr(surfSpd, frict);
-	}
+  
+  Movable_ChangeHSpeed_scr(0, frict);
+}
+
+var surface = Movable_GetTouchingSurfaceVertInst_scr(id);
+if(instance_exists(surface))
+{
+  var frictMotion = global.FrictionMovingSurface;
+  var surfSpd = Movable_GetHSpeed_scr(surface);
+  Movable_ChangeHSpeed_scr(surfSpd, frictMotion, undefined, true);
 }
 
 if(!m_combatantSpriteLock && m_combatantState == CombatantStates.Ground)

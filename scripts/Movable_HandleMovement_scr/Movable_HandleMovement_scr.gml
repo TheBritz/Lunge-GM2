@@ -126,10 +126,14 @@ if(m_isSolidObservant)
 		m_isGrounded = true;
 		m_touchingSurfaceVert = 1;
 		m_touchingSurfaceVertInst = standingSurf;
-		m_velocitySurfaceH = standingSurf.m_velocityH;
+	  //m_velocitySurfaceH = standingSurf.m_velocityH;
 	}
 	else
 	{
+    if(object_index == Player1_obj)
+    {
+      var test = "test";
+    }
 		m_velocityH += m_velocitySurfaceH;
 		m_velocitySurfaceH = 0;
 	}
