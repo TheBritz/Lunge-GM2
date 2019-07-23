@@ -34,11 +34,11 @@ if(!is_undefined(acceleration))
     var velocity;
     if(modifySurfaceSpeed)
     {
-      velocity = m_velocityH;
+      velocity = m_velocitySurfaceH;
     }
     else
     {
-      velocity = m_velocitySurfaceH;
+      velocity = m_velocityH;
     }
     
     //Check for overspeed
