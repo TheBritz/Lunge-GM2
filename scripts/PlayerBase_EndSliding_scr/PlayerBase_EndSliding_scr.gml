@@ -1,0 +1,5 @@
+m_movementGroundSlopeResistance = 1;
+m_combatantSpriteOverspeed = m_combatantSpriteOverspeedStandard;
+m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorStandard;
+image_angle = 0;
+mask_index = m_movementCollisionMaskStandard;

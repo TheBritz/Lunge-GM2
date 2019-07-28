@@ -47,7 +47,7 @@ else
 //Slide landing
 if(m_impactVelV > 0 && m_combatantSpriteOverspeed != m_combatantSpriteSlide && m_movementGroundSlideIsBuffered)
 {
-	m_combatantSpriteOverspeed = m_combatantSpriteSlide;
+	PlayerBase_BeginSliding_scr();
 	Movable_ChangeHSpeed_scr(m_velocityH + 
 	  (m_movementGroundSlideLandingSpeedBoost * sign(m_velocityH)), m_movementGroundSlideLandingSpeedBoost);
 }
@@ -69,10 +69,7 @@ if(m_combatantSpriteOverspeed == m_playerSpriteOverspeedSlide)
   
   if(!Combatant_IsInOverspeed_scr(id))
   {
-    m_movementGroundSlopeResistance = 1;
-		m_combatantSpriteOverspeed = m_combatantSpriteOverspeedStandard;
-    m_movementGroundOverspeedCorrectionHor = m_movementGroundOverspeedCorrectionHorStandard;
-		image_angle = 0;
+    PlayerBase_EndSliding_scr();
 	}
 }
 #endregion
@@ -259,7 +256,7 @@ if(instance_exists(m_spear))
       {
 	      if(Movable_IsGrounded_scr(id))
 	      {
-					m_combatantSpriteOverspeed = m_combatantSpriteSlide;
+					PlayerBase_BeginSliding_scr();
 					horSpeedMod = m_movementGroundSlideSpeedMult;
 				}
 				else

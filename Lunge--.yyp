@@ -153,6 +153,14 @@
             }
         },
         {
+            "Key": "08e4d2d0-219b-4e75-a041-0f93c123c3c6",
+            "Value": {
+                "id": "46eefe28-8b60-42d6-924b-ecec7089bf04",
+                "resourcePath": "objects\\SolidWithPassage\\SolidWithPassage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "093679b7-2ac3-4030-b822-2ce791d66363",
             "Value": {
                 "id": "aed6eb43-de3b-43ab-ac4c-9ca048e8dc81",
@@ -417,6 +425,14 @@
             }
         },
         {
+            "Key": "1e59c70e-7082-48b9-8351-a1666deb83f0",
+            "Value": {
+                "id": "135190ae-a870-45a7-9a44-db35d6f848e9",
+                "resourcePath": "sprites\\BlockWithPassage_spr\\BlockWithPassage_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1edd7808-8a95-40f9-856f-c1699864f1e9",
             "Value": {
                 "id": "5bdc518a-942b-491f-89ad-38dfdcc5a3a2",
@@ -565,6 +581,14 @@
             "Value": {
                 "id": "9f363d04-a64a-4695-bc81-830c78accff2",
                 "resourcePath": "scripts\\Combatant_StateIdle_scr\\Combatant_StateIdle_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "27b7d83f-dd25-472e-a9b5-3a49eaecde2d",
+            "Value": {
+                "id": "904e371e-9eaf-4d49-9f6d-4a8d6ae8ea41",
+                "resourcePath": "scripts\\PlayerBase_BeginSliding_scr\\PlayerBase_BeginSliding_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3676,6 +3700,14 @@
             }
         },
         {
+            "Key": "dcbfdc76-9aad-47c1-b4d7-eeb66618a331",
+            "Value": {
+                "id": "f7645654-4d13-4e25-95ef-ca19d73abb4a",
+                "resourcePath": "scripts\\PlayerBase_EndSliding_scr\\PlayerBase_EndSliding_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ddc27777-9a1e-4dbe-84e5-dc344f077966",
             "Value": {
                 "id": "b2ad487b-e5ee-4c15-8d2f-b9deb7c1d6cb",
@@ -4363,6 +4395,8 @@
         "c68f2cf9-d4d8-4c30-a6fb-ea0354c4fc84",
         "641143be-cdb9-4477-8c24-6e1f57250e2b",
         "6f02a972-dff5-4988-b2ee-d10fa9822f93",
+        "27b7d83f-dd25-472e-a9b5-3a49eaecde2d",
+        "dcbfdc76-9aad-47c1-b4d7-eeb66618a331",
         "494be3cb-555e-4023-97a3-8a0bfe13f485",
         "a8f12fcc-d102-421e-84ad-b66f7bfc1799",
         "e4b87ca8-4362-4c3c-8058-771c1054fad8",

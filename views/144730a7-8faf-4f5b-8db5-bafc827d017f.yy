@@ -15,7 +15,9 @@
         "95711f1b-ecaa-418d-aab6-951576c3493a",
         "c68f2cf9-d4d8-4c30-a6fb-ea0354c4fc84",
         "641143be-cdb9-4477-8c24-6e1f57250e2b",
-        "6f02a972-dff5-4988-b2ee-d10fa9822f93"
+        "6f02a972-dff5-4988-b2ee-d10fa9822f93",
+        "27b7d83f-dd25-472e-a9b5-3a49eaecde2d",
+        "dcbfdc76-9aad-47c1-b4d7-eeb66618a331"
     ],
     "filterType": "GMScript",
     "folderName": "Private",

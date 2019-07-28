@@ -128,7 +128,8 @@ m_movementGroundSlideLandingSpeedBoost = 4;
 m_combatantState = CombatantStates.Ground;
 
 //Combatant Movement
-
+m_movementCollisionMaskStandard = Player_spr;
+mask_index = m_movementCollisionMaskStandard;
 m_movementAirFallMaxSpeedHor = 7.5;
 m_movementGroundAccelHor = 1;
 m_movementGroundOverspeedCorrectionHor = .5;
