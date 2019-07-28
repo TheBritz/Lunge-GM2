@@ -69,7 +69,22 @@ if(m_combatantSpriteOverspeed == m_playerSpriteOverspeedSlide)
   
   if(!Combatant_IsInOverspeed_scr(id))
   {
-    PlayerBase_EndSliding_scr();
+		//Player has slowed enough to stand up. If there is not room to stand up
+		//because the player is still sliding under a space, continue moving at
+		//just above the overspeed threshold
+		var maskIndexTemp = mask_index;
+		mask_index = m_movementCollisionMaskStandard;
+		if(place_meeting(x, y - 1, Solid_obj))
+		{
+			var dir = sign(Movable_GetHSpeed_scr(id));
+			Movable_ChangeHSpeed_scr(m_movementGroundMaxSpeed * m_movementGroundOverspeedThreshold * dir);
+			mask_index = maskIndexTemp;
+		}
+		else
+		{
+			//Stop sliding and stand up
+      PlayerBase_EndSliding_scr();
+		}
 	}
 }
 #endregion
