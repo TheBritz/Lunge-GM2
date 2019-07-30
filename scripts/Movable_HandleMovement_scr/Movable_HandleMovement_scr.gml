@@ -61,6 +61,7 @@ if(m_isSolidObservant)
       if(!exists)
 			{
 				platform = instance_place(x, y + velocitySign, Platform_obj);
+				exists = instance_exists(platform);
 			}
 			
 			if(exists)
@@ -96,6 +97,10 @@ if(m_isSolidObservant)
   
   if(m_impactVelV > m_surfaceLandingSpeedThreshold)
   {
+		if(object_index == Player1_obj)
+		{
+			var isPlayer = true;
+		}
 		Movable_HandleSurfaceLanding_scr(id);
 		m_isGrounded = true;
 		m_touchingSurfaceVert = 1;

@@ -30,6 +30,6 @@ m_touchingSurfaceHorInst = noone;
 m_touchingSurfaceVert = 0;
 m_touchingSurfaceVertInst = noone;
 m_surfaceSpeedAdjustRate = .75;
-m_surfaceLandingSpeedThreshold = 1.5;
+m_surfaceLandingSpeedThreshold = 4;
 
 m_timeSpeedModMult = undefined;

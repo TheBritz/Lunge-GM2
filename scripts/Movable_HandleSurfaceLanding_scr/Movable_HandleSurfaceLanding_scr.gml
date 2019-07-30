@@ -12,10 +12,10 @@ if(instance_exists(standingSurf))
 	{
 		var movSpd = Movable_GetHSpeed_scr(movable);
 	
-		var targetSpd = surfSpd * m_surfaceSpeedAdjustRate;
-		if(abs(movSpd) < abs(surfSpd) * m_surfaceSpeedAdjustRate)
+		if(sign(movSpd) == sign(surfSpd))
 		{
-			//Movable_ChangeHSpeed_scr(targetSpd);
+			m_velocityH -= surfSpd;
+			m_velocitySurfaceH += surfSpd;
 		}
 	}
 	
