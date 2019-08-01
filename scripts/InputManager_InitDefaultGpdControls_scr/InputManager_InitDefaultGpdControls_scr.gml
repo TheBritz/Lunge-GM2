@@ -3,3 +3,4 @@
 InputManager_RegisterButtonControlGpd_scr(ButtonControls.Jump, gp_shoulderr);
 InputManager_RegisterButtonControlGpd_scr(ButtonControls.Attack, gp_shoulderrb);
 InputManager_RegisterButtonControlGpd_scr(ButtonControls.Detonate, gp_shoulderlb);
+InputManager_RegisterButtonControlGpd_scr(ButtonControls.Grind, gp_shoulderl);

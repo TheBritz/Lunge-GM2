@@ -1,5 +1,8 @@
 /// @description Movable_Init_scr()
 
+//Collision step extension
+m_collisionStepExtensions = undefined;
+
 m_velocityH = 0;
 m_velocityV = 0;
 m_velocitySurfaceH = 0;

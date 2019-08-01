@@ -6,7 +6,8 @@
     "children": [
         "1edd7808-8a95-40f9-856f-c1699864f1e9",
         "de5e51a8-0abe-44ec-aaf0-a72088b55d68",
-        "826d7188-b9a3-481a-b3f5-67151a6ce760"
+        "826d7188-b9a3-481a-b3f5-67151a6ce760",
+        "7f88f4d8-57b6-4cc4-b94f-7c689eef05bb"
     ],
     "filterType": "GMScript",
     "folderName": "Environment",

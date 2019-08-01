@@ -47,6 +47,7 @@ enum ButtonControls
   Attack,
   Jump,
   Block,
-  Detonate
+  Detonate,
+	Grind
 }
 
