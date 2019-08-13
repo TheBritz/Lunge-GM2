@@ -17,11 +17,17 @@ if(m_isSolidObservant)
 
   // Horizontal Movement
   if(roundedVelocityH = 0) m_impactVelH = 0;
+	var stopMoving = false;
   repeat (abs(roundedVelocityH)) 
   {
     if (!place_meeting(x + sign(roundedVelocityH), y, Solid_obj))
     {
-      x += sign(roundedVelocityH); 
+		  stopMoving = Movable_ExecuteCollisionStepExtensions_scr();
+			
+			if(!stopMoving)
+			{
+        x += sign(roundedVelocityH);
+			}
     }
     else 
     {
@@ -42,6 +48,11 @@ if(m_isSolidObservant)
     }
     m_collideH = 0;
     m_impactVelH = 0;
+		
+		if(stopMoving)
+		{
+			break;
+		}
   }  
 
   m_subV += velocityEffV;    
@@ -50,6 +61,7 @@ if(m_isSolidObservant)
 
   // Vertical Movement
   if(roundedVelocityV == 0) m_impactVelV = 0;
+	var stopMoving = false;
   repeat (abs(roundedVelocityV))
   {
     var hitPlatform = false;
@@ -73,8 +85,15 @@ if(m_isSolidObservant)
       }
     }
     if (!hitPlatform && !place_meeting(x, y + velocitySign, Solid_obj))
-      y += sign(roundedVelocityV); 
-    else 
+		{
+      stopMoving = Movable_ExecuteCollisionStepExtensions_scr();
+			
+			if(!stopMoving)
+			{
+			  y += sign(roundedVelocityV);
+			}
+		}
+		else 
     {
       m_collideV = sign(velocityEffV);
       m_impactVelV = m_velocityV;

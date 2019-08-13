@@ -4,6 +4,9 @@ event_inherited();
 //Initialize as an engageable target
 EngagementController_InitializeTarget_scr(id);
 
+//Add grind Movable collision extension
+Movable_AddCollisionStepExtension_scr(PlayerBase_GrindCollisionExtension_scr);
+
 enum PlayerBaseAlarms
 {
   ResetIsLunging = 3,

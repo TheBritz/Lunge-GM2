@@ -1857,6 +1857,14 @@
             }
         },
         {
+            "Key": "6d6c8ad7-6199-45ca-a14e-e1643bd957a9",
+            "Value": {
+                "id": "1039a060-a2bc-4308-9ad7-a4cb911d3383",
+                "resourcePath": "scripts\\Movable_CollisionExtensionTemplate_scr\\Movable_CollisionExtensionTemplate_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6da43017-f38e-4df2-bc79-5bd588c263bd",
             "Value": {
                 "id": "d71a7808-4112-47af-aa50-aaec054dcd5a",
@@ -3281,6 +3289,14 @@
             }
         },
         {
+            "Key": "c2ac01fc-257e-45e1-b8cb-a277015d53c7",
+            "Value": {
+                "id": "e372694b-226b-4886-a36b-0f4e429a1529",
+                "resourcePath": "scripts\\Movable_ExecuteCollisionStepExtensions_scr\\Movable_ExecuteCollisionStepExtensions_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c3148de2-1f1e-45e4-ade0-5d779bb400d8",
             "Value": {
                 "id": "7a6f6ff9-0e11-4bc4-a944-6e38212589b6",
@@ -3608,6 +3624,14 @@
             "Value": {
                 "id": "69a9f404-6561-453a-9091-49c896954619",
                 "resourcePath": "scripts\\GetSuggestionList_scr\\GetSuggestionList_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d1c5f2d3-e24f-47c1-8d8b-1b408d732fc5",
+            "Value": {
+                "id": "388562be-680a-4dac-b445-622317067cc3",
+                "resourcePath": "scripts\\GrindLineNode_CheckCollision_scr\\GrindLineNode_CheckCollision_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4517,6 +4541,7 @@
         "77ea8464-957b-444f-871f-e8ad5851fd0b",
         "2f52adb1-6b83-40a2-a9a8-ea31903c1f4f",
         "e8ffc220-6c5c-4d0e-9fbc-ecd37b95b43e",
+        "c2ac01fc-257e-45e1-b8cb-a277015d53c7",
         "89f42f02-a01f-466b-b66d-cef1726fcf5b",
         "1a2077ff-577d-47dc-8ef9-9c65be4fc094",
         "e2b8b9b9-bd5b-4814-8fd1-4c1b5f0a5513",
@@ -4530,6 +4555,7 @@
         "1779ad2a-7e63-4bd1-be53-7039b6be45e0",
         "81ed07ec-f1ec-4e00-97c6-fd0f9a36a4c2",
         "e4fc4e59-4213-4171-94f9-646978f85592",
+        "6d6c8ad7-6199-45ca-a14e-e1643bd957a9",
         "2ddca943-91fd-4673-830a-357718597db5",
         "06ea841e-3e30-48c0-b03f-98b5b6ddc289",
         "4c45e56e-b582-4a81-9380-d430bef2e6f9",
@@ -4571,6 +4597,7 @@
         "778f3cb6-bb3e-47da-8142-365a5406202a",
         "ff01ea91-cf88-4a91-9025-f65db3f35c05",
         "2404ed4d-f416-4c18-b11c-0633cd0b5aa8",
+        "d1c5f2d3-e24f-47c1-8d8b-1b408d732fc5",
         "9d92c4d0-5b2b-4874-a71e-69dd740da7a3",
         "b077a9c4-cc95-41e1-8870-bcc67306ccee",
         "a78dfeff-c972-4887-9650-5e7be43cdfda",

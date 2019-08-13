@@ -16,7 +16,8 @@
         "cace4739-e33b-4969-bf26-34fada709d1f",
         "1779ad2a-7e63-4bd1-be53-7039b6be45e0",
         "81ed07ec-f1ec-4e00-97c6-fd0f9a36a4c2",
-        "e4fc4e59-4213-4171-94f9-646978f85592"
+        "e4fc4e59-4213-4171-94f9-646978f85592",
+        "6d6c8ad7-6199-45ca-a14e-e1643bd957a9"
     ],
     "filterType": "GMScript",
     "folderName": "Public",
