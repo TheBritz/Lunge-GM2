@@ -1,14 +1,14 @@
 //Check if the grind button is being pressed
 if(InputManager_IsButtonControlPressed_scr(ButtonControls.Grind))
 {
-  var collision = GrindLineNode_CheckCollision_scr(id);
+  var node = GrindLineNode_CheckCollision_scr(id);
 	
-	if(collision)
+	if(instance_exists(node))
 	{
-		var test = "test";
+		m_movementGrindingCurrentNode = node;
+		
+		return true;
 	}
-	
-	return collision;
 }
 
 return false;

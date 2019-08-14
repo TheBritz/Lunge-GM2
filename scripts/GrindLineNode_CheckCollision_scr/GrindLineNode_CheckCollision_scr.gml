@@ -11,9 +11,9 @@ with(GrindLineNodeBase_obj)
 		  node.m_nextNode.x, node.m_nextNode.y, obj, false, false);
 		if(collided)
 		{
-			return true;
+			return node;
 		}
 	}
 }
 
-return false;
+return noone;

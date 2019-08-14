@@ -9,7 +9,9 @@
         "a06b0aaf-9765-4c5f-9274-14bb079a0115",
         "0415c751-57bc-49ce-9701-9e1d61fe714a",
         "523956f8-1cc5-44a3-b701-7eaeae568b5c",
-        "f258e1f2-d935-48e2-83fb-7797859fac54"
+        "f258e1f2-d935-48e2-83fb-7797859fac54",
+        "b1d963de-dc4c-4816-b85f-3df098ceec30",
+        "60e830e0-2931-45fb-a195-3d5d6d75214e"
     ],
     "filterType": "GMScript",
     "folderName": "Public",
