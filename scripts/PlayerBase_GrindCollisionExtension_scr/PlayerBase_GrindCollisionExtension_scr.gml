@@ -5,8 +5,7 @@ if(InputManager_IsButtonControlPressed_scr(ButtonControls.Grind))
 	
 	if(instance_exists(node))
 	{
-		m_movementGrindingCurrentNode = node;
-		
+		Combatant_StartGrinding_scr(combatant, node);
 		return true;
 	}
 }

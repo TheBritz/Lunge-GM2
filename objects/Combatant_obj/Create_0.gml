@@ -56,6 +56,7 @@ m_movementGroundSlopeResistance = 1;
 m_movementCollisionMaskStandard = undefined;
 m_movementIsGrinding = false;
 m_movementGrindingCurrentNode = noone;
+m_movementGrindingDir = 0;
 
 //Combat
 m_combatantDashAttackSpeedThreshold = 1;
