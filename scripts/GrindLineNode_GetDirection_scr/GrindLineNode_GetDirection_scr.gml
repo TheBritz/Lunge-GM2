@@ -1,4 +1,5 @@
-/// @param grinLineNode
+/// @param grindLineNode
+/// @param grindDirection
 
 var grindLineNode = argument[0];
 

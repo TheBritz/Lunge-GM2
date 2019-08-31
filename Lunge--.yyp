@@ -2753,6 +2753,14 @@
             }
         },
         {
+            "Key": "9e3e449f-8830-4972-b82a-42e6381cd2f2",
+            "Value": {
+                "id": "58992f32-b510-485a-8a1d-4f6d52a78efe",
+                "resourcePath": "scripts\\GrindLineNode_GetNext_scr\\GrindLineNode_GetNext_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9ea07c97-82de-468d-8c17-c776a2cb713a",
             "Value": {
                 "id": "b00da29a-4341-4e60-aec8-0bbe9fef1791",
@@ -3549,6 +3557,14 @@
             "Value": {
                 "id": "b4204256-6214-4076-83be-76ccd04cad6c",
                 "resourcePath": "scripts\\ConsoleMetadataShowRooms_scr\\ConsoleMetadataShowRooms_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cae394c9-77d1-41e6-8a4e-11879df79f12",
+            "Value": {
+                "id": "0954ea26-faeb-40dc-a500-01a1a681ba14",
+                "resourcePath": "scripts\\Combatant_GetGrindAngle_scr\\Combatant_GetGrindAngle_scr.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4601,6 +4617,7 @@
         "b66293cb-5df3-49bd-93c2-39ceaaf1348d",
         "cb9f99f5-e9c8-416f-95dc-61399398ed5a",
         "8bdd1b2c-ba75-4e94-9c45-49dd51e69667",
+        "cae394c9-77d1-41e6-8a4e-11879df79f12",
         "687ee806-94b0-4e41-9ccd-9d6b582fd636",
         "27c2e0b3-3cd7-4696-a4fe-7dbf4e210a6d",
         "a06b0aaf-9765-4c5f-9274-14bb079a0115",
@@ -4699,6 +4716,7 @@
         "d1c5f2d3-e24f-47c1-8d8b-1b408d732fc5",
         "1742d47c-6221-4f99-a7f0-155544e00579",
         "8cb536e7-7257-4e48-9e77-277802464181",
+        "9e3e449f-8830-4972-b82a-42e6381cd2f2",
         "9d92c4d0-5b2b-4874-a71e-69dd740da7a3",
         "b077a9c4-cc95-41e1-8870-bcc67306ccee",
         "a78dfeff-c972-4887-9650-5e7be43cdfda",

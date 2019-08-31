@@ -17,6 +17,7 @@ if(index != -1)
 {
 	var closestNextNode = instance_nearest(x, y, index);
 	m_nextNode = closestNextNode;
+  m_nextNode.m_previousNode = id;
 }
 
 
