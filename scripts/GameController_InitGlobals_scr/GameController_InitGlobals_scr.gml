@@ -6,6 +6,7 @@ global.FrictionMovingSurface = 1.5;
 global.StepNumber = 0;
 global.ShowHitboxes = debug_mode;
 global.TileSize = sprite_get_width(Blocks_spr);
+global.GrindingTestVar = "";
 
 //Sprite Position Data
 global.SpritePositionDataCategories = undefined;

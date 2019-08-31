@@ -15,7 +15,7 @@ with(grindLineNode)
     
     var interiorX = X - x;
     
-    var Y = ineteriorX * slope + y;
+    var Y = interiorX * slope + y;
     
     return Y;
   }

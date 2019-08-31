@@ -433,6 +433,14 @@
             }
         },
         {
+            "Key": "1cedbf9e-468c-4438-809d-10bcc1027beb",
+            "Value": {
+                "id": "b23c0061-cb74-4b0b-87a0-afbe629c40d6",
+                "resourcePath": "objects\\GrindLineNode_B_6_obj\\GrindLineNode_B_6_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e59c70e-7082-48b9-8351-a1666deb83f0",
             "Value": {
                 "id": "135190ae-a870-45a7-9a44-db35d6f848e9",
@@ -1529,6 +1537,14 @@
             }
         },
         {
+            "Key": "5a2f81d8-918b-42f5-9776-2eb7b9807b00",
+            "Value": {
+                "id": "0f444062-afa8-4010-9fa9-1e02ef452417",
+                "resourcePath": "objects\\GrindLineNode_B_3_obj\\GrindLineNode_B_3_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a4e9ee7-cf2a-49c4-83f4-21727af67a96",
             "Value": {
                 "id": "58ec0ccf-21a1-41e8-ae9b-c3dfe5d8b2fa",
@@ -1665,6 +1681,14 @@
             }
         },
         {
+            "Key": "602afe94-c389-4c6f-8ded-aeac51517761",
+            "Value": {
+                "id": "dabcf726-8423-48a4-95f2-f3bae124b10d",
+                "resourcePath": "views\\602afe94-c389-4c6f-8ded-aeac51517761.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "604a38fa-a95e-4414-9fbe-5e1e3d288814",
             "Value": {
                 "id": "dae06a65-8279-4d3a-b9f5-bd0b5d806057",
@@ -1749,6 +1773,14 @@
             "Value": {
                 "id": "df01416c-08e5-47a6-b293-89358aa9e34c",
                 "resourcePath": "objects\\ProjectileBase_obj\\ProjectileBase_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "64c8c613-5786-4dba-ae0d-0e03c2ffdc1f",
+            "Value": {
+                "id": "8da92603-643d-41e3-98c7-431c123be02b",
+                "resourcePath": "objects\\GrindLineNode_B_2_obj\\GrindLineNode_B_2_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3620,6 +3652,14 @@
             }
         },
         {
+            "Key": "cf67e36b-c330-4e42-9670-b93825af91af",
+            "Value": {
+                "id": "0bd1d770-e32f-471a-a5c4-e45bec580a11",
+                "resourcePath": "objects\\GrindLineNode_B_4_obj\\GrindLineNode_B_4_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cfa27172-37b5-469e-a3d4-b1e13b6cd456",
             "Value": {
                 "id": "d109131f-99e3-4712-9c2c-60fa3a6b5d07",
@@ -3916,6 +3956,14 @@
             }
         },
         {
+            "Key": "dffa2afa-8f4f-40cf-9a99-b8c51327ea79",
+            "Value": {
+                "id": "2ec35ca3-7f4a-4bfa-8f75-e7951eeb62de",
+                "resourcePath": "objects\\GrindLineNode_B_1_obj\\GrindLineNode_B_1_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e0fdbc9b-c771-4516-a6df-e0eb36d3fce2",
             "Value": {
                 "id": "6da4b6d4-c6c8-4a41-bd42-b43ce8b72e46",
@@ -4121,6 +4169,14 @@
                 "id": "554a220f-e9e2-40df-851c-7e8f2dbf5ed3",
                 "resourcePath": "views\\eb49d534-e8be-46ed-86f3-07b6d45f8287.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebb01425-bc0c-4c52-84d0-ae4f6297973d",
+            "Value": {
+                "id": "72a9780b-56da-4e9d-9faf-0ad1b41c368e",
+                "resourcePath": "objects\\GrindLineNode_B_5_obj\\GrindLineNode_B_5_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

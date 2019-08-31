@@ -1,4 +1,8 @@
 /// @description Movable_HandleMovement_scr()
+
+var velocityEffH = Movable_GetHSpeedEffective_scr(id);
+var velocityEffV = Movable_GetVSpeedEffective_scr(id);
+
 if(m_isSolidObservant)
 {
 	m_touchingSurfaceHor = 0;
@@ -6,9 +10,7 @@ if(m_isSolidObservant)
 	m_movementGroundSlopeAngle = 0;
   m_isGrounded = false;
   var xStart = x;
-  var velocityEffH = Movable_GetHSpeedEffective_scr(id);
-  var velocityEffV = Movable_GetVSpeedEffective_scr(id);
-
+  
   // Handle sub-pixel movement
   m_subH += velocityEffH; 
 	
