@@ -4308,6 +4308,14 @@
             }
         },
         {
+            "Key": "f3514ac0-31a2-4541-be4b-bc4e6866f667",
+            "Value": {
+                "id": "c0a11300-5d82-453d-9201-e5d23dbbdfa3",
+                "resourcePath": "views\\f3514ac0-31a2-4541-be4b-bc4e6866f667.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f3803611-6231-4b0a-8583-222761c52c12",
             "Value": {
                 "id": "8a9f3de8-76fd-46b0-99bc-dadd41615142",
@@ -4433,6 +4441,14 @@
                 "id": "1d9b79a1-85f8-48a9-98c3-fb54e41cef39",
                 "resourcePath": "sprites\\PlayerSpearLunging_spr\\PlayerSpearLunging_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fcaaeadf-5f40-4c2c-b2a2-f39ff51b94ed",
+            "Value": {
+                "id": "f474a738-dbd8-4a68-b1dc-88697c37ab4b",
+                "resourcePath": "scripts\\PlayerSpear_StopStrike_scr\\PlayerSpear_StopStrike_scr.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4708,6 +4724,7 @@
         "75e79786-9211-43f5-9d1f-d576be0ebd3a",
         "5237e604-c56d-4795-b793-dcfac5db9f09",
         "4b3ce3b7-5a4b-4bc3-bf54-799813b31099",
+        "fcaaeadf-5f40-4c2c-b2a2-f39ff51b94ed",
         "0499c20c-707b-4e38-8e02-a286133e6383",
         "ccd253dd-f1fa-427c-ba9a-f95e7c7e58c4",
         "778f3cb6-bb3e-47da-8142-365a5406202a",

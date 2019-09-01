@@ -203,6 +203,8 @@ if(instance_exists(m_spear))
 				//m_spearIsLunging = true;
 	      alarm[PlayerBaseAlarms.ResetIsLunging] = floor(sprite_get_number(sprite_index) / image_speed);
 	      m_combatantState = CombatantStates.GroundAttack;	      
+        
+        PlayerSpear_Attack_scr(m_spear);
 			}
     }
     else
